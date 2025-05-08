@@ -1,0 +1,27 @@
+## common profile
+### swagger configure
+
+spring:
+  config:
+    activate:
+      on-profile: common
+
+springdoc:
+  swagger-ui:
+    path: /swagger-custom-ui.html
+    groups-order: DESC
+    tags-sorter: alpha
+    operations-sorter: method
+    disable-swagger-default-url: true
+    display-request-duration: true
+  api-docs:
+    path: /api-docs
+  show-actuator: true
+  default-consumes-media-type: application/json
+  default-produces-media-type: application/json
+
+logging:
+  level:
+    org.springframework: DEBUG
+    com.mysql: DEBUG
+    org.hibernate.SQL: debug
