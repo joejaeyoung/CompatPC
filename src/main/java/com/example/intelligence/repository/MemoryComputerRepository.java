@@ -20,7 +20,7 @@ public class MemoryComputerRepository implements ComputerRepository {
     ConcurrentLinkedQueue<GPU> gpuDataBase = new ConcurrentLinkedQueue<>();
     ConcurrentLinkedQueue<HDD>  hddDataBase = new ConcurrentLinkedQueue<>();
     ConcurrentLinkedQueue<Mainboard> mainBoardDataBase = new ConcurrentLinkedQueue<>();
-    ConcurrentLinkedQueue<PowerSupply>  powerSupplyDataBase = new ConcurrentLinkedQueue<>();
+    ConcurrentLinkedQueue<PSU> PSUDataBase = new ConcurrentLinkedQueue<>();
     ConcurrentLinkedQueue<RAM> ramDataBase = new ConcurrentLinkedQueue<>();
     ConcurrentLinkedQueue<SSD>  ssdDataBase = new ConcurrentLinkedQueue<>();
 
@@ -67,10 +67,10 @@ public class MemoryComputerRepository implements ComputerRepository {
     }
 
     @Override
-    public List<PowerSupply> getPowerSupply() {
-        if (powerSupplyDataBase.peek() == null)
+    public List<PSU> getPowerSupply() {
+        if (PSUDataBase.peek() == null)
             throw new FindNullException(FindNullErrorCode.NOT_FOUND_POWERSUPPLY);
-        return powerSupplyDataBase.stream().toList();
+        return PSUDataBase.stream().toList();
     }
 
     @Override
@@ -139,8 +139,8 @@ public class MemoryComputerRepository implements ComputerRepository {
     }
 
     @Override
-    public PowerSupply getPowerSupplyByName(String name) {
-        return powerSupplyDataBase.stream()
+    public PSU getPowerSupplyByName(String name) {
+        return PSUDataBase.stream()
                 .filter(c -> c.getName().equals(name))
                 .findFirst()
                 .orElse(null);
@@ -193,8 +193,8 @@ public class MemoryComputerRepository implements ComputerRepository {
     }
 
     @Override
-    public void savePowerSupply(PowerSupply powerSupply) {
-        powerSupplyDataBase.add(powerSupply);
+    public void savePowerSupply(PSU PSU) {
+        PSUDataBase.add(PSU);
     }
 
     @Override

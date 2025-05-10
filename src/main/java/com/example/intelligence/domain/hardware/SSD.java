@@ -16,13 +16,13 @@ public class SSD {
 
     @Column(unique = true)
     private String name;
-    private String img;
-    private String formFactor;
+    private String imageUrl;
+    private String socket;
 
     @Builder
-    public SSD(String name, String img, String formFactor) {
+    public SSD(String name, String imageUrl, String socket) {
         this.name = name;
-        this.img = img;
-        this.formFactor = formFactor;
+        this.imageUrl = imageUrl;
+        this.socket = socket;
     }
 }

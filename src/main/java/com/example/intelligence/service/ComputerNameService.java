@@ -62,7 +62,7 @@ public class ComputerNameService {
     }
 
     public ServiceResponsePowerSupply getPowerSupplyByName(String name) {
-        PowerSupply result = computerRepository.getPowerSupplyByName(name);
+        PSU result = computerRepository.getPowerSupplyByName(name);
         ServiceResponsePowerSupply serviceResponsePowerSupply = new ServiceResponsePowerSupply();
         serviceResponsePowerSupply.setName(result.getName());
         serviceResponsePowerSupply.setImg(result.getImg());

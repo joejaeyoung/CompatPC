@@ -17,29 +17,31 @@ public class Mainboard {
     @Column(unique = true)
     private String name;
 
-    private String img;
+    private String imageUrl;
+    private String cpuSocket;
     private String ramSocket;
-    private String formFactor;
-    private int vScore;
+    private String supportedBoardFormFactors;
+    private int vcore;
     private int powerPhase;
-    private int ramSupportedSpeed;
-    private int ramSlotCount;
-    private int maxMemoryCapacity;
+    private int supportedramSpeed;
+    private int supportedramSlotCount;
+    private int supportedmaxMemory;
     private int m2SlotCount;
-    private int sata3SlotCount;
+    private int sataSlotCount;
 
     @Builder
-    private Mainboard(String name, String img, String ramSocket, String formFactor, int vScore, int powerPhase, int ramSupportedSpeed, int ramSlotCount, int maxMemoryCapacity, int m2SlotCount, int sata3SlotCount) {
+    public Mainboard(String name, String imageUrl, String cpuSocket, String ramSocket, String supportedBoardFormFactors, int vcore, int powerPhase, int supportedramSpeed, int supportedramSlotCount, int supportedmaxMemory, int m2SlotCount, int sataSlotCount) {
         this.name = name;
-        this.img = img;
+        this.imageUrl = imageUrl;
+        this.cpuSocket = cpuSocket;
         this.ramSocket = ramSocket;
-        this.formFactor = formFactor;
-        this.vScore = vScore;
+        this.supportedBoardFormFactors = supportedBoardFormFactors;
+        this.vcore = vcore;
         this.powerPhase = powerPhase;
-        this.ramSlotCount = ramSlotCount;
-        this.ramSupportedSpeed = ramSupportedSpeed;
-        this.maxMemoryCapacity = maxMemoryCapacity;
+        this.supportedramSpeed = supportedramSpeed;
+        this.supportedramSlotCount = supportedramSlotCount;
+        this.supportedmaxMemory = supportedmaxMemory;
         this.m2SlotCount = m2SlotCount;
-        this.sata3SlotCount = sata3SlotCount;
+        this.sataSlotCount = sataSlotCount;
     }
 }

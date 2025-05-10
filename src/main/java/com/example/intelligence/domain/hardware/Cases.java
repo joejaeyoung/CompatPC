@@ -19,22 +19,29 @@ public class Cases {
     @Column(unique = true)
     private String name;
 
-    private String img;
-
-    private List<String> supportedBoardFormats;
-
+    private String imageUrl;
+    private String supportedPsuFormFactor;
+    private List<String> supportedBoardFormFactors;
+    private int bay2_5Count;
+    private int bay3_5Count;
     private float maxGpuLength;
-
-    private float maxCoolerHeight;
-
-    private float maxPsuLength;
+    private  float maxCoolerHeight;
+    private  float maxPsuLength;
+    private  boolean supportsVerticalPCI;
+    private  boolean isLPcase;
 
     @Builder
-    private Cases(String name, String img, float maxGpuLength, float maxCoolerHeight, float maxPsuLength) {
+    public Cases(String name, String imageUrl, String supportedPsuFormFactor, List<String> supportedBoardFormFactors, int bay2_5Count, int bay3_5Count, float maxGpuLength, float maxCoolerHeight, float maxPsuLength, boolean supportsVerticalPCI, boolean isLPcase) {
         this.name = name;
-        this.img = img;
+        this.imageUrl = imageUrl;
+        this.supportedPsuFormFactor = supportedPsuFormFactor;
+        this.supportedBoardFormFactors = supportedBoardFormFactors;
+        this.bay2_5Count = bay2_5Count;
+        this.bay3_5Count = bay3_5Count;
         this.maxGpuLength = maxGpuLength;
         this.maxCoolerHeight = maxCoolerHeight;
         this.maxPsuLength = maxPsuLength;
+        this.supportsVerticalPCI = supportsVerticalPCI;
+        this.isLPcase = isLPcase;
     }
 }

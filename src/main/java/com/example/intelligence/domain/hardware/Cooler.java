@@ -6,6 +6,7 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Entity
@@ -22,23 +23,21 @@ public class Cooler {
     @Column(unique = true)
     private String name;
 
-    private String img;
+    private String imageUrl;
 
-    private String type;
-    private List<String> supportedSockets;
+    private String coolerType;
+    private String coolerGrade;
+    private List<String> supportedSockets = new ArrayList<>();
     private float height;
-    private float verticalLength;
-    private int heatPipes;
 
     @Builder
-    private Cooler(String name, String img, String type, List<String> supportedSockets, float height, float verticalLength, int heatPipes) {
+    public Cooler(String name, String imageUrl, String coolerType, String coolerGrade, List<String> supportedSockets, float height) {
         this.name = name;
-        this.img = img;
-        this.type = type;
+        this.imageUrl = imageUrl;
+        this.coolerType = coolerType;
+        this.coolerGrade = coolerGrade;
         this.supportedSockets = supportedSockets;
         this.height = height;
-        this.verticalLength = verticalLength;
-        this.heatPipes = heatPipes;
     }
 }
 

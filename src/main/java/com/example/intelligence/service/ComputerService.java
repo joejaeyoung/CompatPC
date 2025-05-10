@@ -96,10 +96,10 @@ public class ComputerService {
     }
 
     public List<ServiceResponsePowerSupply> getPowerSupply() {
-        List<PowerSupply> powersupplies = computerRepository.getPowerSupply();
+        List<PSU> powersupplies = computerRepository.getPowerSupply();
         List<ServiceResponsePowerSupply> result = new ArrayList<>();
 
-        for(PowerSupply c : powersupplies) {
+        for(PSU c : powersupplies) {
             ServiceResponsePowerSupply powersupply = new ServiceResponsePowerSupply();
             powersupply.setName(c.getName());
             powersupply.setImg(c.getImg());

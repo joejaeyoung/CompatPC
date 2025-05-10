@@ -17,12 +17,12 @@ public class HDD {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String img;
+    private String imageUrl;
     private String name;
 
     @Builder
-    private HDD(String name, String img) {
+    private HDD(String name, String imageUrl) {
         this.name = name;
-        this.img = img;
+        this.imageUrl = imageUrl;
     }
 }

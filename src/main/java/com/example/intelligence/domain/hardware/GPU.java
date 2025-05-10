@@ -17,21 +17,25 @@ public class GPU {
     @Column(unique = true)
     private String name;
 
-    private String img;
-    private int powerConnectorType;
-    private int powerConnectorCount;
+    private String imageUrl;
+    private int required16PinCount;
+    private int required8PinCount;
+    private int required6PinCount;
     private int tdp;
+    private int recommendedPsuOutput;
     private float length;
-    private float thickness;
+    private boolean hasLPbracket;
 
     @Builder
-    private GPU(String name, String img, int powerConnectorType, int powerConnectorCount, int tdp, float length, float thickness) {
+    public GPU(String name, String imageUrl, int required16PinCount, int required8PinCount, int required6PinCount, int tdp, int recommendedPsuOutput, float length, boolean hasLPbracket) {
         this.name = name;
-        this.img = img;
-        this.powerConnectorType = powerConnectorType;
-        this.powerConnectorCount = powerConnectorCount;
+        this.imageUrl = imageUrl;
+        this.required16PinCount = required16PinCount;
+        this.required8PinCount = required8PinCount;
+        this.required6PinCount = required6PinCount;
         this.tdp = tdp;
+        this.recommendedPsuOutput = recommendedPsuOutput;
         this.length = length;
-        this.thickness = thickness;
+        this.hasLPbracket = hasLPbracket;
     }
 }

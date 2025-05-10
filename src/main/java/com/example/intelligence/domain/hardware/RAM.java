@@ -17,21 +17,19 @@ public class RAM {
     @Column(unique = true)
     private String name;
 
-    private String img;
-    private String platformType;
-    private String socketType;
-    private int quantity;
+    private String imageUrl;
+    private String socket;
     private int capacity;
-    private int speed;
+    private int quantity;
+    private int clockSpeed;
 
     @Builder
-    private RAM(String name, String img, String platformType, String socketType, int quantity, int capacity, int speed) {
+    public RAM(String name, String imageUrl, String socket, int capacity, int quantity, int clockSpeed) {
         this.name = name;
-        this.img = img;
-        this.platformType = platformType;
-        this.socketType = socketType;
-        this.quantity = quantity;
+        this.imageUrl = imageUrl;
+        this.socket = socket;
         this.capacity = capacity;
-        this.speed = speed;
+        this.quantity = quantity;
+        this.clockSpeed = clockSpeed;
     }
 }

@@ -11,7 +11,7 @@ public interface ComputerRepository {
     List<GPU> getGPUs();
     List<HDD> getHDDs();
     List<Mainboard> getMainboards();
-    List<PowerSupply> getPowerSupply();
+    List<PSU> getPowerSupply();
     List<RAM> getRAMs();
     List<SSD> getSSDs();
 
@@ -21,7 +21,7 @@ public interface ComputerRepository {
     GPU getGPUByName(String name);
     HDD getHDDByName(String name);
     Mainboard getMainboardByName(String name);
-    PowerSupply getPowerSupplyByName(String name);
+    PSU getPowerSupplyByName(String name);
     RAM getRAMByName(String name);
     SSD getSSDByName(String name);
 
@@ -31,7 +31,7 @@ public interface ComputerRepository {
     void saveGPU(GPU gpus);
     void saveHDD(HDD hdds);
     void saveMainoard(Mainboard mainboards);
-    void savePowerSupply(PowerSupply powerSupply);
+    void savePowerSupply(PSU PSU);
     void saveRAM(RAM ram);
     void saveSSD(SSD ssd);
 }

@@ -17,19 +17,19 @@ public class CPU {
     @Column(unique = true)
     private String name;
 
-    private String img;
+    private String imageUrl;
     private String socket;
-    private boolean hasIntegratedGraphics;
+    private boolean hasGPU;
     private boolean hasCooler;
-    private int powerConsumption;
+    private int tdp;
 
     @Builder
-    private CPU(String name, String img, String socket, boolean hasIntegratedGraphics, boolean hasCooler, int powerConsumption) {
+    public CPU(String name, String imageUrl, String socket, boolean hasGPU, boolean hasCooler, int tdp) {
         this.name = name;
-        this.img = img;
+        this.imageUrl = imageUrl;
         this.socket = socket;
-        this.hasIntegratedGraphics = hasIntegratedGraphics;
+        this.hasGPU = hasGPU;
         this.hasCooler = hasCooler;
-        this.powerConsumption = powerConsumption;
+        this.tdp = tdp;
     }
 }
