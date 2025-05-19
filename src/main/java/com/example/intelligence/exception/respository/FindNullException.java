@@ -8,4 +8,8 @@ public class FindNullException extends RuntimeException {
         super(errorCode.getMessage());
         this.status = errorCode.getStatus();
     }
+
+    public FindNullException(String message) {
+        super(message);
+    }
 }

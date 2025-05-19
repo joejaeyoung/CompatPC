@@ -19,17 +19,13 @@ public class RAM {
 
     private String imageUrl;
     private String socket;
-    private int capacity;
-    private int quantity;
     private int clockSpeed;
 
     @Builder
-    public RAM(String name, String imageUrl, String socket, int capacity, int quantity, int clockSpeed) {
+    public RAM(String name, String imageUrl, String socket, int clockSpeed) {
         this.name = name;
         this.imageUrl = imageUrl;
         this.socket = socket;
-        this.capacity = capacity;
-        this.quantity = quantity;
         this.clockSpeed = clockSpeed;
     }
 }

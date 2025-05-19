@@ -18,9 +18,8 @@ public class Mainboard {
     private String name;
 
     private String imageUrl;
-    private String cpuSocket;
     private String ramSocket;
-    private String supportedBoardFormFactors;
+    private byte supportedBoardFormFactors;
     private int vcore;
     private int powerPhase;
     private int supportedramSpeed;
@@ -28,12 +27,12 @@ public class Mainboard {
     private int supportedmaxMemory;
     private int m2SlotCount;
     private int sataSlotCount;
+    private byte cpuSocket;
 
-    @Builder
-    public Mainboard(String name, String imageUrl, String cpuSocket, String ramSocket, String supportedBoardFormFactors, int vcore, int powerPhase, int supportedramSpeed, int supportedramSlotCount, int supportedmaxMemory, int m2SlotCount, int sataSlotCount) {
+    public Mainboard(Long id, String name, String imageUrl, String ramSocket, byte supportedBoardFormFactors, int vcore, int powerPhase, int supportedramSpeed, int supportedramSlotCount, int supportedmaxMemory, int m2SlotCount, int sataSlotCount, byte cpuSocket1) {
+        this.id = id;
         this.name = name;
         this.imageUrl = imageUrl;
-        this.cpuSocket = cpuSocket;
         this.ramSocket = ramSocket;
         this.supportedBoardFormFactors = supportedBoardFormFactors;
         this.vcore = vcore;
@@ -43,5 +42,6 @@ public class Mainboard {
         this.supportedmaxMemory = supportedmaxMemory;
         this.m2SlotCount = m2SlotCount;
         this.sataSlotCount = sataSlotCount;
+        this.cpuSocket = cpuSocket1;
     }
 }

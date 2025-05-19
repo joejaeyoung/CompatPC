@@ -1,6 +1,6 @@
 package com.example.intelligence.api;
 
-import com.example.intelligence.exception.user.UserException;
+import com.example.intelligence.exception.respository.FindNullException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
@@ -11,7 +11,7 @@ import static org.springframework.http.HttpStatus.BAD_REQUEST;
 public class ApiControllerAdvice {
 
     @ResponseStatus(BAD_REQUEST)
-    @ExceptionHandler({IllegalArgumentException.class, UserException.class})
+    @ExceptionHandler({IllegalArgumentException.class, FindNullException.class})
     public ApiResponse<String> illegalArgumentException(RuntimeException e) {
         return ApiResponse.badRequest(e.getMessage());
     }

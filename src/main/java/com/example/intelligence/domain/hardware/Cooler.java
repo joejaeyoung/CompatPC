@@ -13,9 +13,7 @@ import java.util.List;
 @Getter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 public class Cooler {
-    /*
-    @todo 다대다 관계 풀기
-     */
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -27,11 +25,11 @@ public class Cooler {
 
     private String coolerType;
     private String coolerGrade;
-    private List<String> supportedSockets = new ArrayList<>();
+    private byte supportedSockets;
     private float height;
 
     @Builder
-    public Cooler(String name, String imageUrl, String coolerType, String coolerGrade, List<String> supportedSockets, float height) {
+    public Cooler(String name, String imageUrl, String coolerType, String coolerGrade, byte supportedSockets, float height) {
         this.name = name;
         this.imageUrl = imageUrl;
         this.coolerType = coolerType;

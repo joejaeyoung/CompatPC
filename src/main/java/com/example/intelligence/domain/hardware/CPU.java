@@ -18,13 +18,13 @@ public class CPU {
     private String name;
 
     private String imageUrl;
-    private String socket;
+    private byte socket;
     private boolean hasGPU;
     private boolean hasCooler;
     private int tdp;
 
     @Builder
-    public CPU(String name, String imageUrl, String socket, boolean hasGPU, boolean hasCooler, int tdp) {
+    public CPU(String name, String imageUrl, byte socket, boolean hasGPU, boolean hasCooler, int tdp) {
         this.name = name;
         this.imageUrl = imageUrl;
         this.socket = socket;

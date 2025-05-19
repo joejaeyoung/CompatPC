@@ -1,0 +1,5912 @@
+[
+  {
+    "name": "마이크로닉스 Classic II 풀체인지 700W 80PLUS브론즈 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/700/642/img/49642700_1.jpg?shrink=130:130&_v=20250318152906",
+    "output": 700,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "darkFlash 퍼펙트모스트 850W 80PLUS골드 풀모듈러 ATX3.1 블랙",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/642/938/img/75938642_1.jpg?shrink=130:130&_v=20250304081811",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 Classic II 850W 80PLUS골드 풀모듈러 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/078/815/img/51815078_1.jpg?shrink=130:130&_v=20241213103156",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "시소닉 NEW FOCUS V4 GX-1000 GOLD 풀모듈러 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/099/577/img/67577099_1.jpg?shrink=130:130&_v=20240930162758",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "잘만 GigaMax III 850W 80PLUS브론즈 모듈러 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/807/615/img/29615807_1.jpg?shrink=130:130&_v=20240513112215",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 Classic II 풀체인지 600W 80PLUS브론즈 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/652/642/img/49642652_1.jpg?shrink=130:130&_v=20241213102507",
+    "output": 600,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 Classic II 풀체인지 800W 80PLUS브론즈 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/751/642/img/49642751_1.jpg?shrink=130:130&_v=20241213102631",
+    "output": 800,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 Classic II 풀체인지 500W 80PLUS브론즈 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/352/642/img/49642352_1.jpg?shrink=130:130&_v=20241213102415",
+    "output": 500,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "시소닉 NEW FOCUS V4 GX-850 GOLD 풀모듈러 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/021/577/img/67577021_1.jpg?shrink=130:130&_v=20240930162713",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "SuperFlower SF-850F14XG LEADEX VII GOLD ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/990/057/img/20057990_1.jpg?shrink=130:130&_v=20250225085521",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 150,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 Classic II 풀체인지 650W 80PLUS스탠다드 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/889/979/img/72979889_1.jpg?shrink=130:130&_v=20241220111231",
+    "output": 650,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 Classic II 1050W 80PLUS골드 풀모듈러 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/591/029/img/63029591_1.jpg?shrink=130:130&_v=20241206141632",
+    "output": 1050,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "SuperFlower SF-1200F14XP LEADEX VII PRO PLATINUM 블랙 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/043/038/img/32038043_1.jpg?shrink=130:130&_v=20250102104128",
+    "output": 1200,
+    "pcie16PinCount": 2,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 150,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 Classic II 750W 80PLUS골드 풀모듈러 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/891/913/img/58913891_1.jpg?shrink=130:130&_v=20241213103120",
+    "output": 750,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "잘만 MegaMax 600W 80PLUS스탠다드",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/200/174/img/10174200_1.jpg?shrink=130:130&_v=20240508110911",
+    "output": 600,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "darkFlash 퍼펙트모스트 850W 80PLUS골드 풀모듈러 ATX3.1 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/654/938/img/75938654_1.jpg?shrink=130:130&_v=20250304081835",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "SuperFlower SF-1000F14XP LEADEX VII PRO PLATINUM 블랙 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/950/037/img/32037950_1.jpg?shrink=130:130&_v=20240612125356",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 150,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "쿨러마스터 MWE GOLD 850 V3 ATX3.1 블랙",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/750/719/img/75719750_1.jpg?shrink=130:130&_v=20250425091326",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "SuperFlower SF-850F14XG LEADEX VII GOLD 화이트 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/516/237/img/20237516_1.jpg?shrink=130:130&_v=20241025092534",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 150,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "시소닉 CORE V2 GX-850 GOLD 풀모듈러 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/112/844/img/78844112_1.jpg?shrink=130:130&_v=20250328103928",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "CORSAIR SF1000 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/925/929/img/59929925_1.jpg?shrink=130:130&_v=20240724103140",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 100,
+    "FormFactor": "M-ATX(SFX) 파워"
+  },
+  {
+    "name": "엔티스 EG 1000W 80PLUS골드 풀모듈러 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/125/925/img/65925125_1.jpg?shrink=130:130&_v=20250318134822",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "MSI MAG A850GL 80PLUS골드 풀모듈러 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/702/206/img/21206702_1.jpg?shrink=130:130&_v=20250217152033",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 Classic II 풀체인지 750W 80PLUS스탠다드 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/838/979/img/72979838_1.jpg?shrink=130:130&_v=20241218141359",
+    "output": 750,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "SuperFlower SF-1000F14XG LEADEX VII GOLD ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/756/057/img/20057756_1.jpg?shrink=130:130&_v=20241025092625",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 150,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "Segotep GM850W 80PLUS골드 풀모듈러 ATX3.1 블랙",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/861/843/img/47843861_1.jpg?shrink=130:130&_v=20240619082827",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "맥스엘리트 STARS CYGNUS 850W 80PLUS골드 풀모듈러 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/312/500/img/90500312_1.jpg?shrink=130:130&_v=20250513102314",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 145,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "SuperFlower SF-850F14GE LEADEX III GOLD UP ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/698/468/img/69468698_1.jpg?shrink=130:130&_v=20241021135940",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 150,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "CORSAIR SF850 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/681/930/img/59930681_1.jpg?shrink=130:130&_v=20240724103247",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 100,
+    "FormFactor": "M-ATX(SFX) 파워"
+  },
+  {
+    "name": "시소닉 CORE V2 GX-750 GOLD 풀모듈러 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/821/843/img/78843821_1.jpg?shrink=130:130&_v=20250328105524",
+    "output": 750,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "CORSAIR SF750 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/793/929/img/59929793_1.jpg?shrink=130:130&_v=20240724103630",
+    "output": 750,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 100,
+    "FormFactor": "M-ATX(SFX) 파워"
+  },
+  {
+    "name": "마이크로닉스 Classic II 1300W 80PLUS플래티넘 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/245/174/img/78174245_1.jpg?shrink=130:130&_v=20250319105452",
+    "output": 1300,
+    "pcie16PinCount": 2,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "SuperFlower SF-1000F14XG LEADEX VII GOLD 화이트 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/495/237/img/20237495_1.jpg?shrink=130:130&_v=20241025092704",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 150,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 Classic II 1050W 80PLUS골드 풀모듈러 ATX3.1 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/953/468/img/69468953_1.jpg?shrink=130:130&_v=20250226124517",
+    "output": 1050,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "SuperFlower SF-1200F14XP LEADEX VII PRO PLATINUM 화이트 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/162/091/img/49091162_1.jpg?shrink=130:130&_v=20250102104058",
+    "output": 1200,
+    "pcie16PinCount": 2,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 150,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "잘만 TeraMax II SE 1000W 80PLUS골드 풀모듈러 ATX3.1 블랙",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/575/529/img/89529575_1.jpg?shrink=130:130&_v=20250428150344",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "CORSAIR HX1200i 80PLUS플래티넘 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/881/079/img/86079881_1.jpg?shrink=130:130&_v=20250421124208",
+    "output": 1200,
+    "pcie16PinCount": 2,
+    "pcie8PinCount": 5,
+    "pcie6PinCount": 5,
+    "length": 200,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "DEEPCOOL PL650D 80PLUS브론즈 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/491/247/img/68247491_1.jpg?shrink=130:130&_v=20241105082651",
+    "output": 650,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "엔티스 EG 1000W 80PLUS골드 풀모듈러 ATX3.1 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/170/925/img/65925170_1.jpg?shrink=130:130&_v=20250318134945",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 WIZMAX P-2500W 80PLUS플래티넘 ATX 3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/101/862/img/89862101_1.jpg?shrink=130:130&_v=20250502101330",
+    "output": 2500,
+    "pcie16PinCount": 4,
+    "pcie8PinCount": 7,
+    "pcie6PinCount": 7,
+    "length": 200,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "SuperFlower SF-1000F14XP LEADEX VII PRO PLATINUM 화이트 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/385/081/img/49081385_1.jpg?shrink=130:130&_v=20240612125602",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 150,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 Classic II 풀체인지 600W 80PLUS브론즈 ATX3.1 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/478/888/img/46888478_1.jpg?shrink=130:130&_v=20241213102849",
+    "output": 600,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "시소닉 FOCUS GOLD GM-850 모듈러",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/835/448/img/10448835_1.jpg?shrink=130:130&_v=20240508134524",
+    "output": 850,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 6,
+    "pcie6PinCount": 6,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "맥스엘리트 MAXWELL DUKE 1000W 80PLUS플래티넘 풀모듈러 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/949/285/img/31285949_1.jpg?shrink=130:130&_v=20250513082102",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "맥스엘리트 MAXWELL DUO 800W 80PLUS브론즈 PCIE5 플랫",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/255/789/img/68789255_1.jpg?shrink=130:130&_v=20241021100646",
+    "output": 800,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "잘만 MegaMax II 700W 80PLUS브론즈 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/925/056/img/74056925_1.jpg?shrink=130:130&_v=20250109170507",
+    "output": 700,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "맥스엘리트 MAXWELL DUO 700W 80PLUS브론즈 PCIE5 플랫",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/177/789/img/68789177_1.jpg?shrink=130:130&_v=20241021100708",
+    "output": 700,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "AONE 시그니처 750W 80PLUS브론즈 풀모듈러 베이직 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/734/912/img/39912734_1.jpg?shrink=130:130&_v=20240710100340",
+    "output": 750,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "MSI MAG A1000GL 80PLUS골드 풀모듈러 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/845/938/img/58938845_1.jpg?shrink=130:130&_v=20240703165725",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 150,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "SuperFlower SF-1300F14XG LEADEX VII GOLD ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/859/275/img/20275859_1.jpg?shrink=130:130&_v=20250102103651",
+    "output": 1300,
+    "pcie16PinCount": 2,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 150,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "MSI MPG A850G 80PLUS골드 풀모듈러 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/058/442/img/18442058_1.jpg?shrink=130:130&_v=20250217152549",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 6,
+    "pcie6PinCount": 6,
+    "length": 150,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 Classic II 풀체인지 700W 80PLUS브론즈 ATX3.1 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/339/906/img/44906339_1.jpg?shrink=130:130&_v=20250414101953",
+    "output": 700,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 Classic II 풀체인지 900W 80PLUS실버 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/117/482/img/63482117_1.jpg?shrink=130:130&_v=20240822151934",
+    "output": 900,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": -1,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 Classic II 850W 80PLUS골드 풀모듈러 ATX3.1 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/848/487/img/47487848_1.jpg?shrink=130:130&_v=20250226124554",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "darkFlash UPMOST 850W 80PLUS골드 풀모듈러 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/027/814/img/19814027_1.jpg?shrink=130:130&_v=20240508133319",
+    "output": 850,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "SuperFlower SF-1600F14HT LEADEX TITANIUM ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/013/621/img/67621013_1.jpg?shrink=130:130&_v=20240925082349",
+    "output": 1600,
+    "pcie16PinCount": 2,
+    "pcie8PinCount": 5,
+    "pcie6PinCount": 5,
+    "length": 220,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "시소닉 VERTEX GX-1200 GOLD 풀모듈러 ATX3.0",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/087/698/img/18698087_1.jpg?shrink=130:130&_v=20241205092328",
+    "output": 1200,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "리안리 EDGE 850 80PLUS플래티넘 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/980/175/img/62175980_1.jpg?shrink=130:130&_v=20240731151606",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 182,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "앱코 SETTLER-II ST-700S 80PLUS스탠다드",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/015/872/img/18872015_1.jpg?shrink=130:130&_v=20240829123511",
+    "output": 700,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "맥스엘리트 MAXWELL PRIMO 600W 80PLUS스탠다드 플랫",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/426/503/img/18503426_1.jpg?shrink=130:130&_v=20250513082044",
+    "output": 600,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "시소닉 NEW FOCUS V4 GX-750 GOLD 풀모듈러 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/934/576/img/67576934_1.jpg?shrink=130:130&_v=20240930162530",
+    "output": 750,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 WIZMAX 750W 80PLUS실버 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/749/484/img/74484749_1.jpg?shrink=130:130&_v=20250121085555",
+    "output": 750,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 Classic II 풀체인지 550W 80PLUS스탠다드 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/961/979/img/72979961_1.jpg?shrink=130:130&_v=20241220111257",
+    "output": 550,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "SuperFlower SF-1000F14GE LEADEX III GOLD UP ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/725/468/img/69468725_1.jpg?shrink=130:130&_v=20241021140237",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 150,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "쿨러마스터 MWE 브론즈 650 V3 230V ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/346/814/img/54814346_1.jpg?shrink=130:130&_v=20250425091850",
+    "output": 650,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "쿨러마스터 X Mighty Platinum 2000W 230V",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/679/578/img/68578679_1.jpg?shrink=130:130&_v=20241016142102",
+    "output": 2000,
+    "pcie16PinCount": 2,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 180,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "시소닉 NEW FOCUS V4 GX-1000 GOLD 풀모듈러 ATX3.1 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/342/577/img/67577342_1.jpg?shrink=130:130&_v=20240930163015",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "엔티스 EG 850W 80PLUS골드 풀모듈러 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/891/924/img/65924891_1.jpg?shrink=130:130&_v=20241213104234",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "시소닉 NEW FOCUS V4 GX-850 GOLD 풀모듈러 ATX3.1 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/330/577/img/67577330_1.jpg?shrink=130:130&_v=20240930162921",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "MSI MPG A1000G 80PLUS골드 풀모듈러 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/653/168/img/13168653_1.jpg?shrink=130:130&_v=20250207154402",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 6,
+    "pcie6PinCount": 6,
+    "length": 150,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "Segotep GM1250W 80PLUS골드 풀모듈러 ATX3.1 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/026/844/img/47844026_1.jpg?shrink=130:130&_v=20240507152527",
+    "output": 1250,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "시소닉 PRIME TITANIUM TX-1600 풀모듈러 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/005/895/img/74895005_1.jpg?shrink=130:130&_v=20250122125618",
+    "output": 1600,
+    "pcie16PinCount": 2,
+    "pcie8PinCount": 6,
+    "pcie6PinCount": 6,
+    "length": 210,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "AONE 시그니처 750W 80PLUS브론즈 풀모듈러 베이직 ATX3.1 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/946/475/img/72475946_1.jpg?shrink=130:130&_v=20241206173501",
+    "output": 750,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "MSI MAG A1250GL 80PLUS골드 풀모듈러 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/893/938/img/58938893_1.jpg?shrink=130:130&_v=20240703170048",
+    "output": 1250,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 150,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "Antec GSK 850W 화이트 80PLUS골드 풀모듈러 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/633/066/img/71066633_1.jpg?shrink=130:130&_v=20250408105143",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "시소닉 PRIME PLATINUM PX-2200 풀모듈러 ATX3",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/960/174/img/62174960_1.jpg?shrink=130:130&_v=20240731131554",
+    "output": 2200,
+    "pcie16PinCount": 4,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 210,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "Antec GSK 750W 80PLUS골드 풀모듈러 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/699/066/img/71066699_1.jpg?shrink=130:130&_v=20250408105117",
+    "output": 750,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "AONE STORM 600W 80PLUS브론즈 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/015/476/img/72476015_1.jpg?shrink=130:130&_v=20241206175302",
+    "output": 600,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "시소닉 PRIME TITANIUM TX-1300 풀모듈러 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/119/895/img/74895119_1.jpg?shrink=130:130&_v=20250122125540",
+    "output": 1300,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 6,
+    "pcie6PinCount": 6,
+    "length": 210,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "쿨러마스터 M2000 80PLUS플래티넘 230V 풀모듈러",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/276/367/img/16367276_1.jpg?shrink=130:130&_v=20240509092506",
+    "output": 2000,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 18,
+    "pcie6PinCount": 18,
+    "length": -1,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "Segotep GM850W 80PLUS골드 풀모듈러 ATX3.1 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/882/843/img/47843882_1.jpg?shrink=130:130&_v=20240619082901",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 ASTRO PLATINUM 850W 풀모듈러",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/849/461/img/6461849_1.jpg?shrink=130:130&_v=20240508094625",
+    "output": 850,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 6,
+    "pcie6PinCount": 6,
+    "length": 180,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "MSI MAG A600DN 80PLUS스탠다드",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/999/611/img/30611999_1.jpg?shrink=130:130&_v=20240730112621",
+    "output": 600,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "쿨러마스터 MWE 브론즈 550 V3 230V ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/436/814/img/54814436_1.jpg?shrink=130:130&_v=20250425091901",
+    "output": 550,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "NZXT C1500 80PLUS플래티넘 풀모듈러 ATX3.1 블랙",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/487/558/img/79558487_1.jpg?shrink=130:130&_v=20250410111857",
+    "output": 1500,
+    "pcie16PinCount": 2,
+    "pcie8PinCount": 6,
+    "pcie6PinCount": 6,
+    "length": 180,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "CORSAIR RM750e ATX3.0",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/639/727/img/19727639_1.jpg?shrink=130:130&_v=20240429093728",
+    "output": 750,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "시소닉 G12 GOLD GM-750 모듈러",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/962/087/img/18087962_1.jpg?shrink=130:130&_v=20240508134524",
+    "output": 750,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 WIZMAX 850W 80PLUS실버 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/791/484/img/74484791_1.jpg?shrink=130:130&_v=20250121085547",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "AONE STORM 700W 80PLUS브론즈 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/114/476/img/72476114_1.jpg?shrink=130:130&_v=20241206175125",
+    "output": 700,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "맥스엘리트 MAXWELL DUKE 1300W 80PLUS플래티넘 풀모듈러 ATX3.1 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/260/113/img/58113260_1.jpg?shrink=130:130&_v=20250513082036",
+    "output": 1300,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "몬스타 가츠 ExtremeX FX800 80PLUS스탠다드",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/785/273/img/30273785_1.jpg?shrink=130:130&_v=20240508110354",
+    "output": 800,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "맥스엘리트 MAXWELL COUNT 850W 80PLUS골드 풀모듈러 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/685/349/img/30349685_1.jpg?shrink=130:130&_v=20250513082053",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 Classic II 850W 80PLUS실버 모듈러 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/459/232/img/88232459_1.jpg?shrink=130:130&_v=20250425100527",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "엔티스 EG 850W 80PLUS골드 풀모듈러 ATX3.1 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/927/924/img/65924927_1.jpg?shrink=130:130&_v=20241213104037",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "앱코 SETTLER-II ST-500S 80PLUS스탠다드",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/862/871/img/18871862_1.jpg?shrink=130:130&_v=20240508110355",
+    "output": 500,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "DEEPCOOL PN850M 80PLUS골드 풀모듈러 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/596/030/img/63030596_1.jpg?shrink=130:130&_v=20240826123549",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "맥스엘리트 MAXWELL DUO 700W 80PLUS브론즈 PCIE5 플랫 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/216/789/img/68789216_1.jpg?shrink=130:130&_v=20241021100657",
+    "output": 700,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "써멀테이크 터프파워 GF3 850W GOLD 풀모듈러 ATX3.0",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/133/744/img/19744133_1.jpg?shrink=130:130&_v=20240508092335",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "AONE STORM 500W 80PLUS브론즈",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/322/431/img/9431322_1.jpg?shrink=130:130&_v=20240508103520",
+    "output": 500,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "에너맥스 Cyberbron 2 ECS600B 80PLUS브론즈",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/878/098/img/46098878_1.jpg?shrink=130:130&_v=20240508102013",
+    "output": 600,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "엔클롬 CAPO 1000W 80PLUS골드 풀모듈러 ATX3.1 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/936/979/img/67979936_1.jpg?shrink=130:130&_v=20241023132415",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "에너맥스 Cyberbron 2 ECS700B 80PLUS브론즈",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/851/098/img/46098851_1.jpg?shrink=130:130&_v=20240508102013",
+    "output": 700,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "AONE 시그니처 750W 80PLUS브론즈 풀모듈러 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/728/912/img/39912728_1.jpg?shrink=130:130&_v=20240710100129",
+    "output": 750,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 Compact SFX-L 700W 80PLUS플래티넘",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/133/290/img/6290133_1.jpg?shrink=130:130&_v=20240509092802",
+    "output": 700,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 135,
+    "FormFactor": "M-ATX(SFX) 파워"
+  },
+  {
+    "name": "리안리 EDGE 1300 80PLUS플래티넘 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/118/176/img/62176118_1.jpg?shrink=130:130&_v=20240807110743",
+    "output": 1300,
+    "pcie16PinCount": 2,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 182,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "Antec CSK PRO 850W 80PLUS브론즈 230V EU 모듈러 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/086/975/img/72975086_1.jpg?shrink=130:130&_v=20241230104448",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "맥스엘리트 MAXWELL DUKE 1300W 80PLUS플래티넘 풀모듈러 ATX3.0",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/888/451/img/19451888_1.jpg?shrink=130:130&_v=20250513082115",
+    "output": 1300,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "맥스엘리트 MAXWELL DUKE 1300W 80PLUS플래티넘 풀모듈러 ATX3.0 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/564/602/img/27602564_1.jpg?shrink=130:130&_v=20250513082122",
+    "output": 1300,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "잘만 TeraMax II 1200W 80PLUS골드 풀모듈러 ATX3.1 블랙",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/186/663/img/20663186_1.jpg?shrink=130:130&_v=20250314093946",
+    "output": 1200,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "잘만 DecaMax 600W 80PLUS스탠다드",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/028/609/img/49609028_1.jpg?shrink=130:130&_v=20240508110354",
+    "output": 600,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "AONE 시그니처 1000W 80PLUS브론즈 풀모듈러 베이직 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/806/912/img/39912806_1.jpg?shrink=130:130&_v=20240710100723",
+    "output": 1000,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 Classic II 풀체인지 800W 80PLUS브론즈 ATX3.1 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/029/124/img/50124029_1.jpg?shrink=130:130&_v=20241213103011",
+    "output": 800,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "시소닉 CORE V2 GX-650 GOLD 풀모듈러 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/782/843/img/78843782_1.jpg?shrink=130:130&_v=20250328104017",
+    "output": 650,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "Antec CSK 650W 80PLUS브론즈",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/677/901/img/14901677_1.jpg?shrink=130:130&_v=20240508102522",
+    "output": 650,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "쿨러마스터 MWE GOLD 1050 V2 ATX3.0",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/559/246/img/28246559_1.jpg?shrink=130:130&_v=20240508092043",
+    "output": 1050,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 180,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "맥스엘리트 STARS CYGNUS 1200W 80PLUS골드 풀모듈러 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/444/500/img/90500444_1.jpg?shrink=130:130&_v=20250514102514",
+    "output": 1200,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 145,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 Classic II 750W 80PLUS실버 모듈러 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/360/232/img/88232360_1.jpg?shrink=130:130&_v=20250425100541",
+    "output": 750,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "be quiet STRAIGHT POWER 12 1200W 80PLUS플래티넘",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/602/803/img/28803602_1.jpg?shrink=130:130&_v=20240509092505",
+    "output": 1200,
+    "pcie16PinCount": 2,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 180,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "Antec HCG PRO 850W 80PLUS플래티넘 풀모듈러 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/808/424/img/60424808_1.jpg?shrink=130:130&_v=20240719163107",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "be quiet STRAIGHT POWER 12 1000W 80PLUS플래티넘",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/386/803/img/28803386_1.jpg?shrink=130:130&_v=20240509092505",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 180,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "SuperFlower SF-1300F14XG LEADEX VII GOLD 화이트 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/300/615/img/20615300_1.jpg?shrink=130:130&_v=20250102103717",
+    "output": 1300,
+    "pcie16PinCount": 2,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 150,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "맥스엘리트 MAXWELL DUKE 1000W 80PLUS플래티넘 풀모듈러 ATX3.0",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/058/901/img/18901058_1.jpg?shrink=130:130&_v=20250513082135",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "리안리 SP750 80PLUS골드 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/511/489/img/16489511_1.jpg?shrink=130:130&_v=20240507153406",
+    "output": 750,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 100,
+    "FormFactor": "M-ATX(SFX) 파워"
+  },
+  {
+    "name": "마이크로닉스 Classic II 750W 80PLUS골드 풀모듈러 ATX3.1 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/609/314/img/54314609_1.jpg?shrink=130:130&_v=20250226124521",
+    "output": 750,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 Classic II 750W 80PLUS브론즈 230V EU HDB 핑크",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/742/901/img/10901742_1.jpg?shrink=130:130&_v=20240508103519",
+    "output": 750,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "잘만 DecaMax 700W 80PLUS스탠다드",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/173/617/img/49617173_1.jpg?shrink=130:130&_v=20240508110354",
+    "output": 700,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "엔티스 EG 750W 80PLUS골드 풀모듈러 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/978/921/img/65921978_1.jpg?shrink=130:130&_v=20241213104311",
+    "output": 750,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "리안리 EDGE GOLD 1000 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/333/550/img/76550333_1.jpg?shrink=130:130&_v=20250221100639",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 182,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "맥스엘리트 MAXWELL PRIMO 700W 80PLUS스탠다드 플랫",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/468/503/img/18503468_1.jpg?shrink=130:130&_v=20250513082142",
+    "output": 700,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 ASTRO II GD 1650W 80PLUS골드 풀모듈러 ATX3.0",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/060/005/img/18005060_1.jpg?shrink=130:130&_v=20240507153057",
+    "output": 1650,
+    "pcie16PinCount": 2,
+    "pcie8PinCount": 6,
+    "pcie6PinCount": 6,
+    "length": 180,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "MSI MAG A500DN 80PLUS스탠다드",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/056/612/img/30612056_1.jpg?shrink=130:130&_v=20240730112705",
+    "output": 500,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "맥스엘리트 STARS CYGNUS 850W 80PLUS골드 풀모듈러 ATX3.1 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/468/500/img/90500468_1.jpg?shrink=130:130&_v=20250513085011",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 145,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "리안리 EDGE GOLD 850 블랙",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/129/550/img/76550129_1.jpg?shrink=130:130&_v=20250221094645",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 182,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "SuperFlower SF-700R12ST MEGA 80PLUS스탠다드 230V EU",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/316/179/img/7179316_1.jpg?shrink=130:130&_v=20240508125454",
+    "output": 700,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "쿨러마스터 MWE GOLD 550 V3 ATX3.1 블랙",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/324/318/img/77318324_1.jpg?shrink=130:130&_v=20250425091429",
+    "output": 550,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "SuperFlower SF-850F14XP LEADEX VII PRO PLATINUM 블랙 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/836/037/img/32037836_1.jpg?shrink=130:130&_v=20240819153156",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 150,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "Segotep GM1000W 80PLUS골드 풀모듈러 ATX3.1 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/963/843/img/47843963_1.jpg?shrink=130:130&_v=20240619093234",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "MSI MEG Ai1300P 80PLUS플래티넘 풀모듈러 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/786/071/img/75071786_1.jpg?shrink=130:130&_v=20250124112251",
+    "output": 1300,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 8,
+    "pcie6PinCount": 8,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 Classic II 1050W 80PLUS골드 230V EU 풀모듈러 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/783/266/img/15266783_1.jpg?shrink=130:130&_v=20240821104854",
+    "output": 1050,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "ASUS ROG STRIX 1200W Platinum",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/150/381/img/77381150_1.jpg?shrink=130:130&_v=20250306141625",
+    "output": 1200,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "잘만 GigaMax III 650W 80PLUS브론즈 모듈러 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/193/996/img/31996193_1.jpg?shrink=130:130&_v=20241010130208",
+    "output": 650,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "SuperFlower SF-850C12FG COMBAT FG 80PLUS골드 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/511/148/img/60148511_1.jpg?shrink=130:130&_v=20240717132841",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "잘만 ZM400-TFX 80PLUS스탠다드 230V EU",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/248/564/img/18564248_1.jpg?shrink=130:130&_v=20240508110355",
+    "output": 400,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 1,
+    "pcie6PinCount": 1,
+    "length": 175,
+    "FormFactor": "TFX 파워"
+  },
+  {
+    "name": "Segotep GM1000W 80PLUS골드 풀모듈러 ATX3.1 블랙",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/912/843/img/47843912_1.jpg?shrink=130:130&_v=20240507152527",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "MSI MAG A850GL 화이트 80PLUS골드 풀모듈러 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/840/607/img/28607840_1.jpg?shrink=130:130&_v=20250217152343",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "SuperFlower SF-600R12ST MEGA 80PLUS스탠다드 230V EU",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/223/179/img/7179223_1.jpg?shrink=130:130&_v=20240508125454",
+    "output": 600,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "Segotep GM1250W 80PLUS골드 풀모듈러 ATX3.1 블랙",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/002/844/img/47844002_1.jpg?shrink=130:130&_v=20240507152527",
+    "output": 1250,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "잘만 MegaMax II 800W 80PLUS브론즈 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/946/056/img/74056946_1.jpg?shrink=130:130&_v=20250109170803",
+    "output": 800,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 Compact SFX 400W 80PLUS브론즈",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/892/426/img/6426892_1.jpg?shrink=130:130&_v=20240508103834",
+    "output": 400,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 1,
+    "pcie6PinCount": 1,
+    "length": 100,
+    "FormFactor": "M-ATX(SFX) 파워"
+  },
+  {
+    "name": "리안리 EDGE GOLD 1200 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/468/550/img/76550468_1.jpg?shrink=130:130&_v=20250221101855",
+    "output": 1200,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 6,
+    "pcie6PinCount": 6,
+    "length": 182,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 Compact TFX 400W 80Plus 230V EU",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/655/729/img/16729655_1.jpg?shrink=130:130&_v=20220412105152",
+    "output": 400,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 175,
+    "FormFactor": "TFX 파워"
+  },
+  {
+    "name": "시소닉 VERTEX GX-1000 GOLD 풀모듈러 ATX3.0",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/078/698/img/18698078_1.jpg?shrink=130:130&_v=20241205092451",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "GIGABYTE P650SS ICE 80PLUS실버 FDB ATX3.0 피씨디렉트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/402/211/img/88211402_1.jpg?shrink=130:130&_v=20250425094326",
+    "output": 650,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "델타 GPS-1300DB 1300W PLATINUM 풀모듈러 ATX3.0",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/711/169/img/31169711_1.jpg?shrink=130:130&_v=20240508094153",
+    "output": 1300,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 8,
+    "pcie6PinCount": 8,
+    "length": 185,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "잘만 DecaMax 500W 80PLUS스탠다드",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/795/601/img/49601795_1.jpg?shrink=130:130&_v=20240508110354",
+    "output": 500,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 ASTRO II PT 1300W 80PLUS플래티넘 풀모듈러 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/042/386/img/33386042_1.jpg?shrink=130:130&_v=20240509092505",
+    "output": 1300,
+    "pcie16PinCount": 2,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 150,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 WIZMAX 850W 80PLUS실버 ATX3.0",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/194/628/img/20628194_1.jpg?shrink=130:130&_v=20250117143658",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "AONE STORM 500W 80PLUS브론즈 벌크",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/340/431/img/9431340_1.jpg?shrink=130:130&_v=20240508103520",
+    "output": 500,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "darkFlash 퍼펙트모스트 750W 80PLUS골드 풀모듈러 ATX3.1 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/603/938/img/75938603_1.jpg?shrink=130:130&_v=20250213131031",
+    "output": 750,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "잘만 MegaMax 800W 80PLUS스탠다드",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/305/786/img/15786305_1.jpg?shrink=130:130&_v=20240508110355",
+    "output": 800,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "쿨러마스터 MWE GOLD 750 V3 ATX3.1 블랙",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/807/719/img/75719807_1.jpg?shrink=130:130&_v=20250425091342",
+    "output": 750,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "darkFlash 퍼펙트모스트 750W 80PLUS골드 풀모듈러 ATX3.1 블랙",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/597/938/img/75938597_1.jpg?shrink=130:130&_v=20250213131010",
+    "output": 750,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 Classic II 1000W 80PLUS플래티넘 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/377/939/img/75939377_1.jpg?shrink=130:130&_v=20250409100653",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "리안리 EDGE GOLD 1000 블랙",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/288/550/img/76550288_1.jpg?shrink=130:130&_v=20250221100351",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 182,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "AONE 시그니처 1000W 80PLUS브론즈 풀모듈러 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/800/912/img/39912800_1.jpg?shrink=130:130&_v=20240710100626",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "Antec GSK 850W 80PLUS골드 풀모듈러 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/594/066/img/71066594_1.jpg?shrink=130:130&_v=20250408105248",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "NEWZEN SKULL 750XM 풀모듈러 ATX3.1 80PLUS골드 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/777/406/img/67406777_1.jpg?shrink=130:130&_v=20240920141718",
+    "output": 750,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "Segotep GM750W 80PLUS골드 풀모듈러 ATX3.1 블랙",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/792/843/img/47843792_1.jpg?shrink=130:130&_v=20240619082343",
+    "output": 750,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "시소닉 FOCUS GOLD GX-750 풀모듈러",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/841/515/img/9515841_1.jpg?shrink=130:130&_v=20240508133937",
+    "output": 750,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "시소닉 PRIME PLATINUM PX-1600 풀모듈러 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/068/895/img/74895068_1.jpg?shrink=130:130&_v=20250122125612",
+    "output": 1600,
+    "pcie16PinCount": 2,
+    "pcie8PinCount": 6,
+    "pcie6PinCount": 6,
+    "length": 210,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "쿨러마스터 MWE GOLD 850 V3 ATX3.1 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/774/719/img/75719774_1.jpg?shrink=130:130&_v=20250425091417",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "시소닉 CORE V2 GX-850 GOLD 풀모듈러 ATX3.1 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/340/844/img/78844340_1.jpg?shrink=130:130&_v=20250328105517",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "SuperFlower SF-750F14GE LEADEX III GOLD UP ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/659/468/img/69468659_1.jpg?shrink=130:130&_v=20241021135553",
+    "output": 750,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 150,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "Segotep GM750W 80PLUS골드 풀모듈러 ATX3.1 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/813/843/img/47843813_1.jpg?shrink=130:130&_v=20240619082430",
+    "output": 750,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "NEWZEN SKULL 650EM 80PLUS브론즈 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/290/551/img/76551290_1.jpg?shrink=130:130&_v=20250221130442",
+    "output": 650,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 COOLMAX P-1050W 80PLUS플래티넘 ATX3.0",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/321/961/img/19961321_1.jpg?shrink=130:130&_v=20240509092505",
+    "output": 1050,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "맥스엘리트 MAXWELL PRIMO 500W 80PLUS스탠다드 플랫",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/351/503/img/18503351_1.jpg?shrink=130:130&_v=20250513082149",
+    "output": 500,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 Performance II 125 700W 80PLUS골드",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/270/939/img/14939270_1.jpg?shrink=130:130&_v=20240507153532",
+    "output": 700,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 125,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "리안리 EDGE GOLD 1200 블랙",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/438/550/img/76550438_1.jpg?shrink=130:130&_v=20250221101724",
+    "output": 1200,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 6,
+    "pcie6PinCount": 6,
+    "length": 182,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 Compact SFX 300W 80PLUS브론즈",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/389/716/img/2716389_1.jpg?shrink=130:130&_v=20240508104619",
+    "output": 300,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 1,
+    "pcie6PinCount": 1,
+    "length": -1,
+    "FormFactor": "M-ATX(SFX) 파워"
+  },
+  {
+    "name": "AONE 시그니처 850W 80PLUS브론즈 풀모듈러 베이직 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/767/912/img/39912767_1.jpg?shrink=130:130&_v=20240710100537",
+    "output": 850,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "MSI MAG A750GL 80PLUS골드 풀모듈러 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/882/206/img/21206882_1.jpg?shrink=130:130&_v=20250217151717",
+    "output": 750,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "시소닉 CORE V2 GX-750 GOLD 풀모듈러 ATX3.1 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/848/843/img/78843848_1.jpg?shrink=130:130&_v=20250328103944",
+    "output": 750,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "NEWZEN SKULL 650EM 80PLUS브론즈 ATX3.1 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/317/551/img/76551317_1.jpg?shrink=130:130&_v=20250221130644",
+    "output": 650,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "darkFlash SAVEMOST 600W 80PLUS스탠다드",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/540/941/img/27941540_1.jpg?shrink=130:130&_v=20240508110354",
+    "output": 600,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 Classic II 500W 80PLUS 230V EU",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/673/928/img/1928673_1.jpg?shrink=130:130&_v=20220118170146",
+    "output": 500,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "SuperFlower SF-2000F14HP LEADEX PLATINUM",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/742/353/img/3353742_1.jpg?shrink=130:130&_v=20240509092802",
+    "output": 2000,
+    "pcie16PinCount": 2,
+    "pcie8PinCount": 9,
+    "pcie6PinCount": 9,
+    "length": 225,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 ASTRO II PT 1000W 80PLUS플래티넘 풀모듈러 ATX3.0",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/170/942/img/27942170_1.jpg?shrink=130:130&_v=20240509092505",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 CASLON M 750W 80PLUS실버 모듈러 ATX3.0",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/194/082/img/29082194_1.jpg?shrink=130:130&_v=20240508100900",
+    "output": 750,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 COOLMAX P-850W 80PLUS플래티넘 ATX3.0",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/018/961/img/19961018_1.jpg?shrink=130:130&_v=20240509092505",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "잘만 MegaMax II 600W 80PLUS브론즈 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/904/056/img/74056904_1.jpg?shrink=130:130&_v=20250109170059",
+    "output": 600,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "Antec HCG PRO 1200W 80PLUS플래티넘 풀모듈러 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/910/424/img/60424910_1.jpg?shrink=130:130&_v=20240719163347",
+    "output": 1200,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "MSI MAG A650BN 80PLUS브론즈",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/025/283/img/15283025_1.jpg?shrink=130:130&_v=20240508102522",
+    "output": 650,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "CORSAIR HX1200i ATX3.0",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/277/835/img/36835277_1.jpg?shrink=130:130&_v=20240424101740",
+    "output": 1200,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 200,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "SuperFlower SF-850F14XP LEADEX VII PRO PLATINUM 화이트 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/079/795/img/55795079_1.jpg?shrink=130:130&_v=20240607124242",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 150,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "AONE 시그니처 850W 80PLUS브론즈 풀모듈러 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/761/912/img/39912761_1.jpg?shrink=130:130&_v=20240710100446",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "CORSAIR AX1600i 80PLUS티타늄",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/782/047/img/6047782_1.jpg?shrink=130:130&_v=20240507142452",
+    "output": 1600,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 10,
+    "pcie6PinCount": 10,
+    "length": 200,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 ASTRO II PT 850W 80PLUS플래티넘 풀모듈러 ATX3.0",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/059/942/img/27942059_1.jpg?shrink=130:130&_v=20240509092505",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 Classic II 600W 80PLUS 230V EU",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/750/928/img/1928750_1.jpg?shrink=130:130&_v=20220118170010",
+    "output": 600,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "시소닉 NEW FOCUS GX-750 GOLD 풀모듈러 ATX3.0",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/680/416/img/28416680_1.jpg?shrink=130:130&_v=20240528142455",
+    "output": 750,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 150,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "MSI MAG A650BNL 80PLUS브론즈",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/437/861/img/42861437_1.jpg?shrink=130:130&_v=20240508102013",
+    "output": 650,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "잘만 MegaMax ET 600W 80PLUS스탠다드",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/130/122/img/17122130_1.jpg?shrink=130:130&_v=20240508110355",
+    "output": 600,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "잘만 TeraMax II SE 850W 80PLUS골드 풀모듈러 ATX3.1 블랙",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/503/529/img/89529503_1.jpg?shrink=130:130&_v=20250428145938",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 CASLON M 850W 80PLUS실버 모듈러 ATX3.0",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/696/084/img/29084696_1.jpg?shrink=130:130&_v=20240508100900",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "NEWZEN SKULL 750EM 80PLUS브론즈 ATX3.1 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/404/551/img/76551404_1.jpg?shrink=130:130&_v=20250221131306",
+    "output": 750,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "AONE STORM 1000W 80PLUS브론즈",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/719/213/img/18213719_1.jpg?shrink=130:130&_v=20250320175929",
+    "output": 1000,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 6,
+    "pcie6PinCount": 6,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "Antec HCG PRO 1000W 80PLUS플래티넘 풀모듈러 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/865/424/img/60424865_1.jpg?shrink=130:130&_v=20240719163058",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "쿨러마스터 V850 SFX GOLD",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/746/573/img/12573746_1.jpg?shrink=130:130&_v=20201228100642",
+    "output": 850,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 100,
+    "FormFactor": "M-ATX(SFX) 파워"
+  },
+  {
+    "name": "마이크로닉스 Performance II HV 1000W 80PLUS브론즈 FDB",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/617/054/img/10054617_1.jpg?shrink=130:130&_v=20240508103519",
+    "output": 1000,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 6,
+    "pcie6PinCount": 6,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 Compact SFX 450W 80PLUS브론즈",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/846/324/img/6324846_1.jpg?shrink=130:130&_v=20240508103834",
+    "output": 450,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 1,
+    "pcie6PinCount": 1,
+    "length": 100,
+    "FormFactor": "M-ATX(SFX) 파워"
+  },
+  {
+    "name": "Antec NeoECO 1000W 80PLUS골드 풀모듈러 ATX3.0",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/054/587/img/21587054_1.jpg?shrink=130:130&_v=20240507152742",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 Compact SFX 350W 80PLUS브론즈",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/067/717/img/2717067_1.jpg?shrink=130:130&_v=20240508104619",
+    "output": 350,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 1,
+    "pcie6PinCount": 1,
+    "length": -1,
+    "FormFactor": "M-ATX(SFX) 파워"
+  },
+  {
+    "name": "NEWZEN SKULL 750EM 80PLUS브론즈 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/389/551/img/76551389_1.jpg?shrink=130:130&_v=20250221131144",
+    "output": 750,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "3RSYS TEAMMOST TM 750W 80PLUS브론즈 230V EU",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/888/144/img/17144888_1.jpg?shrink=130:130&_v=20240508102014",
+    "output": 750,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 150,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "잘만 MegaMax ET 700W 80PLUS스탠다드",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/220/122/img/17122220_1.jpg?shrink=130:130&_v=20240508110355",
+    "output": 700,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "잘만 GigaMax III 750W 80PLUS브론즈 모듈러 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/753/615/img/29615753_1.jpg?shrink=130:130&_v=20241010130226",
+    "output": 750,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "쿨러마스터 MWE 브론즈 650 V3 230V ATX3.1 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/183/921/img/65921183_1.jpg?shrink=130:130&_v=20250425091921",
+    "output": 650,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "SuperFlower SF-750C12FG COMBAT FG 80PLUS골드 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/454/148/img/60148454_1.jpg?shrink=130:130&_v=20240717132853",
+    "output": 750,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "CORSAIR CX Series CX750",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/301/121/img/30121301_1.jpg?shrink=130:130&_v=20231122104019",
+    "output": 750,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 125,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "쿨러마스터 MWE GOLD 650 V3 ATX3.1 블랙",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/144/318/img/77318144_1.jpg?shrink=130:130&_v=20250425091356",
+    "output": 650,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "3RSYS AK 850W 80PLUS브론즈 모듈러 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/030/162/img/71162030_1.jpg?shrink=130:130&_v=20241203124333",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "리안리 EDGE 850 80PLUS플래티넘 블랙",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/968/175/img/62175968_1.jpg?shrink=130:130&_v=20240807110506",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 182,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "NEWZEN SKULL 850XM 풀모듈러 ATX3.1 80PLUS골드 블랙",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/926/052/img/74052926_1.jpg?shrink=130:130&_v=20250109124951",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "NEWZEN SKULL 850SM 모듈러 ATX3.1 80PLUS골드",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/255/403/img/67403255_1.jpg?shrink=130:130&_v=20240920092714",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "3RSYS AK 1000W 80PLUS브론즈 모듈러 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/970/161/img/71161970_1.jpg?shrink=130:130&_v=20241203124159",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "시소닉 G12 GOLD GM-850 모듈러",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/968/087/img/18087968_1.jpg?shrink=130:130&_v=20240508134524",
+    "output": 850,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "Antec CSK PRO 1000W 80PLUS브론즈 230V EU 모듈러 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/059/975/img/72975059_1.jpg?shrink=130:130&_v=20241230104434",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "MSI MAG A750BN 80PLUS브론즈 PCIE5",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/392/861/img/42861392_1.jpg?shrink=130:130&_v=20240508102013",
+    "output": 750,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "잘만 MegaMax ET 500W 80PLUS스탠다드",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/881/121/img/17121881_1.jpg?shrink=130:130&_v=20240508110355",
+    "output": 500,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "잘만 MegaMax II 500W 80PLUS브론즈 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/880/056/img/74056880_1.jpg?shrink=130:130&_v=20250109165912",
+    "output": 500,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "잘만 MegaMax 700W 80PLUS스탠다드",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/248/174/img/10174248_1.jpg?shrink=130:130&_v=20240508110911",
+    "output": 700,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "NEWZEN SKULL 750SM 모듈러 ATX3.1 80PLUS골드 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/356/466/img/59466356_1.jpg?shrink=130:130&_v=20240705133049",
+    "output": 750,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "쿨러마스터 MWE GOLD 750 V3 ATX3.1 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/810/719/img/75719810_1.jpg?shrink=130:130&_v=20250425091406",
+    "output": 750,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "darkFlash UPMOST 1250W 80PLUS골드 풀모듈러 ATX3.0 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/092/340/img/29340092_1.jpg?shrink=130:130&_v=20240508133318",
+    "output": 1250,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "잘만 TeraMax II SE 750W 80PLUS골드 풀모듈러 ATX3.1 블랙",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/350/529/img/89529350_1.jpg?shrink=130:130&_v=20250428145858",
+    "output": 750,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "쿨러마스터 GX II GOLD 850 ATX3.0",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/941/245/img/28245941_1.jpg?shrink=130:130&_v=20240508092043",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "시소닉 B12 BRONZE BC-850",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/920/087/img/18087920_1.jpg?shrink=130:130&_v=20230221100238",
+    "output": 850,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "be quiet DARK POWER PRO 12 1500W 80PLUS티타늄",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/594/265/img/16265594_1.jpg?shrink=130:130&_v=20240507142452",
+    "output": 1500,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 10,
+    "pcie6PinCount": 10,
+    "length": 200,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "CORSAIR HX1200 80PLUS플래티넘",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/099/181/img/5181099_1.jpg?shrink=130:130&_v=20240509092802",
+    "output": 1200,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 8,
+    "pcie6PinCount": 8,
+    "length": 200,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "AONE STORM 750W 80PLUS브론즈 플랫",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/051/959/img/54959051_1.jpg?shrink=130:130&_v=20240529094857",
+    "output": 750,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "리안리 EDGE GOLD 750 블랙",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/060/550/img/76550060_1.jpg?shrink=130:130&_v=20250221094532",
+    "output": 750,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 182,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "CORSAIR RM1200x SHIFT 80PLUS골드 ATX3.0 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/740/390/img/42390740_1.jpg?shrink=130:130&_v=20240507152527",
+    "output": 1200,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 6,
+    "pcie6PinCount": 6,
+    "length": 180,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "AONE STORM 800W 80PLUS브론즈",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/634/431/img/9431634_1.jpg?shrink=130:130&_v=20240508103519",
+    "output": 800,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "Antec NeoECO 1300W 80PLUS골드 풀모듈러 ATX3.0",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/153/587/img/21587153_1.jpg?shrink=130:130&_v=20240507152742",
+    "output": 1300,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "DEEPCOOL PL800D 80PLUS브론즈 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/431/247/img/68247431_1.jpg?shrink=130:130&_v=20241104123937",
+    "output": 800,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "리안리 EDGE 1000 80PLUS플래티넘 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/049/176/img/62176049_1.jpg?shrink=130:130&_v=20240807111035",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 182,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "리안리 SP750 80PLUS골드 블랙",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/357/490/img/16490357_1.jpg?shrink=130:130&_v=20240507153406",
+    "output": 750,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 100,
+    "FormFactor": "M-ATX(SFX) 파워"
+  },
+  {
+    "name": "쿨러마스터 G800 GOLD",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/529/209/img/14209529_1.jpg?shrink=130:130&_v=20210520095626",
+    "output": 800,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "쿨러마스터 MWE GOLD 650 V3 ATX3.1 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/288/318/img/77318288_1.jpg?shrink=130:130&_v=20250425091453",
+    "output": 650,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "리안리 EDGE 1000 80PLUS플래티넘 블랙",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/037/176/img/62176037_1.jpg?shrink=130:130&_v=20240807111023",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 182,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "앱코 SETTLER-II ST-800S 80PLUS스탠다드",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/806/548/img/19548806_1.jpg?shrink=130:130&_v=20240508110354",
+    "output": 800,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 6,
+    "pcie6PinCount": 6,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "darkFlash UPMOST 1250W 80PLUS골드 풀모듈러 ATX3.0 블랙",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/080/340/img/29340080_1.jpg?shrink=130:130&_v=20240508133318",
+    "output": 1250,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "darkFlash UPMOST 1050W 80PLUS골드 풀모듈러 ATX3.0 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/892/547/img/21547892_1.jpg?shrink=130:130&_v=20240508133319",
+    "output": 1050,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "CORSAIR CX Series CX650",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/373/121/img/30121373_1.jpg?shrink=130:130&_v=20231122103920",
+    "output": 650,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 125,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "NEWZEN SKULL 1000XM ATX3.0 80PLUS골드",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/534/507/img/20507534_1.jpg?shrink=130:130&_v=20240507152921",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 150,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "CORSAIR RM1000x SHIFT 80PLUS골드 ATX3.0",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/569/743/img/19743569_1.jpg?shrink=130:130&_v=20240507153057",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 7,
+    "pcie6PinCount": 7,
+    "length": 180,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "맥스엘리트 MAXWELL DUO 800W 80PLUS브론즈 PCIE5 플랫 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/267/789/img/68789267_1.jpg?shrink=130:130&_v=20241021100639",
+    "output": 800,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 Performance II HV 850W 80PLUS브론즈 FDB",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/539/054/img/10054539_1.jpg?shrink=130:130&_v=20240508103519",
+    "output": 850,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 6,
+    "pcie6PinCount": 6,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "NEWZEN SKULL 850EM 80PLUS브론즈 ATX3.1 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/476/551/img/76551476_1.jpg?shrink=130:130&_v=20250221131856",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "시소닉 B12 BRONZE BM-850 모듈러",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/932/087/img/18087932_1.jpg?shrink=130:130&_v=20240508134524",
+    "output": 850,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 Performance II PV 700W 80PLUS브론즈 FDB",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/909/557/img/10557909_1.jpg?shrink=130:130&_v=20240508103519",
+    "output": 700,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 Compact SFX 700W 80PLUS골드",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/575/759/img/10759575_1.jpg?shrink=130:130&_v=20240507153840",
+    "output": 700,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 100,
+    "FormFactor": "M-ATX(SFX) 파워"
+  },
+  {
+    "name": "마이크로닉스 Performance II PV 600W 80PLUS브론즈 FDB",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/888/557/img/10557888_1.jpg?shrink=130:130&_v=20240508103519",
+    "output": 600,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "쿨러마스터 V SFX Gold 850 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/502/578/img/68578502_1.jpg?shrink=130:130&_v=20241011152418",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 100,
+    "FormFactor": "M-ATX(SFX) 파워"
+  },
+  {
+    "name": "3RSYS AK 750W 80PLUS브론즈 모듈러 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/267/162/img/71162267_1.jpg?shrink=130:130&_v=20241203124437",
+    "output": 750,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "쿨러마스터 MWE 브론즈 750 V3 230V ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/202/814/img/54814202_1.jpg?shrink=130:130&_v=20250425091912",
+    "output": 750,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "쿨러마스터 MWE GOLD 550 V3 ATX3.1 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/342/318/img/77318342_1.jpg?shrink=130:130&_v=20250425091443",
+    "output": 550,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "AONE STORM 750W 80PLUS브론즈 벌크",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/169/146/img/17146169_1.jpg?shrink=130:130&_v=20240527152714",
+    "output": 750,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 Classic II 650W 80PLUS브론즈 230V EU HDB 핑크",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/664/901/img/10901664_1.jpg?shrink=130:130&_v=20240508103519",
+    "output": 650,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "맥스엘리트 MAXWELL COUNT 750W 80PLUS골드 풀모듈러 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/467/649/img/62649467_1.jpg?shrink=130:130&_v=20240807124620",
+    "output": 750,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "잘만 MegaMax 500W 80PLUS스탠다드",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/137/174/img/10174137_1.jpg?shrink=130:130&_v=20240508110911",
+    "output": 500,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "앱코 ULTIMATE GX850 80PLUS골드 풀모듈러 ATX3.0 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/055/575/img/23575055_1.jpg?shrink=130:130&_v=20240507152742",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "CORSAIR RM850x SHIFT 80PLUS골드 ATX3.0 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/914/390/img/42390914_1.jpg?shrink=130:130&_v=20240507152527",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 Performance II PV 500W 80PLUS브론즈 FDB",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/825/557/img/10557825_1.jpg?shrink=130:130&_v=20240508103519",
+    "output": 500,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "NZXT C1200 80PLUS골드 풀모듈러 ATX3.1 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/178/314/img/77314178_1.jpg?shrink=130:130&_v=20250307094137",
+    "output": 1200,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "CORSAIR RM750x SHIFT 80PLUS골드 ATX3.0 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/091/391/img/42391091_1.jpg?shrink=130:130&_v=20240507152527",
+    "output": 750,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "Antec SF850X 80PLUS골드 SFX 풀모듈러 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/214/635/img/62635214_1.jpg?shrink=130:130&_v=20240806083130",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 100,
+    "FormFactor": "M-ATX(SFX) 파워"
+  },
+  {
+    "name": "NEWZEN SKULL 850SM 모듈러 ATX3.0 80PLUS골드",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/456/713/img/24713456_1.jpg?shrink=130:130&_v=20240508134524",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "쿨러마스터 V SFX Gold 850 ATX3.1 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/243/536/img/75536243_1.jpg?shrink=130:130&_v=20250204085524",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 100,
+    "FormFactor": "M-ATX(SFX) 파워"
+  },
+  {
+    "name": "NEWZEN SKULL 750XM 풀모듈러 ATX3.1 80PLUS골드 블랙",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/779/052/img/74052779_1.jpg?shrink=130:130&_v=20250109124304",
+    "output": 750,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "CORSAIR RM1000x SHIFT 80PLUS골드 ATX3.0 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/800/390/img/42390800_1.jpg?shrink=130:130&_v=20240507152527",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 180,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "3RSYS AK 800S 80PLUS스탠다드 230V EU",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/997/838/img/12838997_1.jpg?shrink=130:130&_v=20240508110910",
+    "output": 800,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "Antec NeoECO 1000W 화이트 80PLUS골드 풀모듈러 ATX3.0",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/396/527/img/27527396_1.jpg?shrink=130:130&_v=20240508134038",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "SuperFlower SF-850F14HT LEADEX TITANIUM",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/278/343/img/9343278_1.jpg?shrink=130:130&_v=20240508100448",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 180,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "GIGABYTE UD850GM PG5 80PLUS골드 풀모듈러 화이트 피씨디렉트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/788/640/img/62640788_1.jpg?shrink=130:130&_v=20240806154933",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "쿨러마스터 MWE GOLD 1250-V2 ATX3.0",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/605/429/img/18429605_1.jpg?shrink=130:130&_v=20240508092336",
+    "output": 1250,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 180,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "3RSYS AK 600S 80PLUS스탠다드 230V EU",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/239/690/img/12690239_1.jpg?shrink=130:130&_v=20240508110910",
+    "output": 600,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "쿨러마스터 V750 SFX GOLD 화이트 에디션",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/823/260/img/17260823_1.jpg?shrink=130:130&_v=20240508092521",
+    "output": 750,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 100,
+    "FormFactor": "M-ATX(SFX) 파워"
+  },
+  {
+    "name": "맥스엘리트 STARS CYGNUS 1200W 80PLUS골드 풀모듈러 ATX3.1 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/513/500/img/90500513_1.jpg?shrink=130:130&_v=20250514102655",
+    "output": 1200,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 145,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "NZXT C1200 80PLUS골드 풀모듈러 ATX3.1 블랙",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/157/314/img/77314157_1.jpg?shrink=130:130&_v=20250307094143",
+    "output": 1200,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "NZXT C850 80PLUS골드 풀모듈러 ATX3.1 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/878/085/img/77085878_1.jpg?shrink=130:130&_v=20250307094201",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "시소닉 B12 BRONZE BM-750 모듈러",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/923/087/img/18087923_1.jpg?shrink=130:130&_v=20240508134524",
+    "output": 750,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "CORSAIR RM850e ATX3.0",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/942/727/img/19727942_1.jpg?shrink=130:130&_v=20240429093728",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "ASUS ROG STRIX 1000W Platinum",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/093/381/img/77381093_1.jpg?shrink=130:130&_v=20250306141226",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "NZXT C850 80PLUS골드 풀모듈러 ATX3.1 블랙",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/227/085/img/77085227_1.jpg?shrink=130:130&_v=20250307094207",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "3RSYS AK 700S 80PLUS스탠다드 230V EU",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/251/690/img/12690251_1.jpg?shrink=130:130&_v=20240508110910",
+    "output": 700,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "EVGA 750 GQ 80PLUS골드",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/034/973/img/5973034_1.jpg?shrink=130:130&_v=20240507154329",
+    "output": 750,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 6,
+    "pcie6PinCount": 6,
+    "length": 165,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "DEEPCOOL PN750M 80PLUS골드 풀모듈러 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/603/035/img/63035603_1.jpg?shrink=130:130&_v=20240826133923",
+    "output": 750,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "쿨러마스터 GX II GOLD 750 ATX3.0",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/184/246/img/28246184_1.jpg?shrink=130:130&_v=20240508092043",
+    "output": 750,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "COUGAR GEX PRO 850 80PLUS골드 풀모듈러 ATX3.1 블랙",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/170/270/img/90270170_1.jpg?shrink=130:130&_v=20250512150211",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "NZXT C1000 80PLUS골드 풀모듈러 ATX3.1 블랙",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/049/086/img/77086049_1.jpg?shrink=130:130&_v=20250307094155",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "맥스엘리트 STARS CYGNUS 1000W 80PLUS골드 풀모듈러 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/384/500/img/90500384_1.jpg?shrink=130:130&_v=20250514102442",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 145,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "시소닉 FOCUS GOLD GM-750 모듈러",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/097/782/img/9782097_1.jpg?shrink=130:130&_v=20240508134524",
+    "output": 750,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "NZXT C1000 80PLUS골드 풀모듈러 ATX3.1 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/067/086/img/77086067_1.jpg?shrink=130:130&_v=20250307094149",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "CORSAIR HX1500i ATX3.0",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/146/884/img/19884146_1.jpg?shrink=130:130&_v=20240429093455",
+    "output": 1500,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 9,
+    "pcie6PinCount": 9,
+    "length": 200,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "COUGAR GLE 1000 80PLUS골드 풀모듈러 ATX3.1 블랙",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/002/270/img/90270002_1.jpg?shrink=130:130&_v=20250512150228",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 150,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "쿨러마스터 MWE 브론즈 750 V3 230V ATX3.1 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/958/920/img/65920958_1.jpg?shrink=130:130&_v=20250425091930",
+    "output": 750,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "쿨러마스터 GX III GOLD 850 ATX3.0",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/617/245/img/28245617_1.jpg?shrink=130:130&_v=20240508092043",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "CORSAIR SF1000L ATX3.0",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/908/974/img/19974908_1.jpg?shrink=130:130&_v=20240429093357",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 130,
+    "FormFactor": "M-ATX(SFX) 파워"
+  },
+  {
+    "name": "CORSAIR SF750 80PLUS플래티넘",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/289/110/img/7110289_1.jpg?shrink=130:130&_v=20240509092802",
+    "output": 750,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 100,
+    "FormFactor": "M-ATX(SFX) 파워"
+  },
+  {
+    "name": "DEEPCOOL PF700 80PLUS스탠다드 230V EU",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/073/253/img/18253073_1.jpg?shrink=130:130&_v=20240508110355",
+    "output": 700,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "ASUS ROG THOR 1000P2",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/875/014/img/16014875_1.jpg?shrink=130:130&_v=20220818171303",
+    "output": 1000,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 190,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "잘만 ZM850-ARX 80PLUS플래티넘",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/709/909/img/4909709_1.jpg?shrink=130:130&_v=20240509092802",
+    "output": 850,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 6,
+    "pcie6PinCount": 6,
+    "length": 180,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "맥스엘리트 STARS CYGNUS 1000W 80PLUS골드 풀모듈러 ATX3.1 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/489/500/img/90500489_1.jpg?shrink=130:130&_v=20250514102614",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 145,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "3RSYS AK 500S 80PLUS스탠다드 230V EU",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/218/690/img/12690218_1.jpg?shrink=130:130&_v=20240508110910",
+    "output": 500,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "darkFlash UPMOST 850W 80PLUS골드 풀모듈러 블랙",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/000/814/img/19814000_1.jpg?shrink=130:130&_v=20240508133319",
+    "output": 850,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "NEWZEN SKULL 850SM 모듈러 ATX3.0 80PLUS골드 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/753/713/img/24713753_1.jpg?shrink=130:130&_v=20240508134524",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 WIZMAX 750W 80PLUS실버 ATX3.0",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/080/628/img/20628080_1.jpg?shrink=130:130&_v=20240508100900",
+    "output": 750,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "맥스엘리트 MAXWELL COUNT 750W 80PLUS골드 풀모듈러 (본체+메탈그레이)",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/183/102/img/17102183_1.jpg?shrink=130:130&_v=20250513082220",
+    "output": 750,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "COUGAR GLE 1200 80PLUS골드 풀모듈러 ATX3.1 블랙",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/068/270/img/90270068_1.jpg?shrink=130:130&_v=20250512150219",
+    "output": 1200,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 150,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "ASUS TUF Gaming 1200W GOLD",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/794/460/img/77460794_1.jpg?shrink=130:130&_v=20250307103137",
+    "output": 1200,
+    "pcie16PinCount": 2,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 150,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "쿨러마스터 V1300 SFX PLATINUM ATX3.0",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/255/792/img/23792255_1.jpg?shrink=130:130&_v=20240508094153",
+    "output": 1300,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 100,
+    "FormFactor": "M-ATX(SFX) 파워"
+  },
+  {
+    "name": "DEEPCOOL PL750D 80PLUS브론즈 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/452/247/img/68247452_1.jpg?shrink=130:130&_v=20241105082742",
+    "output": 750,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "AONE STORM 700W 80PLUS브론즈 벌크",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/295/583/img/12583295_1.jpg?shrink=130:130&_v=20240508103519",
+    "output": 700,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "쿨러마스터 GX III GOLD 1250 풀모듈러 ATX3.0",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/300/262/img/31262300_1.jpg?shrink=130:130&_v=20240508092043",
+    "output": 1250,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "쿨러마스터 V1100 SFX PLATINUM ATX3.0",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/619/785/img/23785619_1.jpg?shrink=130:130&_v=20240508094153",
+    "output": 1100,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 100,
+    "FormFactor": "M-ATX(SFX) 파워"
+  },
+  {
+    "name": "NEWZEN SKULL 750SM 모듈러 ATX3.1 80PLUS골드",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/297/465/img/59465297_1.jpg?shrink=130:130&_v=20240705132921",
+    "output": 750,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "MSI MEG Ai1300P 80PLUS플래티넘 풀모듈러 ATX3.0",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/243/146/img/18146243_1.jpg?shrink=130:130&_v=20240509092506",
+    "output": 1300,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 8,
+    "pcie6PinCount": 8,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "쿨러마스터 GX III GOLD 1050 풀모듈러 ATX3.0",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/567/262/img/31262567_1.jpg?shrink=130:130&_v=20240508092043",
+    "output": 1050,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "darkFlash UPMOST 750W 80PLUS골드 풀모듈러 블랙",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/763/813/img/19813763_1.jpg?shrink=130:130&_v=20240508133319",
+    "output": 750,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "잘만 TeraMax II 1000W 80PLUS골드 풀모듈러 ATX3.1 블랙",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/874/662/img/20662874_1.jpg?shrink=130:130&_v=20250314093840",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "AONE STORM 800W 80PLUS브론즈 벌크",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/521/207/img/15207521_1.jpg?shrink=130:130&_v=20240508103519",
+    "output": 800,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "CORSAIR RM1200x SHIFT 80PLUS골드 ATX3.0",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/699/043/img/19043699_1.jpg?shrink=130:130&_v=20240507153057",
+    "output": 1200,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 8,
+    "pcie6PinCount": 8,
+    "length": 180,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "CORSAIR RM850x SHIFT 80PLUS골드 ATX3.0",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/672/529/img/19529672_1.jpg?shrink=130:130&_v=20240507153057",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "쿨러마스터 GOLD V750 V2 화이트 풀모듈러",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/604/235/img/12235604_1.jpg?shrink=130:130&_v=20240508133637",
+    "output": 750,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "이엠텍 레드빗 CRPS-2000W-1U 80PLUS플래티넘",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/996/392/img/18392996_1.jpg?shrink=130:130&_v=20240509092505",
+    "output": 2000,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": -1,
+    "pcie6PinCount": -1,
+    "length": 265,
+    "FormFactor": "서버용 파워"
+  },
+  {
+    "name": "쿨러마스터 GOLD V750 V2 블랙 풀모듈러",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/556/235/img/12235556_1.jpg?shrink=130:130&_v=20240508133637",
+    "output": 750,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "AONE STORM 600W 80PLUS브론즈",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/433/431/img/9431433_1.jpg?shrink=130:130&_v=20240508103520",
+    "output": 600,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "잘만 ZM1000-ARX 80PLUS플래티넘",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/726/909/img/4909726_1.jpg?shrink=130:130&_v=20240509092802",
+    "output": 1000,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 6,
+    "pcie6PinCount": 6,
+    "length": 180,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "Antec SIGNATURE 1300W PLATINUM",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/798/920/img/10920798_1.jpg?shrink=130:130&_v=20240508094919",
+    "output": 1300,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 12,
+    "pcie6PinCount": 12,
+    "length": 170,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "AONE STORM 700W 80PLUS브론즈",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/529/431/img/9431529_1.jpg?shrink=130:130&_v=20240508103520",
+    "output": 700,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "CORSAIR HX1000i ATX3.0",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/954/883/img/19883954_1.jpg?shrink=130:130&_v=20240429093455",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 6,
+    "pcie6PinCount": 6,
+    "length": 180,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "AONE STORM 800K 80PLUS브론즈 벌크",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/485/723/img/12723485_1.jpg?shrink=130:130&_v=20240508102522",
+    "output": 800,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 ASTRO PLATINUM 1050W 풀모듈러",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/871/461/img/6461871_1.jpg?shrink=130:130&_v=20240508094625",
+    "output": 1050,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 8,
+    "pcie6PinCount": 8,
+    "length": 180,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "Antec SIGNATURE 1000W TITANIUM",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/675/920/img/10920675_1.jpg?shrink=130:130&_v=20240508100448",
+    "output": 1000,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 8,
+    "pcie6PinCount": 8,
+    "length": 170,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "ASUS PRIME 850W GOLD 대원씨티에스",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/976/661/img/27661976_1.jpg?shrink=130:130&_v=20240508092043",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 150,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "DEEPCOOL PQ1000M 80Plus골드 풀모듈러",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/730/273/img/16273730_1.jpg?shrink=130:130&_v=20240508133636",
+    "output": 1000,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "ASUS ROG LOKI SFX-L 850W PLATINUM",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/449/953/img/19953449_1.jpg?shrink=130:130&_v=20240508094153",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 125,
+    "FormFactor": "M-ATX(SFX) 파워"
+  },
+  {
+    "name": "GIGABYTE P650G 80PLUS골드 피씨디렉트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/297/059/img/33059297_1.jpg?shrink=130:130&_v=20240507152527",
+    "output": 650,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "GIGABYTE UD1000GM PG5 80PLUS골드 풀모듈러 ATX3.0 피씨디렉트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/278/939/img/18939278_1.jpg?shrink=130:130&_v=20240507153057",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 Performance II PV RGB Sync 600W 80PLUS브론즈",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/151/537/img/6537151_1.jpg?shrink=130:130&_v=20240508103834",
+    "output": 600,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "잘만 TeraMax II 850W 80PLUS골드 풀모듈러 ATX3.1 블랙",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/490/662/img/20662490_1.jpg?shrink=130:130&_v=20250314093930",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "쿨러마스터 PLATINUM V1300 풀모듈러",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/989/259/img/7259989_1.jpg?shrink=130:130&_v=20240508133937",
+    "output": 1300,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 12,
+    "pcie6PinCount": 12,
+    "length": 190,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 Classic II 800W 80PLUS 230V EU",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/077/431/img/8431077_1.jpg?shrink=130:130&_v=20220118165745",
+    "output": 800,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "GIGABYTE UD850GM PG5 80PLUS골드 풀모듈러 ATX3.0 피씨디렉트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/929/539/img/19539929_1.jpg?shrink=130:130&_v=20240507153057",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "ASUS ROG STRIX 750W GOLD Aura Edition",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/668/049/img/20049668_1.jpg?shrink=130:130&_v=20240508092335",
+    "output": 750,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 180,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 Classic II 700W 80PLUS 230V EU",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/330/966/img/1966330_1.jpg?shrink=130:130&_v=20220118165916",
+    "output": 700,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "SuperFlower SF-850F14HG LEADEX III GOLD 화이트 PCIE5",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/813/315/img/20315813_1.jpg?shrink=130:130&_v=20240508092335",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 6,
+    "pcie6PinCount": 6,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "ASUS ROG STRIX 850W GOLD Aura Edition",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/734/049/img/20049734_1.jpg?shrink=130:130&_v=20240508092335",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 180,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "리안리 EDGE 1300 80PLUS플래티넘 블랙",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/103/176/img/62176103_1.jpg?shrink=130:130&_v=20240807110705",
+    "output": 1300,
+    "pcie16PinCount": 2,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 182,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "GIGABYTE P650SS 80PLUS실버 FDB ATX3.0 피씨디렉트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/140/209/img/88209140_1.jpg?shrink=130:130&_v=20250425094343",
+    "output": 650,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "MSI MAG A650GL 80PLUS골드 풀모듈러",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/667/208/img/21208667_1.jpg?shrink=130:130&_v=20240508090407",
+    "output": 650,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "CORSAIR HX1500i 2022 80PLUS플래티넘",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/022/455/img/17455022_1.jpg?shrink=130:130&_v=20240509092506",
+    "output": 1500,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 9,
+    "pcie6PinCount": 9,
+    "length": 200,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "AcBEL R1CA2801A 800W 80PLUS플래티넘",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/229/459/img/31459229_1.jpg?shrink=130:130&_v=20240509092505",
+    "output": 800,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": -1,
+    "pcie6PinCount": -1,
+    "length": 185,
+    "FormFactor": "서버용 파워"
+  },
+  {
+    "name": "제이씨현 TUNDRA 리부트 600W FHB 80+ BRONZE",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/341/483/img/21483341_1.jpg?shrink=130:130&_v=20230727125857",
+    "output": 600,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "제이씨현 TUNDRA 리부트 500W FHB 80+ BRONZE",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/242/483/img/21483242_1.jpg?shrink=130:130&_v=20230717092517",
+    "output": 500,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "쿨러마스터 MWE Gold 1050 V2 풀모듈러 ATX3.0 SF6 Blanka",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/853/920/img/65920853_1.jpg?shrink=130:130&_v=20240912151157",
+    "output": 1050,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 180,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "EVGA SUPERNOVA 2000G+ 80PLUS골드",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/272/757/img/14757272_1.jpg?shrink=130:130&_v=20240507153532",
+    "output": 2000,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 16,
+    "pcie6PinCount": 16,
+    "length": 200,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "잘만 TeraMax II 750W 80PLUS골드 풀모듈러 ATX3.1 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/292/662/img/20662292_1.jpg?shrink=130:130&_v=20250314093908",
+    "output": 750,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "DEEPCOOL PX1200G 80PLUS골드 풀모듈러 ATX3.0",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/127/569/img/20569127_1.jpg?shrink=130:130&_v=20240508133319",
+    "output": 1200,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "AONE STORM 700K 80PLUS브론즈 벌크",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/586/431/img/9431586_1.jpg?shrink=130:130&_v=20240508103520",
+    "output": 700,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "topower Guardian TOP-900DG 80PLUS스탠다드 PCIE5.1 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/501/679/img/70679501_1.jpg?shrink=130:130&_v=20241118151201",
+    "output": 900,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 Performance II HV 850W Bronze",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/154/071/img/3071154_1.jpg?shrink=130:130&_v=20201223162906",
+    "output": 850,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 6,
+    "pcie6PinCount": 6,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "잘만 TeraMax 750W 80PLUS골드 풀모듈러",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/488/935/img/16935488_1.jpg?shrink=130:130&_v=20240508133320",
+    "output": 750,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "리안리 EDGE GOLD 850 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/153/550/img/76550153_1.jpg?shrink=130:130&_v=20250221094831",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 182,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "CORSAIR RM1000x 2021 80PLUS골드",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/009/915/img/14915009_1.jpg?shrink=130:130&_v=20240507153532",
+    "output": 1000,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 6,
+    "pcie6PinCount": 6,
+    "length": 180,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "GIGABYTE UD1000GM 80PLUS골드 풀모듈러 피씨디렉트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/410/761/img/16761410_1.jpg?shrink=130:130&_v=20240507153406",
+    "output": 1000,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 6,
+    "pcie6PinCount": 6,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "ASUS TUF Gaming 1000W GOLD",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/689/936/img/18936689_1.jpg?shrink=130:130&_v=20240508092336",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 150,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "SuperFlower SF-1000F14HT LEADEX TITANIUM",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/317/343/img/9343317_1.jpg?shrink=130:130&_v=20240508100448",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 8,
+    "pcie6PinCount": 8,
+    "length": 180,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "GIGABYTE UD850GM 80PLUS골드 풀모듈러 피씨디렉트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/773/761/img/16761773_1.jpg?shrink=130:130&_v=20240507153406",
+    "output": 850,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "쿨러마스터 MWE GOLD 1250 V2 풀모듈러",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/236/397/img/14397236_1.jpg?shrink=130:130&_v=20240508133636",
+    "output": 1250,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 8,
+    "pcie6PinCount": 8,
+    "length": 180,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "쿨러마스터 PLATINUM V850 풀모듈러",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/731/259/img/7259731_1.jpg?shrink=130:130&_v=20240508133937",
+    "output": 850,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 6,
+    "pcie6PinCount": 6,
+    "length": 190,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "잘만 TeraMax II 1200W 80PLUS골드 풀모듈러 ATX3.1 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/225/663/img/20663225_1.jpg?shrink=130:130&_v=20250314093850",
+    "output": 1200,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "쿨러마스터 PLATINUM V1000 풀모듈러",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/851/259/img/7259851_1.jpg?shrink=130:130&_v=20240508133937",
+    "output": 1000,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 8,
+    "pcie6PinCount": 8,
+    "length": 190,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "쿨러마스터 GOLD V650 풀모듈러",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/221/259/img/7259221_1.jpg?shrink=130:130&_v=20240508133937",
+    "output": 650,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "GIGABYTE UD1300GM PG5 80PLUS골드 풀모듈러 ATX3.0 피씨디렉트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/382/688/img/21688382_1.jpg?shrink=130:130&_v=20240507152742",
+    "output": 1300,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 8,
+    "pcie6PinCount": 8,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "GIGABYTE P650G 80PLUS골드 제이씨현",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/109/372/img/34372109_1.jpg?shrink=130:130&_v=20240507152527",
+    "output": 650,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "제이씨현 TUNDRA 리부트 700W FHB 80+ BRONZE",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/150/619/img/43619150_1.jpg?shrink=130:130&_v=20240327082815",
+    "output": 700,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "ASUS TUF Gaming 750W 80PLUS브론즈",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/708/466/img/13466708_1.jpg?shrink=130:130&_v=20240508102522",
+    "output": 750,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 150,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "be quiet DARK POWER PRO 13 1600W 80PLUS티타늄",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/080/803/img/28803080_1.jpg?shrink=130:130&_v=20240507142452",
+    "output": 1600,
+    "pcie16PinCount": 2,
+    "pcie8PinCount": 6,
+    "pcie6PinCount": 6,
+    "length": 200,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "앱코 SUITMASTER ULTIMATE 1200W 80PLUS플래티넘",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/829/932/img/7932829_1.jpg?shrink=130:130&_v=20240509092507",
+    "output": 1200,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 7,
+    "pcie6PinCount": 7,
+    "length": -1,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "맥스엘리트 MAXWELL KNIGHT 800W 80PLUS브론즈",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/374/392/img/31392374_1.jpg?shrink=130:130&_v=20240508102013",
+    "output": 800,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "ASUS PRIME 850W GOLD 대원씨티에스 벌크",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/711/577/img/28577711_1.jpg?shrink=130:130&_v=20240508092043",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 150,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "be quiet STRAIGHT POWER 12 1500W 80PLUS플래티넘",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/701/803/img/28803701_1.jpg?shrink=130:130&_v=20240509092505",
+    "output": 1500,
+    "pcie16PinCount": 2,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 180,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "darkFlash UPMOST 1050W 80PLUS골드 풀모듈러 ATX3.0 블랙",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/862/547/img/21547862_1.jpg?shrink=130:130&_v=20240508133319",
+    "output": 1050,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "NEWZEN SKULL 750SM 모듈러 ATX3.0 80PLUS골드",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/023/714/img/24714023_1.jpg?shrink=130:130&_v=20240508134524",
+    "output": 750,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "ASUS PRIME 750W Bronze",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/859/380/img/77380859_1.jpg?shrink=130:130&_v=20250306135602",
+    "output": 750,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 150,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "시소닉 PRIME TITANIUM TX-1300 풀모듈러 ATX3.0",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/484/193/img/21193484_1.jpg?shrink=130:130&_v=20240528142103",
+    "output": 1300,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 6,
+    "pcie6PinCount": 6,
+    "length": 210,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 Performance II PV 500W 80PLUS브론즈 Surge 4K",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/394/045/img/5045394_1.jpg?shrink=130:130&_v=20240508104152",
+    "output": 500,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": -1,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "제이씨현 TUNDRA PRO 700W FHB 80PLUS브론즈",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/463/230/img/14230463_1.jpg?shrink=130:130&_v=20240508102522",
+    "output": 700,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "darkFlash SAVEMOST 700W 80PLUS스탠다드",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/621/941/img/27941621_1.jpg?shrink=130:130&_v=20240508110354",
+    "output": 700,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "앱코 XTREAM XT-750B 80PLUS스탠다드",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/109/060/img/16060109_1.jpg?shrink=130:130&_v=20240508110355",
+    "output": 750,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 165,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "시소닉 PRIME GOLD GX-1000 풀모듈러",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/428/817/img/9817428_1.jpg?shrink=130:130&_v=20240508133638",
+    "output": 1000,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 6,
+    "pcie6PinCount": 6,
+    "length": 170,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "darkFlash UPMOST 750W 80PLUS골드 풀모듈러 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/847/813/img/19813847_1.jpg?shrink=130:130&_v=20240508133319",
+    "output": 750,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 Performance II HV 1000W Bronze",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/195/071/img/3071195_1.jpg?shrink=130:130&_v=20201223162728",
+    "output": 1000,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 6,
+    "pcie6PinCount": 6,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "AONE STORM 600W 80PLUS브론즈 벌크",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/288/412/img/11412288_1.jpg?shrink=130:130&_v=20240508103519",
+    "output": 600,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "NEWZEN SKULL 750SM 모듈러 ATX3.0 80PLUS골드 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/137/714/img/24714137_1.jpg?shrink=130:130&_v=20240508134524",
+    "output": 750,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 Performance II PV 700W 80PLUS브론즈 Surge 4K",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/444/045/img/5045444_1.jpg?shrink=130:130&_v=20240508104152",
+    "output": 700,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "앱코 ULTIMATE GX850 80PLUS골드 풀모듈러 ATX3.0 블랙",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/519/573/img/23573519_1.jpg?shrink=130:130&_v=20240507152742",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "잘만 TeraMax II 750W 80PLUS골드 풀모듈러 ATX3.1 블랙",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/217/662/img/20662217_1.jpg?shrink=130:130&_v=20250314093938",
+    "output": 750,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "darkFlash UPMOST 850W 80PLUS골드 풀모듈러 ATX3.0 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/380/709/img/20709380_1.jpg?shrink=130:130&_v=20240508133319",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 ASTRO GD 650W 80PLUS골드 풀모듈러 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/694/539/img/8539694_1.jpg?shrink=130:130&_v=20240507154211",
+    "output": 650,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "darkFlash UPMOST 850W 80PLUS골드 풀모듈러 ATX3.0 블랙",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/257/709/img/20709257_1.jpg?shrink=130:130&_v=20240508133319",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "앱코 SETTLER-II ST-600S 80PLUS스탠다드",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/952/871/img/18871952_1.jpg?shrink=130:130&_v=20240508110354",
+    "output": 600,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "쿨러마스터 V850 SFX 골드 ATX3.0",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/534/079/img/22079534_1.jpg?shrink=130:130&_v=20240508091707",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 100,
+    "FormFactor": "M-ATX(SFX) 파워"
+  },
+  {
+    "name": "맥스엘리트 MAXWELL KNIGHT 700W 80PLUS브론즈",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/236/392/img/31392236_1.jpg?shrink=130:130&_v=20240508102013",
+    "output": 700,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "AONE STORM 700K 80PLUS브론즈",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/893/245/img/11245893_1.jpg?shrink=130:130&_v=20240508102523",
+    "output": 700,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 Performance II PV 600W 80PLUS브론즈 Surge 4K",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/425/045/img/5045425_1.jpg?shrink=130:130&_v=20240508104152",
+    "output": 600,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": -1,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "앱코 SUITMASTER Mighty 600W 80PLUS스탠다드 230V EU",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/477/255/img/6255477_1.jpg?shrink=130:130&_v=20240508125814",
+    "output": 600,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 WIZMAX 1200W 80PLUS플래티넘 풀모듈러 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/218/223/img/35223218_1.jpg?shrink=130:130&_v=20241206140846",
+    "output": 1200,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "CORSAIR SF850L ATX3.0",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/494/974/img/19974494_1.jpg?shrink=130:130&_v=20240429093357",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 130,
+    "FormFactor": "M-ATX(SFX) 파워"
+  },
+  {
+    "name": "SuperFlower SF-750F14HT LEADEX TITANIUM",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/239/343/img/9343239_1.jpg?shrink=130:130&_v=20241106154116",
+    "output": 750,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 180,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "앱코 SUITMASTER ULTIMATE 1200W RGB 80PLUS플래티넘",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/282/038/img/8038282_1.jpg?shrink=130:130&_v=20240509092506",
+    "output": 1200,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 7,
+    "pcie6PinCount": 7,
+    "length": 190,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "SuperFlower SF-850F14HG LEADEX III GOLD 블랙 PCIE5",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/651/315/img/20315651_1.jpg?shrink=130:130&_v=20240508092335",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 6,
+    "pcie6PinCount": 6,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "시소닉 PRIME GOLD GX-850 풀모듈러",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/549/497/img/10497549_1.jpg?shrink=130:130&_v=20240508133637",
+    "output": 850,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 6,
+    "pcie6PinCount": 6,
+    "length": 170,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "앱코 SUITMASTER Mighty 500W 80PLUS스탠다드 230V EU",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/255/298/img/6298255_1.jpg?shrink=130:130&_v=20240508125814",
+    "output": 500,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "DEEPCOOL PX1000G 80PLUS골드 풀모듈러 ATX3.0",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/130/569/img/20569130_1.jpg?shrink=130:130&_v=20240508133319",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "GIGABYTE UD1000GM 80PLUS골드 풀모듈러 제이씨현",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/616/369/img/16369616_1.jpg?shrink=130:130&_v=20240507153406",
+    "output": 1000,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 6,
+    "pcie6PinCount": 6,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "GIGABYTE UD850GM 80PLUS골드 풀모듈러 제이씨현",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/028/369/img/16369028_1.jpg?shrink=130:130&_v=20240507153406",
+    "output": 850,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "SuperFlower SF-1000F14PE LEADEX VI PRO PLATINUM 화이트 PCIE5",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/292/921/img/19921292_1.jpg?shrink=130:130&_v=20240508094153",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 8,
+    "pcie6PinCount": 8,
+    "length": 150,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "쿨러마스터 V850 SFX 골드 ATX3.0 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/648/079/img/22079648_1.jpg?shrink=130:130&_v=20240508091707",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 100,
+    "FormFactor": "M-ATX(SFX) 파워"
+  },
+  {
+    "name": "맥스엘리트 MAXWELL BARON 800W 80PLUS브론즈 플랫",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/560/200/img/16200560_1.jpg?shrink=130:130&_v=20240508102014",
+    "output": 800,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "SuperFlower SF-850F14PE LEADEX VI PRO PLATINUM PCIE5",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/146/227/img/19227146_1.jpg?shrink=130:130&_v=20240508094153",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 6,
+    "pcie6PinCount": 6,
+    "length": 150,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "CORSAIR HX750 80PLUS플래티넘",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/666/185/img/5185666_1.jpg?shrink=130:130&_v=20240509092802",
+    "output": 750,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 180,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "SuperFlower SF-850F14MT LEADEX SILVER",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/358/479/img/4479358_1.jpg?shrink=130:130&_v=20210108175039",
+    "output": 850,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 165,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 COOLMAX FOCUS PRO 600W 80PLUS 230V EU",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/271/585/img/13585271_1.jpg?shrink=130:130&_v=20220119124858",
+    "output": 600,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": -1,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "AONE BIT 1800W 80PLUS브론즈 마이닝 벌크",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/368/565/img/14565368_1.jpg?shrink=130:130&_v=20240508102522",
+    "output": 1800,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 16,
+    "pcie6PinCount": 16,
+    "length": 230,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "맥스엘리트 MAXWELL GAMING PRO 500W 80PLUS스탠다드 플랫",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/528/804/img/8804528_1.jpg?shrink=130:130&_v=20240508125454",
+    "output": 500,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "시소닉 VERTEX GX-1200 GOLD 풀모듈러 화이트 ATX3.0",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/666/035/img/63035666_1.jpg?shrink=130:130&_v=20240813100724",
+    "output": 1200,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "CORSAIR RM650 2021 80PLUS골드",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/537/729/img/14729537_1.jpg?shrink=130:130&_v=20240507153532",
+    "output": 650,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "ASUS ROG STRIX 850G 화이트 EDITION 80PLUS골드",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/310/674/img/11674310_1.jpg?shrink=130:130&_v=20240507153840",
+    "output": 850,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 6,
+    "pcie6PinCount": 6,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "GIGABYTE P650B 80PLUS브론즈 제이씨현",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/836/667/img/5667836_1.jpg?shrink=130:130&_v=20240508104151",
+    "output": 650,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "맥스엘리트 MAXWELL COUNT 750W 80PLUS골드 풀모듈러 (본체+플랫슬림팩)",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/994/101/img/17101994_1.jpg?shrink=130:130&_v=20240507153230",
+    "output": 750,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "ASUS ROG STRIX 850G 80PLUS골드",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/280/674/img/11674280_1.jpg?shrink=130:130&_v=20240507153840",
+    "output": 850,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 6,
+    "pcie6PinCount": 6,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "시소닉 FOCUS GOLD GX-750 화이트 풀모듈러",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/675/564/img/9564675_1.jpg?shrink=130:130&_v=20240508133936",
+    "output": 750,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "맥스엘리트 MAXWELL BARON 700W 80PLUS브론즈 플랫",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/479/200/img/16200479_1.jpg?shrink=130:130&_v=20240508102522",
+    "output": 700,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "SuperFlower SF-850F14TP LEADEX V PRO PLATINUM 블랙",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/862/298/img/15298862_1.jpg?shrink=130:130&_v=20240508094258",
+    "output": 850,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 8,
+    "pcie6PinCount": 8,
+    "length": 130,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "EVGA SUPERNOVA 750 GA 80PLUS골드",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/053/121/img/14121053_1.jpg?shrink=130:130&_v=20240507153701",
+    "output": 750,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 6,
+    "pcie6PinCount": 6,
+    "length": 150,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "맥스엘리트 MAXWELL DUKE 1000W 80PLUS플래티넘 풀모듈러 ATX3.1 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/215/113/img/58113215_1.jpg?shrink=130:130&_v=20250513105036",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 WIZMAX 850W 80PLUS실버",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/287/741/img/18741287_1.jpg?shrink=130:130&_v=20240508100900",
+    "output": 850,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": -1,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "잘만 ZM750-ARX 80PLUS플래티넘",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/686/909/img/4909686_1.jpg?shrink=130:130&_v=20240509092802",
+    "output": 750,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 180,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "잘만 TeraMax II 850W 80PLUS골드 풀모듈러 ATX3.1 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/529/662/img/20662529_1.jpg?shrink=130:130&_v=20250314093917",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "잘만 ZM1200-ARX 80PLUS플래티넘",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/836/488/img/5488836_1.jpg?shrink=130:130&_v=20240509092802",
+    "output": 1200,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 180,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 ASTRO GD 750W 80PLUS골드 풀모듈러 FDB",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/719/831/img/10831719_1.jpg?shrink=130:130&_v=20240507153840",
+    "output": 750,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "ASUS ROG STRIX 850G 화이트 에디션 80PLUS골드 인텍앤컴퍼니",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/194/386/img/16386194_1.jpg?shrink=130:130&_v=20240507153840",
+    "output": 850,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 6,
+    "pcie6PinCount": 6,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "Antec NeoECO 850W 80PLUS플래티넘 풀모듈러",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/135/048/img/14048135_1.jpg?shrink=130:130&_v=20240509092506",
+    "output": 850,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 6,
+    "pcie6PinCount": 6,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 WIZMAX 1050W 80PLUS플래티넘 풀모듈러 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/517/244/img/60244517_1.jpg?shrink=130:130&_v=20240717143353",
+    "output": 1050,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "맥스엘리트 MAXWELL COUNT 750W 80PLUS골드 풀모듈러 (본체+딥블랙)",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/117/102/img/17102117_1.jpg?shrink=130:130&_v=20240507153230",
+    "output": 750,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 Classic II 700W 80PLUS 230V EU 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/005/227/img/11227005_1.jpg?shrink=130:130&_v=20220118165636",
+    "output": 700,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 150,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 New Performance 600W 80PLUS브론즈 Change-up",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/209/110/img/2110209_1.jpg?shrink=130:130&_v=20240508104619",
+    "output": 600,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "맥스엘리트 MAXWELL DUKE 1000W 80PLUS플래티넘 풀모듈러 ATX3.0 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/531/602/img/27602531_1.jpg?shrink=130:130&_v=20250513105145",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "시소닉 G12 GOLD GC-850",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/947/087/img/18087947_1.jpg?shrink=130:130&_v=20240508092446",
+    "output": 850,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "Antec NeoECO 850W 화이트 80PLUS골드 풀모듈러",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/287/429/img/15429287_1.jpg?shrink=130:130&_v=20240507153532",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 6,
+    "pcie6PinCount": 6,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "CORSAIR iCUE CX650F RGB 블랙",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/203/717/img/12717203_1.jpg?shrink=130:130&_v=20240507134855",
+    "output": 650,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 150,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "시소닉 G12 GOLD GC-750",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/941/087/img/18087941_1.jpg?shrink=130:130&_v=20240508092446",
+    "output": 750,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 WIZMAX 750W 80PLUS실버",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/254/741/img/18741254_1.jpg?shrink=130:130&_v=20240508100900",
+    "output": 750,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": -1,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 ASTRO GD 650W 80PLUS골드 풀모듈러 FDB 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/562/000/img/16000562_1.jpg?shrink=130:130&_v=20240507153532",
+    "output": 650,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "SuperFlower SF-750P14XE Legion GX PRO GOLD",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/467/724/img/14724467_1.jpg?shrink=130:130&_v=20230316075403",
+    "output": 750,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": -1,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "CORSAIR RM850 2021 80PLUS골드 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/298/677/img/14677298_1.jpg?shrink=130:130&_v=20240507153532",
+    "output": 850,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "쿨러마스터 V750 SFX GOLD",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/677/573/img/12573677_1.jpg?shrink=130:130&_v=20201126150221",
+    "output": 750,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 100,
+    "FormFactor": "M-ATX(SFX) 파워"
+  },
+  {
+    "name": "마이크로닉스 ASTRO GD 650W 80PLUS골드 풀모듈러 FDB 블랙",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/574/569/img/11569574_1.jpg?shrink=130:130&_v=20240507153840",
+    "output": 650,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "GIGABYTE UD850GM PG5 80PLUS골드 풀모듈러 ATX3.0 제이씨현",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/611/749/img/19749611_1.jpg?shrink=130:130&_v=20240507153057",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "3RSYS TEAMMOST TM 1000W 80PLUS브론즈 230V EU",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/116/145/img/17145116_1.jpg?shrink=130:130&_v=20240508102014",
+    "output": 1000,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "MSI MPG A750GF 화이트 80PLUS골드",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/492/526/img/16526492_1.jpg?shrink=130:130&_v=20240507153406",
+    "output": 750,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 6,
+    "pcie6PinCount": 6,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "SuperFlower SF-850F14TP LEADEX V PRO PLATINUM 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/550/054/img/16054550_1.jpg?shrink=130:130&_v=20240508094416",
+    "output": 850,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 8,
+    "pcie6PinCount": 8,
+    "length": 130,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "쿨러마스터 GOLD V850 V2 화이트 풀모듈러",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/745/235/img/12235745_1.jpg?shrink=130:130&_v=20240508133637",
+    "output": 850,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 6,
+    "pcie6PinCount": 6,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "GIGABYTE UD1000GM PG5 80PLUS골드 풀모듈러 ATX3.0 제이씨현",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/797/749/img/19749797_1.jpg?shrink=130:130&_v=20240507153057",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 ASTRO GD 750W 80PLUS골드 풀모듈러 FDB 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/925/844/img/11844925_1.jpg?shrink=130:130&_v=20240507153840",
+    "output": 750,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 150,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "엔클롬 CAPO 1000W 80PLUS골드 풀모듈러 ATX3.1 블랙",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/930/979/img/67979930_1.jpg?shrink=130:130&_v=20241023132425",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "에너지옵티머스 EXCEL II 700W 80PLUS스탠다드 230V EU",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/176/266/img/19266176_1.jpg?shrink=130:130&_v=20240508110354",
+    "output": 700,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "에너지옵티머스 EXCEL CLASSIC 800W 80PLUS브론즈 230V EU",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/490/307/img/18307490_1.jpg?shrink=130:130&_v=20240508102014",
+    "output": 800,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "몬스타 가츠 MASTERX X850W 80PLUS골드 블랙",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/557/764/img/70764557_1.jpg?shrink=130:130&_v=20241107083858",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 6,
+    "pcie6PinCount": 6,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "몬스타 가츠 MASTERX X1000W 80PLUS골드 블랙",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/351/619/img/70619351_1.jpg?shrink=130:130&_v=20241105160203",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "에너맥스 REVOLUTION D.F. X ERT850EWT 80PLUS골드 풀모듈러 ATX3.0",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/001/709/img/36709001_1.jpg?shrink=130:130&_v=20240508133318",
+    "output": 850,
+    "pcie16PinCount": 2,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "에너지옵티머스 EXCEL II 700W 80PLUS스탠다드 230V EU 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/975/457/img/55457975_1.jpg?shrink=130:130&_v=20240613162855",
+    "output": 700,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "에너지옵티머스 EXCEL II 600W 80PLUS스탠다드 230V EU 벌크",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/522/851/img/18851522_1.jpg?shrink=130:130&_v=20240508110355",
+    "output": 600,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "몬스타 가츠 ExtremeX FX600 80PLUS스탠다드",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/296/255/img/30255296_1.jpg?shrink=130:130&_v=20240508110354",
+    "output": 600,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "darkFlash SAVEMOST 700W 80PLUS스탠다드 벌크",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/801/170/img/60170801_1.jpg?shrink=130:130&_v=20240716160640",
+    "output": 700,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "topower Guardian TOP-900DG 80PLUS스탠다드 PCIE5.1 블랙",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/495/679/img/70679495_1.jpg?shrink=130:130&_v=20241118151105",
+    "output": 900,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "topower Guardian TOP-700DG 80PLUS브론즈 PCIE5.1 블랙",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/745/678/img/70678745_1.jpg?shrink=130:130&_v=20241202141202",
+    "output": 700,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "엔클롬 CAPO 750W 80PLUS골드 풀모듈러 ATX3.1 블랙",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/672/979/img/67979672_1.jpg?shrink=130:130&_v=20241023132847",
+    "output": 750,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "에너지옵티머스 EXCEL II 700W 80PLUS스탠다드 230V EU 화이트 벌크",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/038/026/img/58026038_1.jpg?shrink=130:130&_v=20240625132933",
+    "output": 700,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "썬루트 TX850 80PLUS골드 풀모듈러",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/399/778/img/16778399_1.jpg?shrink=130:130&_v=20240507153406",
+    "output": 850,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 6,
+    "pcie6PinCount": 6,
+    "length": 185,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "NEWZEN SKULL 850SM 모듈러 ATX3.1 80PLUS골드 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/704/816/img/72816704_1.jpg?shrink=130:130&_v=20241213103554",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "몬스타 가츠 MASTERX X850W 80PLUS골드 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/560/764/img/70764560_1.jpg?shrink=130:130&_v=20241107084032",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 6,
+    "pcie6PinCount": 6,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "에너지옵티머스 EXCEL CLASSIC 500W 80PLUS브론즈 230V EU",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/193/307/img/18307193_1.jpg?shrink=130:130&_v=20240508102014",
+    "output": 500,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "topower Guardian TOP-700DG 80PLUS브론즈 PCIE5.1 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/778/678/img/70678778_1.jpg?shrink=130:130&_v=20241202141147",
+    "output": 700,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "에너지옵티머스 EXCEL II 700W 80PLUS스탠다드 230V EU 벌크",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/209/266/img/19266209_1.jpg?shrink=130:130&_v=20240508110354",
+    "output": 700,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "썬루트 PN700W 80PLUS브론즈 ATX3.0 벌크",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/199/271/img/63271199_1.jpg?shrink=130:130&_v=20241203153613",
+    "output": 700,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "에너맥스 REVOLUTION ATX3.0 ERA1000EWT 80PLUS골드 풀모듈러",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/465/608/img/27608465_1.jpg?shrink=130:130&_v=20240508133319",
+    "output": 1000,
+    "pcie16PinCount": 2,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 150,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "시소닉 S1M-162CGP2 1600W 80PLUS플래티넘",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/682/347/img/9347682_1.jpg?shrink=130:130&_v=20240509092506",
+    "output": 1600,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": -1,
+    "pcie6PinCount": -1,
+    "length": 185,
+    "FormFactor": "서버용 파워"
+  },
+  {
+    "name": "썬루트 PN800W 80PLUS브론즈 ATX3.0 벌크",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/910/253/img/39253910_1.jpg?shrink=130:130&_v=20240508102013",
+    "output": 800,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "ASUS ROG LOKI SFX-L 750W PLATINUM",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/230/953/img/19953230_1.jpg?shrink=130:130&_v=20240508094153",
+    "output": 750,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 125,
+    "FormFactor": "M-ATX(SFX) 파워"
+  },
+  {
+    "name": "topower Guardian TOP-600DG Single Rail 80PLUS브론즈",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/613/550/img/10550613_1.jpg?shrink=130:130&_v=20240508103519",
+    "output": 600,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "썬루트 EX1800 80PLUS브론즈 벌크",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/824/315/img/15315824_1.jpg?shrink=130:130&_v=20240508102522",
+    "output": 1800,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 16,
+    "pcie6PinCount": 16,
+    "length": 185,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "델타 GPS-1000DB 80PLUS플래티넘 풀모듈러",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/477/657/img/11657477_1.jpg?shrink=130:130&_v=20240509092506",
+    "output": 1000,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 190,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "스카이디지탈 파워스테이션5 PS5-850SV 80PLUS실버",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/302/217/img/14217302_1.jpg?shrink=130:130&_v=20240508100900",
+    "output": 850,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 6,
+    "pcie6PinCount": 6,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "FSP FSP300-60GHT",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/043/280/img/3280043_1.jpg?shrink=130:130&_v=20151127090649",
+    "output": 300,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": -1,
+    "pcie6PinCount": -1,
+    "length": -1,
+    "FormFactor": "TFX 파워"
+  },
+  {
+    "name": "FSP FSP750-50ABA",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/977/965/img/16965977_1.jpg?shrink=130:130&_v=20220517151125",
+    "output": 750,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "델타 GPS-850HB 80PLUS플래티넘",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/204/282/img/5282204_1.jpg?shrink=130:130&_v=20240509092802",
+    "output": 850,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 6,
+    "pcie6PinCount": 6,
+    "length": 155,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "쿨러마스터 X Mighty Platinum 2000W 230V ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/217/471/img/82471217_1.jpg?shrink=130:130&_v=20250417161248",
+    "output": 2000,
+    "pcie16PinCount": 2,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 180,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "몬스타 가츠 MASTERX X750W 80PLUS브론즈 ATX3.1 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/925/417/img/61417925_1.jpg?shrink=130:130&_v=20240726133544",
+    "output": 750,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "몬스타 가츠 MASTERX X750W 80PLUS브론즈 ATX3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/312/425/img/60425312_1.jpg?shrink=130:130&_v=20240726094040",
+    "output": 750,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "썬루트 PN700W 80PLUS브론즈 ATX3.0",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/172/271/img/63271172_1.jpg?shrink=130:130&_v=20240816145616",
+    "output": 700,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "ASUS ROG THOR 1600T",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/862/443/img/17443862_1.jpg?shrink=130:130&_v=20220818171114",
+    "output": 1600,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 16,
+    "pcie6PinCount": 16,
+    "length": 190,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "FSP FSP450-50SAC",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/223/822/img/16822223_1.jpg?shrink=130:130&_v=20220414163711",
+    "output": 450,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 100,
+    "FormFactor": "M-ATX(SFX) 파워"
+  },
+  {
+    "name": "FSP FSP1200-50ADB 80PLUS골드",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/360/529/img/16529360_1.jpg?shrink=130:130&_v=20240507153406",
+    "output": 1200,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 6,
+    "pcie6PinCount": 6,
+    "length": 190,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "topower Guardian TOP-900DG 80PLUS스탠다드 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/403/150/img/13150403_1.jpg?shrink=130:130&_v=20240508110910",
+    "output": 900,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 6,
+    "pcie6PinCount": 6,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "엔클롬 CAPO 750W 80PLUS골드 풀모듈러 ATX3.1 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/705/979/img/67979705_1.jpg?shrink=130:130&_v=20241023132459",
+    "output": 750,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "FSP FSP300-60GHS(85)",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/750/662/img/1662750_1.jpg?shrink=130:130&_v=20210204154511",
+    "output": 300,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": -1,
+    "pcie6PinCount": -1,
+    "length": -1,
+    "FormFactor": "M-ATX(SFX) 파워"
+  },
+  {
+    "name": "FSP FSP2000-52AGPBI 80PLUS골드",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/465/136/img/16136465_1.jpg?shrink=130:130&_v=20240507153532",
+    "output": 2000,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 18,
+    "pcie6PinCount": 18,
+    "length": -1,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "FSP HEXA 650W 80PLUS브론즈 프리볼트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/964/840/img/5840964_1.jpg?shrink=130:130&_v=20240508103834",
+    "output": 650,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "BABEL BM-700VP-F 700W 80PLUS브론즈 Blackbel Series",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/073/223/img/12223073_1.jpg?shrink=130:130&_v=20240508102522",
+    "output": 700,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "스카이디지탈 파워스테이션5 PS5-850RV 80PLUS골드 풀모듈러",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/631/647/img/9647631_1.jpg?shrink=130:130&_v=20240508133936",
+    "output": 850,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 6,
+    "pcie6PinCount": 6,
+    "length": -1,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "darkFlash SAVEMOST 600W 80PLUS스탠다드 벌크",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/783/170/img/60170783_1.jpg?shrink=130:130&_v=20240716160601",
+    "output": 600,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "FSP FSP500-50FDB",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/359/950/img/13950359_1.jpg?shrink=130:130&_v=20210420153325",
+    "output": 500,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 1,
+    "pcie6PinCount": 1,
+    "length": 150,
+    "FormFactor": "Flex-ATX 파워"
+  },
+  {
+    "name": "topower Guardian TOP-700DG Single Rail 80PLUS브론즈",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/649/550/img/10550649_1.jpg?shrink=130:130&_v=20240508103519",
+    "output": 700,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "델타 GPS-1100AB 1100W PLATINUM 풀모듈러 ATX3.0",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/083/092/img/31092083_1.jpg?shrink=130:130&_v=20240508094153",
+    "output": 1100,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 6,
+    "pcie6PinCount": 6,
+    "length": 185,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "델타 GPS-850LB 80PLUS골드 풀모듈러",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/363/441/img/17441363_1.jpg?shrink=130:130&_v=20240507153230",
+    "output": 850,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 6,
+    "pcie6PinCount": 6,
+    "length": 190,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "SilverStone Strider SFX ST45SF-V3 아이보라",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/914/884/img/4884914_1.jpg?shrink=130:130&_v=20190131095435",
+    "output": 450,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 1,
+    "pcie6PinCount": 1,
+    "length": -1,
+    "FormFactor": "M-ATX(SFX) 파워"
+  },
+  {
+    "name": "topower Guardian TOP-900DG 80PLUS스탠다드",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/373/150/img/13150373_1.jpg?shrink=130:130&_v=20240508110910",
+    "output": 900,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 6,
+    "pcie6PinCount": 6,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "스카이디지탈 파워스테이션5 PS5-600EV 80PLUS스탠다드",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/736/020/img/7020736_1.jpg?shrink=130:130&_v=20240508125454",
+    "output": 600,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "topower Guardian TOP-600DG Single Rail 80PLUS브론즈화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/974/288/img/12288974_1.jpg?shrink=130:130&_v=20240508102522",
+    "output": 600,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "시소닉 SSP-300SUB",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/937/858/img/5858937_1.jpg?shrink=130:130&_v=20210512152750",
+    "output": 300,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": -1,
+    "pcie6PinCount": -1,
+    "length": 150,
+    "FormFactor": "Flex-ATX 파워"
+  },
+  {
+    "name": "FSP FSP500-70AGB",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/936/621/img/14621936_1.jpg?shrink=130:130&_v=20210630125411",
+    "output": 500,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "써멀테이크 터프파워 GF 750W GOLD",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/130/268/img/15268130_1.jpg?shrink=130:130&_v=20240326110626",
+    "output": 750,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "FSP HEXA 550W 80PLUS브론즈 프리볼트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/944/840/img/5840944_1.jpg?shrink=130:130&_v=20240508103834",
+    "output": 550,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "FSP FSP2000-52AGPBI 80PLUS골드 타이안코리아",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/974/515/img/19515974_1.jpg?shrink=130:130&_v=20240507153057",
+    "output": 2000,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 8,
+    "pcie6PinCount": 8,
+    "length": -1,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "FSP HYDRO Ti PRO 1000W TITANIUM ATX3.0",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/301/240/img/19240301_1.jpg?shrink=130:130&_v=20240508100448",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 5,
+    "pcie6PinCount": 5,
+    "length": 150,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "스카이디지탈 파워스테이션5 PS5-500EV 80PLUS스탠다드",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/658/020/img/7020658_1.jpg?shrink=130:130&_v=20240508125454",
+    "output": 500,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "FSP Twins PRO 500W ATX Redundant",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/219/770/img/18770219_1.jpg?shrink=130:130&_v=20230116162134",
+    "output": 500,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 190,
+    "FormFactor": "리던던트"
+  },
+  {
+    "name": "써멀테이크 터프파워 SFX 1000W 골드 풀모듈러 ATX3.0",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/478/421/img/60421478_1.jpg?shrink=130:130&_v=20240719134040",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 126,
+    "FormFactor": "M-ATX(SFX) 파워"
+  },
+  {
+    "name": "스카이디지탈 파워스테이션5 PS5-700EV 80PLUS스탠다드",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/796/268/img/10268796_1.jpg?shrink=130:130&_v=20240508110911",
+    "output": 700,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "에너맥스 Platimax D.F. EPF1050EWT 80PLUS플래티넘 풀모듈러",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/537/968/img/5968537_1.jpg?shrink=130:130&_v=20240509092802",
+    "output": 1050,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "FSP Twins PRO 700W ATX Redundant",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/917/803/img/28803917_1.jpg?shrink=130:130&_v=20231017131440",
+    "output": 700,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 190,
+    "FormFactor": "리던던트"
+  },
+  {
+    "name": "중앙시스템 PowerStone PM 400W 80PLUS브론즈",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/550/311/img/20311550_1.jpg?shrink=130:130&_v=20240508102013",
+    "output": 400,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 1,
+    "pcie6PinCount": 1,
+    "length": 175,
+    "FormFactor": "TFX 파워"
+  },
+  {
+    "name": "마이크로닉스 Classic II 풀체인지 600W 80PLUS 230V EU 벌크",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/332/763/img/14763332_1.jpg?shrink=130:130&_v=20210830094834",
+    "output": 600,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "스카이디지탈 파워스테이션5 PS5-500EV 80PLUS스탠다드 벌크",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/345/408/img/44408345_1.jpg?shrink=130:130&_v=20250220082339",
+    "output": 500,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "에너지옵티머스 EXCEL CLASSIC 600W 80PLUS브론즈 230V EU",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/220/307/img/18307220_1.jpg?shrink=130:130&_v=20240508102014",
+    "output": 600,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "포게임 MAXMASTER MAX 750 GOLD",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/389/523/img/17523389_1.jpg?shrink=130:130&_v=20240508092446",
+    "output": 750,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 150,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "SilverStone SST-SX700-LPT 아이보라",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/699/229/img/4229699_1.jpg?shrink=130:130&_v=20210825105533",
+    "output": 700,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": -1,
+    "FormFactor": "M-ATX(SFX) 파워"
+  },
+  {
+    "name": "시소닉 SSP-600ES2 80PLUS브론즈",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/267/941/img/12941267_1.jpg?shrink=130:130&_v=20240508102522",
+    "output": 600,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "SilverStone Essential ST60F-ES230 600W 80PLUS스탠다드 아이보라",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/131/466/img/5466131_1.jpg?shrink=130:130&_v=20240508125815",
+    "output": 600,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "SilverStone Essential ST70F-ES230 700W 80PLUS스탠다드 아이보라",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/156/466/img/5466156_1.jpg?shrink=130:130&_v=20240508125815",
+    "output": 700,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "PNC PARTNER EVEREST 750W 80PLUS스탠다드 230V EU 벌크",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/970/110/img/14110970_1.jpg?shrink=130:130&_v=20240508110910",
+    "output": 750,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": -1,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 Classic II 700W 80PLUS 230V EU 벌크",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/924/061/img/13061924_1.jpg?shrink=130:130&_v=20210105135233",
+    "output": 700,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "델타 GPS-1300CB 80PLUS플래티넘 풀모듈러",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/055/294/img/11294055_1.jpg?shrink=130:130&_v=20240509092506",
+    "output": 1300,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 6,
+    "pcie6PinCount": 6,
+    "length": 190,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "에너지옵티머스 EXCEL FOCUS 850W 80PLUS골드 풀모듈러",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/380/730/img/17730380_1.jpg?shrink=130:130&_v=20240508133319",
+    "output": 850,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 6,
+    "pcie6PinCount": 6,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "PNC PARTNER EVEREST 750W 80PLUS스탠다드 230V EU",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/565/610/img/12610565_1.jpg?shrink=130:130&_v=20240508110910",
+    "output": 750,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": -1,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "써멀테이크 터프파워 iRGB PLUS 1200W PLATINUM",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/512/721/img/9721512_1.jpg?shrink=130:130&_v=20240508094624",
+    "output": 1200,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 8,
+    "pcie6PinCount": 8,
+    "length": 180,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "스카이디지탈 파워스테이션5 PS5-800BR 80PLUS브론즈",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/270/216/img/14216270_1.jpg?shrink=130:130&_v=20240508102522",
+    "output": 800,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "써멀테이크 터프파워 그랜드 RGB 650W GOLD 풀모듈러",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/834/245/img/5245834_1.jpg?shrink=130:130&_v=20240508134038",
+    "output": 650,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "ASUS TUF Gaming 850W GOLD",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/078/599/img/18599078_1.jpg?shrink=130:130&_v=20240508092336",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 150,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "써멀테이크 터프파워 GF3 1650W GOLD 풀모듈러 ATX3.0",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/198/482/img/27482198_1.jpg?shrink=130:130&_v=20240508092043",
+    "output": 1650,
+    "pcie16PinCount": 2,
+    "pcie8PinCount": 9,
+    "pcie6PinCount": 9,
+    "length": 180,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "앱코 ABKONCORE TN 850W GOLD 풀모듈러",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/240/702/img/17702240_1.jpg?shrink=130:130&_v=20240508133320",
+    "output": 850,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": -1,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "GreatWall E650 FROZEN 80PLUS골드 모듈러",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/130/070/img/10070130_1.jpg?shrink=130:130&_v=20240507154021",
+    "output": 650,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "FSP Twins 500W ATX Redundant",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/115/186/img/5186115_1.jpg?shrink=130:130&_v=20180410092213",
+    "output": 500,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 190,
+    "FormFactor": "리던던트"
+  },
+  {
+    "name": "CORSAIR iCUE CX650F RGB 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/227/717/img/12717227_1.jpg?shrink=130:130&_v=20240503174348",
+    "output": 650,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 150,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "써멀테이크 터프파워 GF3 1000W GOLD 풀모듈러 ATX3.0",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/445/747/img/19747445_1.jpg?shrink=130:130&_v=20240508092335",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "써멀테이크 터프파워 GF3 1200W GOLD 풀모듈러 ATX3.0",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/935/752/img/19752935_1.jpg?shrink=130:130&_v=20240508092335",
+    "output": 1200,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "포게임 AK700 80PLUS브론즈 풀모듈러",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/071/790/img/14790071_1.jpg?shrink=130:130&_v=20240508102522",
+    "output": 700,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 170,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "썬루트 TX1800 80PLUS브론즈 벌크",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/886/560/img/14560886_1.jpg?shrink=130:130&_v=20240508102522",
+    "output": 1800,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 16,
+    "pcie6PinCount": 16,
+    "length": 230,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "topower Guardian TOP-700DG Single Rail 80PLUS브론즈 화이트",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/214/941/img/11941214_1.jpg?shrink=130:130&_v=20240508102522",
+    "output": 700,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "에너맥스 MARBLEBRON EMB650AWT 80PLUS브론즈 모듈러",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/376/140/img/56140376_1.jpg?shrink=130:130&_v=20240611112459",
+    "output": 650,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "서버용 파워"
+  },
+  {
+    "name": "에너맥스 MARBLEBRON EMB750EWT 80PLUS브론즈 모듈러",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/798/006/img/17006798_1.jpg?shrink=130:130&_v=20240508134524",
+    "output": 750,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "서버용 파워"
+  },
+  {
+    "name": "ASUS TUF Gaming 750W GOLD",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/003/599/img/18599003_1.jpg?shrink=130:130&_v=20240508092336",
+    "output": 750,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 150,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "PNC PARTNER EVEREST 750W 화이트 80PLUS스탠다드 230V EU 벌크",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/821/523/img/17523821_1.jpg?shrink=130:130&_v=20240508110355",
+    "output": 750,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": -1,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "델타 GPS-750HB 80PLUS골드 풀모듈러",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/148/458/img/17458148_1.jpg?shrink=130:130&_v=20240507153230",
+    "output": 750,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 190,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "FSP Twins 700W ATX Redundant",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/915/040/img/6040915_1.jpg?shrink=130:130&_v=20220610151501",
+    "output": 700,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 190,
+    "FormFactor": "리던던트"
+  },
+  {
+    "name": "써멀테이크 터프파워 그랜드 RGB 750W 골드 풀모듈러",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/870/245/img/5245870_1.jpg?shrink=130:130&_v=20240508134038",
+    "output": 750,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 160,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "에너지옵티머스 EXCEL FOCUS 1000W 80PLUS골드 풀모듈러",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/204/702/img/17702204_1.jpg?shrink=130:130&_v=20240508133320",
+    "output": 1000,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 6,
+    "pcie6PinCount": 6,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "에너지옵티머스 EXCEL FOCUS 1000W 80PLUS골드 풀모듈러 ATX3.0",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/944/806/img/19806944_1.jpg?shrink=130:130&_v=20240507153057",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "쿨러마스터 V1000",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/356/123/img/2123356_1.jpg?shrink=130:130&_v=20210107130327",
+    "output": 1000,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 8,
+    "pcie6PinCount": 8,
+    "length": -1,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 WIZMAX G-1000W 80PLUS골드 ATX 3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/607/643/img/90643607_1.jpg?shrink=130:130&_v=20250515100758",
+    "output": 1000,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 150,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "마이크로닉스 WIZMAX G-850W 80PLUS골드 ATX 3.1",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/544/643/img/90643544_1.jpg?shrink=130:130&_v=20250515100406",
+    "output": 850,
+    "pcie16PinCount": 1,
+    "pcie8PinCount": 3,
+    "pcie6PinCount": 3,
+    "length": 150,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "포게임 PROMASTER PRO 700 BRONZE",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/305/523/img/17523305_1.jpg?shrink=130:130&_v=20220725093810",
+    "output": 700,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "PNC PARTNER EVEREST 650W 80PLUS스탠다드 230V EU 벌크",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/060/154/img/16154060_1.jpg?shrink=130:130&_v=20240508110355",
+    "output": 650,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": -1,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "FSP 750-50AAA 750W 80PLUS브론즈",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/033/242/img/15242033_1.jpg?shrink=130:130&_v=20240508102522",
+    "output": 750,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "시소닉 SSP-500ES2 80PLUS브론즈",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/177/941/img/12941177_1.jpg?shrink=130:130&_v=20240508102522",
+    "output": 500,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": 140,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "PNC PARTNER EVEREST 650W 80PLUS스탠다드 230V EU",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/534/665/img/12665534_1.jpg?shrink=130:130&_v=20240508110910",
+    "output": 650,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 4,
+    "pcie6PinCount": 4,
+    "length": -1,
+    "FormFactor": "ATX 파워"
+  },
+  {
+    "name": "비콘즈 SPACE SP-700W 80PLUS스탠다드 벌크",
+    "imageUrl": "http://img.danawa.com/prod_img/500000/946/791/img/9791946_1.jpg?shrink=130:130&_v=20240508110911",
+    "output": 700,
+    "pcie16PinCount": -1,
+    "pcie8PinCount": 2,
+    "pcie6PinCount": 2,
+    "length": -1,
+    "FormFactor": "ATX 파워"
+  }
+]
