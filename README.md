@@ -6,13 +6,13 @@
 | index    | 기능                | HTTP | API PATH                     | 서버 담당자 | 서버 개발 현황             | 프론트 담당자 | 프론트 개발 현황 |
 | -------- | ----------------- | ---- | ---------------------------- | ------ | -------------------- | ------- | --------- |
 |          | 부품 호환 정도 체크       | POST | /api/v1/computer/valid       | 조재영    | Service 계층 메인 로직 미구현 |         |           |
-| 부품 정보 확인 | case 정보 확인        | GET  | /api/v1/computer/case        | 조재영    | 레포지토리 계층 미구현         |         |           |
-|          | cooler 정보 확인      | GET  | /api/v1/computer/cooler      | 조재영    | 레포지토리 계층 미구현         |         |           |
-|          | cpu 정보 확인         | GET  | /api/v1/computer/cpu         | 조재영    | 레포지토리 계층 미구현         |         |           |
-|          | gpu 정보 확인        | GET  | /api/v1/computer/gpu         | 조재영    | 레포지토리 계층 미구현         |         |           |
-|          | hdd 정보 확인         | GET  | /api/v1/computer/hdd         | 조재영    | 레포지토리 계층 미구현         |         |           |
-|          | mainboard 정보 확인   | GET  | /api/v1/computer/mainboard   | 조재영    | 레포지토리 계층 미구현         |         |           |
-|          | powersupply 정보 확인 | GET  | /api/v1/computer/powersupply | 조재영    | 레포지토리 계층 미구현         |         |           |
-|          | ram 정보 확인         | GET  | /api/v1/computer/ram         | 조재영    | 레포지토리 계층 미구현         |         |           |
-|          | ssd 정보 확인         | GET  | /api/v1/computer/ssd         | 조재영    | 레포지토리 계층 미구현         |         |           |
+| 부품 정보 확인 | case 정보 확인        | GET  | /api/v1/computer/case        | 조재영    | 구현 완         |         |           |
+|          | cooler 정보 확인      | GET  | /api/v1/computer/cooler      | 조재영    | 구현 완         |         |           |
+|          | cpu 정보 확인         | GET  | /api/v1/computer/cpu         | 조재영    | 구현 완         |         |           |
+|          | gpu 정보 확인        | GET  | /api/v1/computer/gpu         | 조재영    | 구현 완        |         |           |
+|          | hdd 정보 확인         | GET  | /api/v1/computer/hdd         | 조재영    | 구현 완        |         |           |
+|          | mainboard 정보 확인   | GET  | /api/v1/computer/mainboard   | 조재영    | 구현 완        |         |           |
+|          | powersupply 정보 확인 | GET  | /api/v1/computer/powersupply | 조재영    | 구현 완         |         |           |
+|          | ram 정보 확인         | GET  | /api/v1/computer/ram         | 조재영    | 구현 완        |         |           |
+|          | ssd 정보 확인         | GET  | /api/v1/computer/ssd         | 조재영    | 구현 완         |         |           |
 
