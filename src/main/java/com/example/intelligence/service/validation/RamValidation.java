@@ -14,7 +14,7 @@ public class RamValidation {
     //820
     public void checkWithRam(ServiceUserRequest request) {
         if (request.getRamQunatatiy() >= 2) {
-            errorMsg.add(new ServiceValidationResponse("Ram Qunatati", 0));
+            errorMsg.add(new ServiceValidationResponse("Ram Qunatati", "",0));
         }
     }
 

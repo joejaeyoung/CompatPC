@@ -1,9 +1,7 @@
 package com.example.intelligence.service;
 
-import com.example.intelligence.api.controller.dto.ValidateUserResponse;
 import com.example.intelligence.domain.hardware.*;
 import com.example.intelligence.exception.respository.FindNullException;
-import com.example.intelligence.repository.hardware.*;
 import com.example.intelligence.service.dto.validation.ServiceUserRequest;
 import com.example.intelligence.service.dto.validation.ServiceValidationResponse;
 import com.example.intelligence.service.hardware.*;
@@ -46,16 +44,7 @@ public class ComputerService {
     }
 
 
-    public ValidateUserResponse checkValidation(ServiceUserRequest request) {
-        List<ServiceValidationResponse> caseMsg;
-        List<ServiceValidationResponse> coolerMsg;
-        List<ServiceValidationResponse> cpuMsg;
-        List<ServiceValidationResponse> gpuMsg;
-        List<ServiceValidationResponse> hddMsg;
-        List<ServiceValidationResponse> mainboardMsg;
-        List<ServiceValidationResponse> psuMsg;
-        List<ServiceValidationResponse> ramMsg;
-        List<ServiceValidationResponse> ssdMsg;
+    public List<ServiceValidationResponse> checkValidation(ServiceUserRequest request) {
         List<ServiceValidationResponse> result = new ArrayList<>();
         CpuValidation cpuValidation = new CpuValidation();
         CoolerValidation coolerValidation = new CoolerValidation();
@@ -82,7 +71,7 @@ public class ComputerService {
             ram = ramService.getById(request.getRamId());
             ssd = ssdService.getById(request.getSsdId());
         } catch (FindNullException e) {
-            result.add(new ServiceValidationResponse("부품을 모두 입력해야 합니다.", 1));
+            result.add(new ServiceValidationResponse("부품을 모두 입력해야 합니다.", "",1));
         }
 
         cpuValidation.checkWithCooler(cpu, cooler);
@@ -112,7 +101,7 @@ public class ComputerService {
 
 
 
-
+        return result;
     }
 
 
