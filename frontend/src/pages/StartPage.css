@@ -1,0 +1,58 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  align-items: center;     
+  gap: 40px;               
+
+  padding: 40px 20px;   
+  background-color: #fff;
+}
+
+.title {
+  color: #1E1E1E;
+  text-align: center;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 64px;     
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -1.5px;
+  margin: 0;
+}
+
+.subtitle {
+  color: #666666;
+  text-align: center;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 24px; 
+  font-weight: 500;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.button {
+  display: flex;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background: #e0e0e0;
+  cursor: pointer;
+}
+
+.tooltip {
+  color: #000000;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+}

@@ -1,0 +1,138 @@
+.main-container {
+  padding: 20px;
+}
+
+.main-header {
+  width: 100%;
+  padding: 1.25rem 2rem;
+  border-bottom: 1px solid #d1d5db;
+  box-sizing: border-box;
+}
+
+.main-header-icon {
+  width: 86px; 
+  height: 70px;
+}
+
+.main-title {
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 16px;
+  align-items: center;
+}
+
+.part-image {
+  width: 80px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.card-body {
+  flex-grow: 1;
+}
+
+.part-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.part-desc {
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.select-button {
+  display: inline-block;
+  background-color: #ddd;
+  padding: 6px 10px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+
+.extra-section {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.select {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.dropdown {
+  position: relative;
+  cursor: pointer;
+  width: 100px;
+}
+
+.dropdown-selected {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #fff;
+}
+
+.chevron-icon {
+  width: 12px;
+  height: auto;
+  margin-left: 6px;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 110%;
+  left: 0;
+  width: 100%;
+  border: 1px solid #ccc;
+  background-color: white;
+  z-index: 100;
+  border-radius: 6px;
+  max-height: 200px;
+  overflow-y: auto;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.dropdown-item {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background-color: #eee;
+}
+
+.check-btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.check-button {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 16px;
+}
