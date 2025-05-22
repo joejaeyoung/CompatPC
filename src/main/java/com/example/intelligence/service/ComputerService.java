@@ -2,6 +2,7 @@ package com.example.intelligence.service;
 
 import com.example.intelligence.domain.hardware.*;
 import com.example.intelligence.exception.respository.FindNullException;
+import com.example.intelligence.exception.user.HWException;
 import com.example.intelligence.service.dto.validation.ServiceUserRequest;
 import com.example.intelligence.service.dto.validation.ServiceValidationResponse;
 import com.example.intelligence.service.hardware.*;
@@ -70,8 +71,9 @@ public class ComputerService {
             psu = psuService.getById(request.getPsuId());
             ram = ramService.getById(request.getRamId());
             ssd = ssdService.getById(request.getSsdId());
-        } catch (FindNullException e) {
-            result.add(new ServiceValidationResponse("부품을 모두 입력해야 합니다.", "",1));
+        } catch (HWException e) {
+            result.add(new ServiceValidationResponse("부품 중 DB에서 부품 정보를 받아올 수 없는 부품이 있습니다.", "",1));
+            return result;
         }
 
         cpuValidation.checkWithCooler(cpu, cooler);
@@ -97,9 +99,6 @@ public class ComputerService {
         for (ServiceValidationResponse msg : ramValidation.errorMsg) {
             result.add(msg);
         }
-
-
-
 
         return result;
     }
