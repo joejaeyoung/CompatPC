@@ -50,10 +50,6 @@ public class ComputerService {
         ssdIds = request.getSsdId();
         SSD ssd;
 
-        for(Long id : ssdIds) {
-            ssd = ssdService.getById(id);
-            if (ssd.g)
-        }
 
         //cooler 전처리
         Cooler cooler;
@@ -111,32 +107,14 @@ public class ComputerService {
             return result;
         }
 
-        cpuValidation.checkWithCooler(request, cpu, cooler);
-        cpuValidation.checkWithMainboard(cpu, mainboard);
-        for(ServiceValidationResponse msg : cpuValidation.errorMsg) {
-            result.add(msg);
-        }
-
-        coolerValidation.checkWithCase(request, cooler, cases);
-        for (ServiceValidationResponse msg : coolerValidation.errorMsg) {
-            result.add(msg);
-        }
-
-
-
-
-
-        mainboardValidation.checkWithRam(mainboard, ram, request);
-        mainboardValidation.checkWithSSD(mainboard, request);
-        mainboardValidation.checkWithHDD(mainboard, request);
-        mainboardValidation.checkWithCase(mainboard, cases);
-        for (ServiceValidationResponse msg : mainboardValidation.errorMsg) {
-            result.add(msg);
-        }
-
-        ramValidation.checkWithRam(request);
-        for (ServiceValidationResponse msg : ramValidation.errorMsg) {
-            result.add(msg);
+        //210, 211, 220
+        if (cooler != null) {
+            coolerValidation.checkWithMainboard(request, cooler, mainboard);
+            coolerValidation.checkWithCPU(request, cooler, cpu);
+            coolerValidation.checkWithCPUCooler(request, cooler, cpu);
+            for (ServiceValidationResponse msg : cpuValidation.errorMsg) {
+                result.add(msg);
+            }
         }
 
         return result;
