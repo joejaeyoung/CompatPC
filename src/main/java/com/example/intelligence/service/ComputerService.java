@@ -112,13 +112,24 @@ public class ComputerService {
             coolerValidation.checkWithMainboard(request, cooler, mainboard);
             coolerValidation.checkWithCPU(request, cooler, cpu);
             coolerValidation.checkWithCPUCooler(request, cooler, cpu);
-            for (ServiceValidationResponse msg : cpuValidation.errorMsg) {
+            for (ServiceValidationResponse msg : coolerValidation.errorMsg) {
                 result.add(msg);
             }
         }
 
         //310 311
-        cpuValidatio
+        cpuValidation.checkWithMainboard(cpu, mainboard);
+        for (ServiceValidationResponse msg : cpuValidation.errorMsg) {
+            result.add(msg);
+        }
+
+        //430 431 432 433 434
+        mainboardValidation.checkWithRam(request, mainboard, ram);
+        for (ServiceValidationResponse msg : mainboardValidation.errorMsg) {
+            result.add(msg);
+        }
+
+        //440
 
         return result;
     }

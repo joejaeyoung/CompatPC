@@ -20,7 +20,7 @@ public class CpuValidation {
         }
 
         //311
-        if (mainboard.getVcore() != 0) {
+        if (mainboard.getVcore() != -1) {
             double score;
             score = (double) cpu.getTdp() / mainboard.getVcore() * 0.35;
             if (score > 1 && score < 1.1) {
@@ -30,7 +30,7 @@ public class CpuValidation {
                 errorMsg.add(new ServiceValidationResponse("CPU의 전력요구량이 메인보드의 공급량보다 매우 높습니다. ", "CPU의 성능이 제한되며 메인보드의 수명이 감소합니다. 반드시 전원부가 더 좋은 제품으로 메인보드를 교체해주세요.",1));
             }
         }
-        else if (mainboard.getPowerPhase() != 0){
+        else if (mainboard.getPowerPhase() != -1){
             double score;
             double vscore = mainboard.getPowerPhase() * 50;
             score = (double) cpu.getTdp() / vscore * 0.35;
