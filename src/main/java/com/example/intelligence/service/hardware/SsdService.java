@@ -29,7 +29,7 @@ public class SsdService {
 
     public ServiceResponseSsd getByName(String name) {
         SSD result = ssdRepository.findByName(name)
-                .orElseThrow(() -> new HWException(HWErrorCode.NOT_FOUND));
+                .orElseThrow(() -> new HWException(HWErrorCode.NOT_FOUND_SSD));
         ServiceResponseSsd serviceResponseSsd = new ServiceResponseSsd();
         serviceResponseSsd.setName(result.getName());
         serviceResponseSsd.setImg(result.getImageUrl());
@@ -38,7 +38,7 @@ public class SsdService {
 
     public SSD getById(Long id) {
         SSD result = ssdRepository.findById(id)
-                .orElseThrow(() -> new HWException(HWErrorCode.NOT_FOUND));
+                .orElseThrow(() -> new HWException(HWErrorCode.NOT_FOUND_SSD));
         return result;
     }
 

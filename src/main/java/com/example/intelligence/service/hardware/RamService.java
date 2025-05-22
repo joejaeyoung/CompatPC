@@ -29,7 +29,7 @@ public class RamService {
 
     public ServiceResponseSsd getByName(String name) {
         RAM result = repository.findByName(name)
-                .orElseThrow(() -> new HWException(HWErrorCode.NOT_FOUND));
+                .orElseThrow(() -> new HWException(HWErrorCode.NOT_FOUND_RAM));
         ServiceResponseSsd serviceResponseSsd = new ServiceResponseSsd();
         serviceResponseSsd.setName(result.getName());
         serviceResponseSsd.setImg(result.getImageUrl());
@@ -38,7 +38,7 @@ public class RamService {
 
     public RAM getById(Long id) {
         RAM result = repository.findById(id)
-                .orElseThrow(() -> new HWException(HWErrorCode.NOT_FOUND));
+                .orElseThrow(() -> new HWException(HWErrorCode.NOT_FOUND_RAM));
         return result;
     }
 

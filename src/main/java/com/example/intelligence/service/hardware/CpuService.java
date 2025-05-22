@@ -28,7 +28,7 @@ public class CpuService {
 
     public ServiceResponseCpu getByName(String name) {
         CPU result = cpuRepository.findByName(name)
-                .orElseThrow(() -> new HWException(HWErrorCode.NOT_FOUND));
+                .orElseThrow(() -> new HWException(HWErrorCode.NOT_FOUND_CPU));
         ServiceResponseCpu serviceResponseCpu = new ServiceResponseCpu();
         serviceResponseCpu.setName(result.getName());
         serviceResponseCpu.setImg(result.getImageUrl());
@@ -37,7 +37,7 @@ public class CpuService {
 
     public CPU getById(Long id) {
         CPU result = cpuRepository.findById(id)
-                .orElseThrow(() -> new HWException(HWErrorCode.NOT_FOUND));
+                .orElseThrow(() -> new HWException(HWErrorCode.NOT_FOUND_CPU));
         return result;
     }
 

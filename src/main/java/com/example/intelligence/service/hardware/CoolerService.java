@@ -30,7 +30,7 @@ public class CoolerService {
 
     public ServiceResponseSsd getByName(String name) {
         Cooler result = repository.findByName(name)
-                .orElseThrow(() -> new HWException(HWErrorCode.NOT_FOUND));
+                .orElseThrow(() -> new HWException(HWErrorCode.NOT_FOUND_COOLER));
         ServiceResponseSsd serviceResponseSsd = new ServiceResponseSsd();
         serviceResponseSsd.setName(result.getName());
         serviceResponseSsd.setImg(result.getImageUrl());
@@ -39,7 +39,7 @@ public class CoolerService {
 
     public Cooler getById(Long id) {
         Cooler result = repository.findById(id)
-                .orElseThrow(() -> new HWException(HWErrorCode.NOT_FOUND));
+                .orElseThrow(() -> new HWException(HWErrorCode.NOT_FOUND_COOLER));
         return result;
     }
 

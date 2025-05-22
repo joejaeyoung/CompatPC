@@ -29,7 +29,7 @@ public class GpuService {
 
     public ServiceResponseSsd getByName(String name) {
         GPU result = repository.findByName(name)
-                .orElseThrow(() -> new HWException(HWErrorCode.NOT_FOUND));
+                .orElseThrow(() -> new HWException(HWErrorCode.NOT_FOUND_GPU));
         ServiceResponseSsd serviceResponseSsd = new ServiceResponseSsd();
         serviceResponseSsd.setName(result.getName());
         serviceResponseSsd.setImg(result.getImageUrl());
@@ -38,7 +38,7 @@ public class GpuService {
 
     public GPU getById(Long id) {
         GPU result = repository.findById(id)
-                .orElseThrow(() -> new HWException(HWErrorCode.NOT_FOUND));
+                .orElseThrow(() -> new HWException(HWErrorCode.NOT_FOUND_GPU));
         return result;
     }
 

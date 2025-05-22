@@ -28,7 +28,7 @@ public class MainboardService {
 
     public ServiceResponseSsd getByName(String name) {
         Mainboard result = repository.findByName(name)
-                .orElseThrow(() -> new HWException(HWErrorCode.NOT_FOUND));
+                .orElseThrow(() -> new HWException(HWErrorCode.NOT_FOUND_MAINBOARD));
         ServiceResponseSsd serviceResponseSsd = new ServiceResponseSsd();
         serviceResponseSsd.setName(result.getName());
         serviceResponseSsd.setImg(result.getImageUrl());
@@ -37,7 +37,7 @@ public class MainboardService {
 
     public Mainboard getById(Long id) {
         Mainboard result = repository.findById(id)
-                .orElseThrow(() -> new HWException(HWErrorCode.NOT_FOUND));
+                .orElseThrow(() -> new HWException(HWErrorCode.NOT_FOUND_MAINBOARD));
         return result;
     }
 

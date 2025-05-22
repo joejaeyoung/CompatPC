@@ -10,6 +10,7 @@ import java.util.List;
 public class CoolerValidation {
     public List<ServiceValidationResponse> errorMsg = new ArrayList<>();
 
+
     //820
     public void checkWithCase(Cooler cooler, Cases cases) {
 

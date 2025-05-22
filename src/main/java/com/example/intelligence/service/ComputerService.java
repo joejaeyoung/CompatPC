@@ -54,12 +54,12 @@ public class ComputerService {
         Cases cases = null;
         Cooler cooler = null;
         CPU cpu = null;
-        GPU gpu;
-        HDD hdd;
+        GPU gpu = null;
+        HDD hdd = null;
         Mainboard mainboard = null;
-        PSU psu;
+        PSU psu = null ;
         RAM ram = null;
-        SSD ssd;
+        SSD ssd = null;
 
         try {
             cases = caseService.getById(request.getCaseId());
@@ -72,7 +72,7 @@ public class ComputerService {
             ram = ramService.getById(request.getRamId());
             ssd = ssdService.getById(request.getSsdId());
         } catch (HWException e) {
-            result.add(new ServiceValidationResponse("부품 중 DB에서 부품 정보를 받아올 수 없는 부품이 있습니다.", "",1));
+            result.add(new ServiceValidationResponse(e.getMessage() , "",1));
             return result;
         }
 
@@ -102,6 +102,4 @@ public class ComputerService {
 
         return result;
     }
-
-
 }

@@ -28,7 +28,7 @@ public class CaseService {
 
     public ServiceResponseCpu getByname(String name) {
         Cases result = caseRepository.findByName(name)
-                .orElseThrow(() -> new HWException(HWErrorCode.NOT_FOUND));
+                .orElseThrow(() -> new HWException(HWErrorCode.NOT_FOUND_CASE));
         ServiceResponseCpu serviceResponseCpu = new ServiceResponseCpu();
         serviceResponseCpu.setName(result.getName());
         serviceResponseCpu.setImg(result.getImageUrl());
@@ -37,7 +37,7 @@ public class CaseService {
 
     public Cases getById(Long id) {
         Cases result = caseRepository.findById(id)
-                .orElseThrow(() -> new HWException(HWErrorCode.NOT_FOUND));
+                .orElseThrow(() -> new HWException(HWErrorCode.NOT_FOUND_CASE));
         return result;
     }
 

@@ -29,7 +29,7 @@ public class PsuService {
 
     public ServiceResponseSsd getByName(String name) {
         PSU result = repository.findByName(name)
-                .orElseThrow(() -> new HWException(HWErrorCode.NOT_FOUND));
+                .orElseThrow(() -> new HWException(HWErrorCode.NOT_FOUND_POWERSUPPLY));
         ServiceResponseSsd serviceResponseSsd = new ServiceResponseSsd();
         serviceResponseSsd.setName(result.getName());
         serviceResponseSsd.setImg(result.getImageUrl());
@@ -38,7 +38,7 @@ public class PsuService {
 
     public PSU getById(Long id) {
         PSU result = repository.findById(id)
-                .orElseThrow(() -> new HWException(HWErrorCode.NOT_FOUND));
+                .orElseThrow(() -> new HWException(HWErrorCode.NOT_FOUND_POWERSUPPLY));
         return result;
     }
 
