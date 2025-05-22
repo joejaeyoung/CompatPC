@@ -4,7 +4,7 @@ import com.example.intelligence.domain.hardware.CPU;
 import com.example.intelligence.exception.user.HWErrorCode;
 import com.example.intelligence.exception.user.HWException;
 import com.example.intelligence.repository.hardware.CpuRepository;
-import com.example.intelligence.service.dto.hardware.ServiceResponseCpu;
+import com.example.intelligence.service.hardware.dto.hardware.ServiceResponseCpu;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

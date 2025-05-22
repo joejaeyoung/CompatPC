@@ -1,6 +1,6 @@
 package com.example.intelligence.api.controller.dto;
 
-import com.example.intelligence.service.dto.validation.ServiceUserRequest;
+import com.example.intelligence.service.validation.dto.validation.ServiceUserRequest;
 import lombok.Getter;
 import lombok.Setter;
 

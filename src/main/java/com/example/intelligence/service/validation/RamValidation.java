@@ -1,9 +1,7 @@
 package com.example.intelligence.service.validation;
 
-import com.example.intelligence.domain.hardware.Mainboard;
-import com.example.intelligence.domain.hardware.RAM;
-import com.example.intelligence.service.dto.validation.ServiceUserRequest;
-import com.example.intelligence.service.dto.validation.ServiceValidationResponse;
+import com.example.intelligence.service.validation.dto.validation.ServiceUserRequest;
+import com.example.intelligence.service.validation.dto.validation.ServiceValidationResponse;
 
 import java.util.ArrayList;
 import java.util.List;

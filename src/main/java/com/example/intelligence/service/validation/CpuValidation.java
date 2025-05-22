@@ -3,7 +3,8 @@ package com.example.intelligence.service.validation;
 import com.example.intelligence.domain.hardware.CPU;
 import com.example.intelligence.domain.hardware.Cooler;
 import com.example.intelligence.domain.hardware.Mainboard;
-import com.example.intelligence.service.dto.validation.ServiceValidationResponse;
+import com.example.intelligence.service.validation.dto.validation.ServiceUserRequest;
+import com.example.intelligence.service.validation.dto.validation.ServiceValidationResponse;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,7 +12,7 @@ import java.util.List;
 public class CpuValidation {
     public List<ServiceValidationResponse> errorMsg = new ArrayList<>();
 
-    public void checkWithCooler(CPU cpu, Cooler cooler) {
+    public void checkWithCooler(ServiceUserRequest request, CPU cpu, Cooler cooler) {
         //210
         if ((cpu.getSocket() & cooler.getSupportedSockets()) != 1) {
             errorMsg.add(new ServiceValidationResponse("쿨러가 CPU 소켓을 지원하지 않음", "", 1));

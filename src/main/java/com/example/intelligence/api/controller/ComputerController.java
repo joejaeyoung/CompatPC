@@ -3,7 +3,7 @@ package com.example.intelligence.api.controller;
 import com.example.intelligence.api.ApiResponse;
 import com.example.intelligence.api.controller.dto.ValidateUserRequest;
 import com.example.intelligence.service.ComputerService;
-import com.example.intelligence.service.dto.validation.ServiceValidationResponse;
+import com.example.intelligence.service.validation.dto.validation.ServiceValidationResponse;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.PostMapping;

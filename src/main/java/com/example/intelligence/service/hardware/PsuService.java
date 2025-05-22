@@ -1,11 +1,10 @@
 package com.example.intelligence.service.hardware;
 
-import com.example.intelligence.domain.hardware.CPU;
 import com.example.intelligence.domain.hardware.PSU;
 import com.example.intelligence.exception.user.HWErrorCode;
 import com.example.intelligence.exception.user.HWException;
 import com.example.intelligence.repository.hardware.PsuRepository;
-import com.example.intelligence.service.dto.hardware.ServiceResponseSsd;
+import com.example.intelligence.service.hardware.dto.hardware.ServiceResponseSsd;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

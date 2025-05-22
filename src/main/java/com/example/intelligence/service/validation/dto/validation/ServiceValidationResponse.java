@@ -1,4 +1,4 @@
-package com.example.intelligence.service.dto.validation;
+package com.example.intelligence.service.validation.dto.validation;
 
 import lombok.Getter;
 

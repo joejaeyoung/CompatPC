@@ -1,10 +1,10 @@
 package com.example.intelligence.service;
 
 import com.example.intelligence.domain.hardware.*;
-import com.example.intelligence.exception.respository.FindNullException;
+import com.example.intelligence.exception.user.HWErrorCode;
 import com.example.intelligence.exception.user.HWException;
-import com.example.intelligence.service.dto.validation.ServiceUserRequest;
-import com.example.intelligence.service.dto.validation.ServiceValidationResponse;
+import com.example.intelligence.service.validation.dto.validation.ServiceUserRequest;
+import com.example.intelligence.service.validation.dto.validation.ServiceValidationResponse;
 import com.example.intelligence.service.hardware.*;
 import com.example.intelligence.service.validation.CoolerValidation;
 import com.example.intelligence.service.validation.CpuValidation;
@@ -44,6 +44,39 @@ public class ComputerService {
         ssdService.updateAll();
     }
 
+    public void preprocessUserRequest(ServiceUserRequest request) throws HWException{
+        //ssd 전처리
+        List<Long> ssdIds = new ArrayList<>();
+        ssdIds = request.getSsdId();
+        SSD ssd;
+
+        for(Long id : ssdIds) {
+            ssd = ssdService.getById(id);
+            if (ssd.g)
+        }
+
+        //cooler 전처리
+        Cooler cooler;
+        String grade;
+        cooler = coolerService.getById(request.getCoolerId());
+        grade = cooler.getCoolerGrade();
+
+        if (grade == "번들쿨러") {
+            request.setCoolerTdp(80);
+        }
+        else if (grade == "1열수랭" || grade == "싱글타워") {
+            request.setCoolerTdp(160);
+        }
+        else if (grade == "2열수랭" || grade == "듀얼타워") {
+            request.setCoolerTdp(220);
+        }
+        else if (grade == "3열수랭") {
+            request.setCoolerTdp(999);
+        }
+        else {
+            throw new HWException(HWErrorCode.NOT_FOUND_COOLER);
+        }
+    }
 
     public List<ServiceValidationResponse> checkValidation(ServiceUserRequest request) {
         List<ServiceValidationResponse> result = new ArrayList<>();
@@ -51,41 +84,47 @@ public class ComputerService {
         CoolerValidation coolerValidation = new CoolerValidation();
         MainboardValidation mainboardValidation = new MainboardValidation();
         RamValidation ramValidation = new RamValidation();
+
         Cases cases = null;
         Cooler cooler = null;
         CPU cpu = null;
         GPU gpu = null;
-        HDD hdd = null;
         Mainboard mainboard = null;
         PSU psu = null ;
         RAM ram = null;
-        SSD ssd = null;
 
         try {
+            preprocessUserRequest(request);
             cases = caseService.getById(request.getCaseId());
-            cooler = coolerService.getById(request.getCoolerId());
+
+            if (request.getCoolerId() != null)
+                cooler = coolerService.getById(request.getCoolerId());
             cpu = cpuService.getById(request.getCpuId());
-            gpu = gpuService.getById(request.getGpuId());
-            hdd = hddService.getById(request.getHddId());
+
+            if (request.getGpuId() != null)
+                gpu = gpuService.getById(request.getGpuId());
             mainboard = mainboardService.getById(request.getMainboardId());
             psu = psuService.getById(request.getPsuId());
             ram = ramService.getById(request.getRamId());
-            ssd = ssdService.getById(request.getSsdId());
         } catch (HWException e) {
             result.add(new ServiceValidationResponse(e.getMessage() , "",1));
             return result;
         }
 
-        cpuValidation.checkWithCooler(cpu, cooler);
+        cpuValidation.checkWithCooler(request, cpu, cooler);
         cpuValidation.checkWithMainboard(cpu, mainboard);
         for(ServiceValidationResponse msg : cpuValidation.errorMsg) {
             result.add(msg);
         }
 
-        coolerValidation.checkWithCase(cooler, cases);
+        coolerValidation.checkWithCase(request, cooler, cases);
         for (ServiceValidationResponse msg : coolerValidation.errorMsg) {
             result.add(msg);
         }
+
+
+
+
 
         mainboardValidation.checkWithRam(mainboard, ram, request);
         mainboardValidation.checkWithSSD(mainboard, request);

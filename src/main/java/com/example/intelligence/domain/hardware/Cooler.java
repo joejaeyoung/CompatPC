@@ -24,18 +24,22 @@ public class Cooler {
     private String imageUrl;
 
     private String coolerType;
-    private String coolerGrade;
     private byte supportedSockets;
     private float height;
+    private String coolerGrade;
+    private int coolerTDP;
+
+
 
     @Builder
-    public Cooler(String name, String imageUrl, String coolerType, String coolerGrade, byte supportedSockets, float height) {
+    public Cooler(String name, String imageUrl, String coolerType, String coolerGrade, byte supportedSockets, float height, int coolerTDP) {
         this.name = name;
         this.imageUrl = imageUrl;
         this.coolerType = coolerType;
         this.coolerGrade = coolerGrade;
         this.supportedSockets = supportedSockets;
         this.height = height;
+        this.coolerTDP = coolerTDP;
     }
 }
 
