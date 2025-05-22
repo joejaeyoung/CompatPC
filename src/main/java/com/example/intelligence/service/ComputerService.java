@@ -117,6 +117,9 @@ public class ComputerService {
             }
         }
 
+        //310 311
+        cpuValidatio
+
         return result;
     }
 }
