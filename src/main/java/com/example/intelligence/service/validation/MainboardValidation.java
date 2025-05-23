@@ -55,14 +55,17 @@ public class MainboardValidation {
     //630
     public void checkWithSSD(Mainboard mainboard, ServiceUserRequest request) {
         if (mainboard.getM2SlotCount() < request.getM2ssdCount()) {
-            errorMsg.add(new ServiceValidationResponse("M2ssd, mainboard supported","", 0));
+            errorMsg.add(new ServiceValidationResponse("M.2 SSD 개수가 메인보드 슬롯 수를 초과합니다","선택하신 M.2 SSD는 총 [사용자 SSD 개수]개이며, 현재 메인보드는 최대 [메인보드 M.2 슬롯 수]개까지만 장착할 수 있습니다. 이로 인해 일부 SSD를 설치할 수 없습니다.\n" +
+                    "M.2 SSD 개수를 줄여 메인보드 슬롯 수 이내로 맞춰 주세요.\n" +
+                    "또는 더 많은 M.2 슬롯을 지원하는 메인보드로 교체해 주세요.\n", 1));
         }
     }
 
     //730
     public void checkWithHDD(Mainboard mainboard, ServiceUserRequest request) {
-        if (mainboard.getSataSlotCount() < request.getHddCount() + request.getM2ssdCount()) {
-            errorMsg.add(new ServiceValidationResponse("Hdd, mainboard supported","", 0));
+        if (mainboard.getSataSlotCount() >= request.getHddCount() + request.getSatassdCount()) {
+            errorMsg.add(new ServiceValidationResponse("SATA 포트 수가 저장장치 수보다 적습니다.","메인보드는 SATA 포트를 총 [sataSlotCount]개 지원하지만, 현재 구성된 SATA 저장장치(HDD + SATA SSD)의 총 수는 [satassdCount + hdd.count]개입니다. 이로 인해 일부 저장장치를 장착할 수 없습니다.\n" +
+                    "저장장치 개수를 줄이거나, SATA 포트 수가 더 많은 메인보드로 변경해 주세요.\n", 1));
         }
     }
 

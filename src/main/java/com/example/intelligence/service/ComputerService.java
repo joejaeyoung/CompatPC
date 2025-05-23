@@ -130,6 +130,10 @@ public class ComputerService {
         }
 
         //440
+        ramValidation.checkWithRam(request);
+        for (ServiceValidationResponse msg : ramValidation.errorMsg) {
+            result.add(msg);
+        }
 
         return result;
     }
