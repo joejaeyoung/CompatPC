@@ -73,7 +73,7 @@ public class MainboardValidation {
 
     //830
     public void checkWithCase(Mainboard mainboard, Cases cases) {
-        if ((cases.getSupportedBoardFormFactors() & mainboard.getSupportedBoardFormFactors()) != 1) {
+        if ((cases.getSupportedBoardFormFactors() & mainboard.getSupportedBoardFormFactors()) == 0) {
             errorMsg.add(new ServiceValidationResponse("Board form factors", "",0));
         }
     }

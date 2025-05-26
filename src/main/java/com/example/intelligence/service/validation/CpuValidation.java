@@ -14,7 +14,7 @@ public class CpuValidation {
 
     public void checkWithMainboard(CPU cpu, Mainboard mainboard) {
         //310
-        if ((cpu.getSocket() & mainboard.getCpuSocket()) != 1) {
+        if ((cpu.getSocket() & mainboard.getCpuSocket()) == 0) {
             errorMsg.add(new ServiceValidationResponse("CPU의 소켓과 메인보드의 소켓이 서로 다릅니다.", "현재 선택하신 CPU는 [CPU 소켓 종류] 소켓을 사용하며, 메인보드는 [메인보드 소켓 종류] 소켓을 지원합니다. 두 부품의 소켓 유형이 서로 달라 물리적으로 장착이 불가능합니다. \n" +
                     "CPU에 맞는 소켓을 지원하는 메인보드로 변경하거나, 메인보드에 맞는 소켓을 사용하는 CPU로 교체해 주세요.\n", 1));
         }

@@ -29,10 +29,4 @@ public class ApiControllerAdvice {
         return ApiResponse.badRequest(e.getMessage());
     }
 
-    @ResponseStatus(BAD_REQUEST)
-    @ExceptionHandler(FindNullException.class)
-    public ApiResponse<String> findNullException(FindNullException e) {
-        return ApiResponse.badRequest(e.getMessage());
-    }
-
 }

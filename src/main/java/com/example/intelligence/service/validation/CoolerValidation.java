@@ -15,7 +15,7 @@ public class CoolerValidation {
 
     //210
     public void checkWithMainboard(ServiceUserRequest request, Cooler cooler, Mainboard board) {
-        if ((cooler.getSupportedSockets() & board.getCpuSocket()) != 1) {
+        if ((cooler.getSupportedSockets() & board.getCpuSocket()) == 0) {
             errorMsg.add(new ServiceValidationResponse("쿨러가 메인보드의 CPU 소켓을 지원하지 않습니다.", "이로 인해 쿨러를 메인보드에 장착할 수 없습니다. \n" +
                     "현재 메인보드의 소켓을 지원하는 쿨러로 변경하거나, 해당 쿨러에 맞는 메인보드를 선택해 주세요.\n", 1));
         }
