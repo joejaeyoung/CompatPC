@@ -19,15 +19,15 @@ import psuImg from "../assets/images/psu.png";
 
 /* 카드 메타데이터 */
 const parts = [
-  { partName: "CPU",  image: cpuImg },
+  { partName: "CPU", image: cpuImg },
   { partName: "Cooler", image: coolerImg },
   { partName: "Mainboard", image: mainboardImg },
-  { partName: "RAM",  image: ramImg,  options: ["capacity", "quantity"] },
-  { partName: "GPU",  image: gpuImg },
-  { partName: "SSD",  image: ssdImg,  options: ["count"] },
-  { partName: "HDD",  image: hddImg,  options: ["count"] },
+  { partName: "RAM", image: ramImg, options: ["capacity", "quantity"] },
+  { partName: "GPU", image: gpuImg },
+  { partName: "SSD", image: ssdImg, options: ["count"] },
+  { partName: "HDD", image: hddImg, options: ["count"] },
   { partName: "Case", image: caseImg },
-  { partName: "PSU",  image: psuImg },
+  { partName: "PSU", image: psuImg }
 ];
 
 /* 드롭다운 값 */
@@ -38,39 +38,39 @@ const getOptionValues = (part, opt) => {
   return [];
 };
 
+/* 드롭다운 라벨 한글 매핑 */
+const optionLabels = {
+  capacity: "용량",
+  quantity: "개수",
+  count: "개수"
+};
+
 export const MainPage = () => {
   const navigate = useNavigate();
   const location = useLocation();
 
-  /* === 전송용 파라미터 구조 === */
   const [selected, setSelected] = useState({});
-
-  /* CPU 내장옵션 */
   const [cpuOption, setCpuOption] = useState({
     hasCooler: false,
     hasGPU: false
   });
 
-  /* SearchPage에서 돌아왔을 때 적용 */
-useEffect(() => {
-  // 최초 로드 시 localStorage에서 복구
-  const saved = localStorage.getItem("selectedParts");
-  if (saved) {
-    setSelected(JSON.parse(saved));
-  }
-}, []);
+  useEffect(() => {
+    const saved = localStorage.getItem("selectedParts");
+    if (saved) {
+      setSelected(JSON.parse(saved));
+    }
+  }, []);
 
-useEffect(() => {
-  const st = location.state;
-  if (st?.selected) {
-    setSelected(st.selected);
-    localStorage.setItem("selectedParts", JSON.stringify(st.selected)); // ✅ 저장
-    window.history.replaceState({}, document.title);
-  }
-}, [location.state]);
+  useEffect(() => {
+    const st = location.state;
+    if (st?.selected) {
+      setSelected(st.selected);
+      localStorage.setItem("selectedParts", JSON.stringify(st.selected));
+      window.history.replaceState({}, document.title);
+    }
+  }, [location.state]);
 
-
-  /* 누락 부품 계산 */
   const missingParts = () =>
     parts
       .filter(({ partName }) => {
@@ -80,7 +80,6 @@ useEffect(() => {
       })
       .map((p) => p.partName);
 
-  /* 드롭다운 */
   const [dropdowns, setDropdowns] = useState({});
   const toggle = (p, o) =>
     setDropdowns((prev) => ({
@@ -93,59 +92,65 @@ useEffect(() => {
       [p]: { ...prev[p], [o]: v }
     }));
 
-  /* 검사하기 */
-const handleCheck = async () => {
-  const miss = missingParts();
-  if (miss.length) {
-    alert(`선택하지 않은 부품: ${miss.join(", ")}`);
-    return;
-  }
+  const handleCheck = async () => {
+    const miss = missingParts();
+    if (miss.length) {
+      alert(`선택하지 않은 부품: ${miss.join(", ")}`);
+      return;
+    }
 
-  // 서버 요구 JSON 구조에 맞춰 payload 구성
-  const payload = {
-    CPU: {
-      ...selected["CPU"],
-      hasCooler: cpuOption.hasCooler,
-      hasIntegratedGraphics: cpuOption.hasGPU
-    },
-    Cooler: selected["Cooler"],
-    Mainboard: selected["Mainboard"],
-    RAM: {
-      ...selected["RAM"]
-    },
-    GPU: selected["GPU"],
-    SSD: selected["SSD"],
-    HDD: selected["HDD"],
-    Cases: selected["Case"],
-    PowerSupply: selected["PSU"]
-  };
+    const payload = {
+      CPU: {
+        ...selected["CPU"],
+        hasCooler: cpuOption.hasCooler,
+        hasIntegratedGraphics: cpuOption.hasGPU
+      },
+      Cooler: selected["Cooler"],
+      Mainboard: selected["Mainboard"],
+      RAM: {
+        ...selected["RAM"],
+        quantity: selected["RAM"]?.quantity || 1,
+        capacity: selected["RAM"]?.capacity || 8
+      },
+      GPU: selected["GPU"],
+      SSD: {
+        ...selected["SSD"],
+        count: selected["SSD"]?.count || 1
+      },
+      HDD: {
+        ...selected["HDD"],
+        count: selected["HDD"]?.count || 1
+      },
+      Cases: selected["Case"],
+      PowerSupply: selected["PSU"]
+    };
 
-  console.log("📦 서버 전송용 JSON payload:", payload);
+    console.log("📦 서버 전송용 JSON payload:", payload);
 
-  try {
-    const response = await axios.post(
-      "http://223.130.151.122:8080/api/v1/computer/check",
-      payload,
-      {
-        headers: {
-          "Content-Type": "application/json"
+    try {
+      const baseUrl = import.meta.env.VITE_API_BASE_URL;
+      const response = await axios.post(
+        `${baseUrl}/api/v1/computer/valid`,
+        payload,
+        {
+          headers: {
+            "Content-Type": "application/json"
+          }
         }
-      }
-    );
+      );
 
-    console.log("✅ 서버 응답:", response.data);
+      console.log("✅ 서버 응답:", response.data);
 
-    navigate("/result", {
-      state: {
-        result: response.data
-      }
-    });
-  } catch (error) {
-    console.error("❌ 서버 요청 실패:", error);
-    alert("서버 요청 중 오류가 발생했습니다.");
-  }
-};
-
+      navigate("/result", {
+        state: {
+          result: response.data
+        }
+      });
+    } catch (error) {
+      console.error("❌ 서버 요청 실패:", error);
+      alert("서버 요청 중 오류가 발생했습니다.");
+    }
+  };
 
   return (
     <div className="main-container">
@@ -169,7 +174,6 @@ const handleCheck = async () => {
                 {selected[partName]?.name || "부품을 선택해 주세요."}
               </div>
 
-              {/* CPU 내장옵션 체크박스는 Cooler / GPU 카드에 위치 */}
               {partName === "Cooler" && (
                 <label className="cpu-extra">
                   <input
@@ -201,23 +205,18 @@ const handleCheck = async () => {
                 </label>
               )}
 
-              {/* 내장 사용 체크 시 선택하기 버튼 숨김 */}
               {!(partName === "Cooler" && cpuOption.hasCooler) &&
                 !(partName === "GPU" && cpuOption.hasGPU) && (
-                  <Link
-                    to={`/search/${partName}`}
-                    className="select-button"
-                  >
+                  <Link to={`/search/${partName}`} className="select-button">
                     선택하기
                   </Link>
                 )}
 
-              {/* 옵션 드롭다운 */}
               {options && (
                 <div className="extra-section">
                   {options.map((opt) => (
                     <div key={opt} className="select">
-                      <span>{opt}</span>
+                      <span>{optionLabels[opt] || opt}</span>
                       <div
                         className="dropdown"
                         onClick={() => toggle(partName, opt)}
