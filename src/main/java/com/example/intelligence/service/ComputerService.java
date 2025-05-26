@@ -111,7 +111,6 @@ public class ComputerService {
             if (request.getCoolerId() != null)
                 cooler = coolerService.getById(request.getCoolerId());
             cpu = cpuService.getById(request.getCpuId());
-
             if (request.getGpuId() != null)
                 gpu = gpuService.getById(request.getGpuId());
             mainboard = mainboardService.getById(request.getMainboardId());
