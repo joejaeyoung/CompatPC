@@ -136,3 +136,14 @@
   text-decoration: none;
   font-size: 16px;
 }
+
+.cpu-extra {
+  font-size: 0.9rem;
+  margin-top: 8px;
+  display: block;
+}
+
+.check-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
