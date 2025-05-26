@@ -7,7 +7,6 @@ import lombok.Setter;
 @Setter
 public class ServiceResponseCooler {
     private Long id;
-    private Long id;
     private String name;
     private String img;
 }
