@@ -67,23 +67,25 @@ public class ComputerService {
         //cooler 전처리
         Cooler cooler;
         String grade;
-        cooler = coolerService.getById(request.getCoolerId());
-        grade = cooler.getCoolerGrade();
 
-        if (grade == "번들쿨러") {
+        if (request.getCoolerId() == null) {
             request.setCoolerTdp(80);
         }
-        else if (grade == "1열수랭" || grade == "싱글타워") {
-            request.setCoolerTdp(160);
-        }
-        else if (grade == "2열수랭" || grade == "듀얼타워") {
-            request.setCoolerTdp(220);
-        }
-        else if (grade == "3열수랭" || grade == "무제한") {
-            request.setCoolerTdp(999);
-        }
         else {
-            throw new HWException(HWErrorCode.NOT_FOUND_COOLER);
+            cooler = coolerService.getById(request.getCoolerId());
+            grade = cooler.getCoolerGrade();
+
+            if (grade == "번들쿨러") {
+                request.setCoolerTdp(80);
+            } else if (grade == "1열수랭" || grade == "싱글타워") {
+                request.setCoolerTdp(160);
+            } else if (grade == "2열수랭" || grade == "듀얼타워") {
+                request.setCoolerTdp(220);
+            } else if (grade == "3열수랭" || grade == "무제한") {
+                request.setCoolerTdp(999);
+            } else {
+                throw new HWException(HWErrorCode.NOT_FOUND_COOLER);
+            }
         }
     }
 
