@@ -21,8 +21,8 @@ public class ComputerController {
     private final ComputerService computerService;
 
     @PostMapping("/validate")
-    public ApiResponse<List<ServiceValidationResponse>> validate(@RequestBody ValidateUserRequest validateUserRequest) {
-        log.info("User Request info :: {}", validateUserRequest);
-        return ApiResponse.ok(computerService.checkValidation(validateUserRequest.UserRuserRequesttoServiceUserRequest(validateUserRequest.getCpuId(), validateUserRequest.getCoolerId(), validateUserRequest.getMainboardId(), validateUserRequest.getRamId(), validateUserRequest.getRamQunatatiy(), validateUserRequest.getRamCapacity(), validateUserRequest.getGpuId(), validateUserRequest.getSsdId(), validateUserRequest.getM2ssdCount(), validateUserRequest.getSatassdCount(), validateUserRequest.getHddId(), validateUserRequest.getHddCount(), validateUserRequest.getCaseId(), validateUserRequest.getPsuId())));
+    public ApiResponse<List<ServiceValidationResponse>> validate(@RequestBody ValidateUserRequest re) {
+        log.info("User Request info :: {}", re);
+        return ApiResponse.ok(computerService.checkValidation(re.UserRuserRequesttoServiceUserRequest(re.getCpuId(), re.getCoolerId(), re.getCoolerTdp(), re.getMainboardId(), re.getRamId(), re.getRamQunatatiy(), re.getRamCapacity(), re.getGpuId(), re.getSsdId(), re.getM2ssdCount(), re.getSatassdCount(), re.getHddCount(), re.getCaseId(), re.getPsuId())));
     }
 }

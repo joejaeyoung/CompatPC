@@ -31,6 +31,7 @@ public class ComputerService {
     private final PsuService psuService;
     private final RamService ramService;
     private final SsdService ssdService;
+    private final List<ServiceValidationResponse> result = new ArrayList<>();
 
     public void updateAll() throws IOException {
         caseService.updateAll();
@@ -46,9 +47,21 @@ public class ComputerService {
 
     public void preprocessUserRequest(ServiceUserRequest request) throws HWException{
         //ssd 전처리
-        List<Long> ssdIds = new ArrayList<>();
-        ssdIds = request.getSsdId();
         SSD ssd;
+        for (Long ssdId : request.getSsdId()) {
+            try {
+                ssd = ssdService.getById(ssdId);
+                if (ssd.getSocket().contains("M.2")) {
+                    request.setM2ssdCount(request.getM2ssdCount() + 1);
+                }
+                else {
+                    request.setSatassdCount(request.getSatassdCount() + 1);
+                }
+            }
+            catch (HWException e) {
+                result.add(new ServiceValidationResponse(ssdId + " : 에 해당하는 ssd를 DB에서 찾아올 수 없습니다.", "", 1));
+            }
+        }
 
 
         //cooler 전처리
@@ -66,7 +79,7 @@ public class ComputerService {
         else if (grade == "2열수랭" || grade == "듀얼타워") {
             request.setCoolerTdp(220);
         }
-        else if (grade == "3열수랭") {
+        else if (grade == "3열수랭" || grade == "무제한") {
             request.setCoolerTdp(999);
         }
         else {
@@ -75,7 +88,7 @@ public class ComputerService {
     }
 
     public List<ServiceValidationResponse> checkValidation(ServiceUserRequest request) {
-        List<ServiceValidationResponse> result = new ArrayList<>();
+        result.clear();
         CpuValidation cpuValidation = new CpuValidation();
         CoolerValidation coolerValidation = new CoolerValidation();
         MainboardValidation mainboardValidation = new MainboardValidation();
@@ -108,14 +121,15 @@ public class ComputerService {
         }
 
         //210, 211, 220
-        if (cooler != null) {
+        if (!(cooler != null && cpu.isHasCooler() == false)) {
             coolerValidation.checkWithMainboard(request, cooler, mainboard);
             coolerValidation.checkWithCPU(request, cooler, cpu);
-            coolerValidation.checkWithCPUCooler(request, cooler, cpu);
-            for (ServiceValidationResponse msg : coolerValidation.errorMsg) {
-                result.add(msg);
-            }
         }
+        coolerValidation.checkWithCPUCooler(request, cooler, cpu);
+        for (ServiceValidationResponse msg : coolerValidation.errorMsg) {
+            result.add(msg);
+        }
+
 
         //310 311
         cpuValidation.checkWithMainboard(cpu, mainboard);

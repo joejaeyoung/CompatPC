@@ -25,14 +25,14 @@ public class SsdRepository {
 
     public Optional<SSD> findById(Long id) {
         if (id == null) {
-            throw new FindNullException("Case 조회 시 null을 입력할 수 없습니다.");
+            throw new FindNullException("SSD 조회 시 null을 입력할 수 없습니다.");
         }
         return Optional.ofNullable(em.find(SSD.class, id));
     }
 
     public Optional<SSD> findByName(String name) {
         if (name == null) {
-            throw new FindNullException("Case 조회 시 null을 입력할 수 없습니다.");
+            throw new FindNullException("SSD 조회 시 null을 입력할 수 없습니다.");
         }
         return em.createQuery("select u from SSD u where u.name = :name", SSD.class)
                 .setParameter("name", name)

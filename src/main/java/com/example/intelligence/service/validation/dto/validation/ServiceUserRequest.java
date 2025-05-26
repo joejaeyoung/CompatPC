@@ -31,11 +31,11 @@ public class ServiceUserRequest {
 
     Long psuId;
 
-    public ServiceUserRequest(Long cpuId, Long coolerId, Long mainboardId, int coolerTdp, Long ramId, int ramQunatatiy, int ramCapacity, Long gpuId, List<Long> ssdId, int m2ssdCount, int satassdCount, int hddCount, Long caseId, Long psuId) {
+    public ServiceUserRequest(Long cpuId, Long coolerId, int coolerTdp, Long mainboardId, Long ramId, int ramQunatatiy, int ramCapacity, Long gpuId, List<Long> ssdId, int m2ssdCount, int satassdCount, int hddCount, Long caseId, Long psuId) {
         this.cpuId = cpuId;
         this.coolerId = coolerId;
-        this.mainboardId = mainboardId;
         this.coolerTdp = coolerTdp;
+        this.mainboardId = mainboardId;
         this.ramId = ramId;
         this.ramQunatatiy = ramQunatatiy;
         this.ramCapacity = ramCapacity;

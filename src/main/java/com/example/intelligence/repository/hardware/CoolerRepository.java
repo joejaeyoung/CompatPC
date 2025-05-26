@@ -25,14 +25,14 @@ public class CoolerRepository {
 
     public Optional<Cooler> findById(Long id) {
         if (id == null) {
-            throw new FindNullException("Case 조회 시 null을 입력할 수 없습니다.");
+            throw new FindNullException("Cooler 조회 시 null을 입력할 수 없습니다.");
         }
         return Optional.ofNullable(em.find(Cooler.class, id));
     }
 
     public Optional<Cooler> findByName(String name) {
         if (name == null) {
-            throw new FindNullException("Case 조회 시 null을 입력할 수 없습니다.");
+            throw new FindNullException("Cooler 조회 시 null을 입력할 수 없습니다.");
         }
         return em.createQuery("select u from Cooler u where u.name = :name", Cooler.class)
                 .setParameter("name", name)

@@ -25,14 +25,14 @@ public class PsuRepository {
 
     public Optional<PSU> findById(Long id) {
         if (id == null) {
-            throw new FindNullException("Case 조회 시 null을 입력할 수 없습니다.");
+            throw new FindNullException("PSU 조회 시 null을 입력할 수 없습니다.");
         }
         return Optional.ofNullable(em.find(PSU.class, id));
     }
 
     public Optional<PSU> findByName(String name) {
         if (name == null) {
-            throw new FindNullException("Case 조회 시 null을 입력할 수 없습니다.");
+            throw new FindNullException("PSU 조회 시 null을 입력할 수 없습니다.");
         }
         return em.createQuery("select u from PSU u where u.name = :name", PSU.class)
                 .setParameter("name", name)

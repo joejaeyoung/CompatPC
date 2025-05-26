@@ -25,14 +25,14 @@ public class CpuRepository {
 
     public Optional<CPU> findById(Long id) {
         if (id == null) {
-            throw new FindNullException("Case 조회 시 null을 입력할 수 없습니다.");
+            throw new FindNullException("CPU 조회 시 null을 입력할 수 없습니다.");
         }
         return Optional.ofNullable(em.find(CPU.class, id));
     }
 
     public Optional<CPU> findByName(String name) {
         if (name == null) {
-            throw new FindNullException("Case 조회 시 null을 입력할 수 없습니다.");
+            throw new FindNullException("CPU 조회 시 null을 입력할 수 없습니다.");
         }
         return em.createQuery("select u from CPU u where u.name = :name", CPU.class)
                 .setParameter("name", name)

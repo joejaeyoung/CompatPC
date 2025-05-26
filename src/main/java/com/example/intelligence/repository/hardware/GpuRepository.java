@@ -25,14 +25,14 @@ public class GpuRepository {
 
     public Optional<GPU> findById(Long id) {
         if (id == null) {
-            throw new FindNullException("Case 조회 시 null을 입력할 수 없습니다.");
+            throw new FindNullException("GPU 조회 시 null을 입력할 수 없습니다.");
         }
         return Optional.ofNullable(em.find(GPU.class, id));
     }
 
     public Optional<GPU> findByName(String name) {
         if (name == null) {
-            throw new FindNullException("Case 조회 시 null을 입력할 수 없습니다.");
+            throw new FindNullException("GPU 조회 시 null을 입력할 수 없습니다.");
         }
         return em.createQuery("select u from GPU u where u.name = :name", GPU.class)
                 .setParameter("name", name)

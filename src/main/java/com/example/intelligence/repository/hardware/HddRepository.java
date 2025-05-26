@@ -25,14 +25,14 @@ public class HddRepository {
 
     public Optional<HDD> findById(Long id) {
         if (id == null) {
-            throw new FindNullException("Case 조회 시 null을 입력할 수 없습니다.");
+            throw new FindNullException("HDD 조회 시 null을 입력할 수 없습니다.");
         }
         return Optional.ofNullable(em.find(HDD.class, id));
     }
 
     public Optional<HDD> findByName(String name) {
         if (name == null) {
-            throw new FindNullException("Case 조회 시 null을 입력할 수 없습니다.");
+            throw new FindNullException("HDD 조회 시 null을 입력할 수 없습니다.");
         }
         return em.createQuery("select u from HDD u where u.name = :name", HDD.class)
                 .setParameter("name", name)

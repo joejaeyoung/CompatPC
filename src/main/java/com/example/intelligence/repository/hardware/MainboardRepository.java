@@ -25,14 +25,14 @@ public class MainboardRepository {
 
     public Optional<Mainboard> findById(Long id) {
         if (id == null) {
-            throw new FindNullException("Case 조회 시 null을 입력할 수 없습니다.");
+            throw new FindNullException("MainBoard 조회 시 null을 입력할 수 없습니다.");
         }
         return Optional.ofNullable(em.find(Mainboard.class, id));
     }
 
     public Optional<Mainboard> findByName(String name) {
         if (name == null) {
-            throw new FindNullException("Case 조회 시 null을 입력할 수 없습니다.");
+            throw new FindNullException("MainBoard 조회 시 null을 입력할 수 없습니다.");
         }
         return em.createQuery("select u from Mainboard u where u.name = :name", Mainboard.class)
                 .setParameter("name", name)
