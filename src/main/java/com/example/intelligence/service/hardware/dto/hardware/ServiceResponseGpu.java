@@ -6,6 +6,7 @@ import lombok.Setter;
 @Getter
 @Setter
 public class ServiceResponseGpu {
+    private Long id;
     private String name;
     private String img;
 }

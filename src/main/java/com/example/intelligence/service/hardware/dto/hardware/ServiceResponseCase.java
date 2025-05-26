@@ -6,6 +6,7 @@ import lombok.Setter;
 @Getter
 @Setter
 public class ServiceResponseCase {
+    private Long id;
     private String name;
     private String img;
 }
