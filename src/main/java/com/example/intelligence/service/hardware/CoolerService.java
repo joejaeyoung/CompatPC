@@ -49,6 +49,7 @@ public class CoolerService {
 
         for(Cooler c : cpus) {
             ServiceResponseSsd cpu = new ServiceResponseSsd();
+            cpu.setId(c.getId());
             cpu.setName(c.getName());
             cpu.setImg(c.getImageUrl());
             result.add(cpu);

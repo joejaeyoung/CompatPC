@@ -47,6 +47,7 @@ public class CpuService {
 
         for(CPU c : cpus) {
             ServiceResponseCpu cpu = new ServiceResponseCpu();
+            cpu.setId(c.getId());
             cpu.setName(c.getName());
             cpu.setImg(c.getImageUrl());
             result.add(cpu);
