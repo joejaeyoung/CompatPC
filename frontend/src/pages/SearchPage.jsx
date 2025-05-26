@@ -1,24 +1,36 @@
-import React, { useState } from "react"; 
-import { Link } from "react-router-dom";
+import React, { useState } from "react";
+import { useParams, useNavigate } from "react-router-dom";
 
-import mainIcon   from "../assets/images/main-icon.png";
+import mainIcon from "../assets/images/main-icon.png";
 import searchIcon from "../assets/icons/search.svg";
-import leftIcon   from "../assets/icons/arrow-left.svg";
-import rightIcon  from "../assets/icons/arrow-right.svg";
-
 import "./SearchPage.css";
 
 const dummyProducts = Array.from({ length: 10 }, (_, i) => ({
   id: i + 1,
-  title: `Title ${i + 1}`,
+  name: `Title ${i + 1}`,
+  imageUrl: ""
 }));
 
 export const SearchPage = () => {
-  const [query, setQuery] = useState(""); // 검색어 상태 저장
+  const { partName } = useParams();
+  const navigate = useNavigate();
+  const [query, setQuery] = useState("");
 
-  const handleSearch = () => {
-    // 나중에 API 호출 연결 시 여기에 로직 추가
-    console.log("검색어:", query);
+  // ✅ localStorage에서 선택값 가져오기
+  const stored = localStorage.getItem("selectedParts");
+  const prevSelected = stored ? JSON.parse(stored) : {};
+
+  const handleSelect = (product) => {
+    const updatedSelected = {
+      ...prevSelected,
+      [partName]: { name: product.name }
+    };
+
+    localStorage.setItem("selectedParts", JSON.stringify(updatedSelected)); // ✅ 저장
+
+    navigate("/main", {
+      state: { selected: updatedSelected }
+    });
   };
 
   return (
@@ -31,48 +43,29 @@ export const SearchPage = () => {
         <div className="search-box">
           <input
             type="text"
-            placeholder="Search"
+            placeholder={`${partName} Search`}
             className="search-input"
             value={query}
-            onChange={(e) => setQuery(e.target.value)} // 입력 가능
+            onChange={(e) => setQuery(e.target.value)}
           />
-          <button className="search-btn" onClick={handleSearch}> {/* 클릭 가능 */}
+          <button className="search-btn" onClick={() => console.log("검색", query)}>
             <img src={searchIcon} alt="Search icon" />
           </button>
         </div>
 
         <section className="product-list">
-          {dummyProducts.map((p) => (
-            <article key={p.id} className="product-card">
-              <div className="prod-image" />
-              <div className="prod-title">{p.title}</div>
-              <Link to="/main" className="select-btn">
-                선택하기
-              </Link>
-            </article>
-          ))}
+          {dummyProducts
+            .filter((p) => p.name.toLowerCase().includes(query.toLowerCase()))
+            .map((p) => (
+              <article key={p.id} className="product-card">
+                <div className="prod-image" />
+                <div className="prod-title">{p.name}</div>
+                <button className="select-btn" onClick={() => handleSelect(p)}>
+                  선택하기
+                </button>
+              </article>
+            ))}
         </section>
-
-        <nav className="pagination">
-          <button className="page-nav" disabled>
-            <img src={leftIcon} alt="" />
-            <span>Previous</span>
-          </button>
-
-          <ul className="page-list">
-            <li className="page current">1</li>
-            <li className="page">2</li>
-            <li className="page">3</li>
-            <li className="gap">…</li>
-            <li className="page">67</li>
-            <li className="page">68</li>
-          </ul>
-
-          <button className="page-nav" disabled>
-            <span>Next</span>
-            <img src={rightIcon} alt="" />
-          </button>
-        </nav>
       </main>
     </div>
   );
