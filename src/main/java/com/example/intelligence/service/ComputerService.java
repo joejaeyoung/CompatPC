@@ -63,6 +63,11 @@ public class ComputerService {
             }
         }
 
+        if (request.getSsdId() == null) {
+            request.setSatassdCount(0);
+            request.setM2ssdCount(0);
+        }
+
 
         //cooler 전처리
         Cooler cooler;
@@ -121,11 +126,17 @@ public class ComputerService {
             return result;
         }
 
-        //210, 211, 220
+        //200
+        if (cooler == null && cpu.isHasCooler() ==false) {
+            result.add(new ServiceValidationResponse("CPU에 쿨러가 포함되어 있지 않은 제품입니다. ", "쿨러를 선택해주세요.", 1));
+        }
         if (!(cooler != null && cpu.isHasCooler() == false)) {
+            //210
             coolerValidation.checkWithMainboard(request, cooler, mainboard);
+            //211
             coolerValidation.checkWithCPU(request, cooler, cpu);
         }
+        //220
         coolerValidation.checkWithCPUCooler(request, cooler, cpu);
         for (ServiceValidationResponse msg : coolerValidation.errorMsg) {
             result.add(msg);

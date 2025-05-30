@@ -18,7 +18,7 @@ public class RamValidation {
 
         if (request.getRamQunatatiy() >= 3) {
             errorMsg.add(new ServiceValidationResponse("RAM 개수가 2개가 아닙니다", "RAM을 3개 이상 구성하면 XMP 오버클럭이 비활성화되거나, 메모리 속도가 낮아질 수 있습니다. 이로 인해 메모리 대역폭과 성능이 감소합니다.\n" +
-                    "많은 용량의 RAM을 구매하고자 한다면, 메인보드가 지원하는 한도 내에서 RAM 단일 용량이 높은 제품을 선택해 RAM 개수를 2개로 맞춰주세요. 항상 짝수 개수의 RAM을 구입해야 합니다.\n", 1));
+                    "많은 용량의 RAM을 구매하고자 한다면, 메인보드가 지원하는 한도 내에서 RAM 단일 용량이 높은 제품을 선택해 RAM 개수를 2개로 맞춰주세요. 항상 짝수 개수의 RAM을 구입해야 합니다.\n", 0));
             return ;
         }
     }
