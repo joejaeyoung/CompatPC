@@ -115,7 +115,7 @@ public class GpuValidation {
                 return;
             }
         }
-        int modifiedPsuPcie8Count = psu.getPcie8PinCount();
+        int modifiedPsuPcie6Count = psu.getPcie6PinCount();
         //951b
         if(gpu.getRequired8PinCount() != -1) {
             if(gpu.getRequired8PinCount() > psu.getPcie8PinCount()) {
@@ -124,12 +124,12 @@ public class GpuValidation {
                 return;
             }
             else {
-                modifiedPsuPcie8Count -= gpu.getRequired8PinCount();
+                modifiedPsuPcie6Count -= gpu.getRequired8PinCount();
             }
         }
         //951c
         if(gpu.getRequired6PinCount() != -1) {
-            if(gpu.getRequired6PinCount() > psu.getPcie6PinCount()) {   //fix : 0601
+            if(gpu.getRequired6PinCount() > modifiedPsuPcie6Count) {   //fix : 0601
                 errorMsg.add(new ServiceValidationResponse("파워서플라이가 그래픽카드의 6핀 전원 요구사항을 만족하지 않습니다.", "파워서플라이의 6핀 출력이 그래픽카드가 요구하는 수량보다 부족합니다.\n" +
                         "이로 인해 그래픽카드에 전원을 공급할 수 없습니다.\n" + "6핀 전원 커넥터 수가 충분한 파워서플라이로 변경해 주세요.", 1));
                 return;
