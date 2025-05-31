@@ -11,7 +11,7 @@ import java.util.List;
 public class SsdValidation {
     public List<ServiceValidationResponse> errorMsg = new ArrayList<>();
 
-    public void checkWithCase(ServiceUserRequest request, SSD ssd, Cases cases) {
+    public void checkWithCase(ServiceUserRequest request, Cases cases) {
         if(request.getSsdId() == null) return;
         //860
         if(request.getSatassdCount() > cases.getBay2_5Count()) {

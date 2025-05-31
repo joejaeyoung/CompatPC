@@ -3,13 +3,10 @@ package com.example.intelligence.service;
 import com.example.intelligence.domain.hardware.*;
 import com.example.intelligence.exception.user.HWErrorCode;
 import com.example.intelligence.exception.user.HWException;
+import com.example.intelligence.service.validation.*;
 import com.example.intelligence.service.validation.dto.validation.ServiceUserRequest;
 import com.example.intelligence.service.validation.dto.validation.ServiceValidationResponse;
 import com.example.intelligence.service.hardware.*;
-import com.example.intelligence.service.validation.CoolerValidation;
-import com.example.intelligence.service.validation.CpuValidation;
-import com.example.intelligence.service.validation.MainboardValidation;
-import com.example.intelligence.service.validation.RamValidation;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
@@ -101,6 +98,12 @@ public class ComputerService {
         MainboardValidation mainboardValidation = new MainboardValidation();
         RamValidation ramValidation = new RamValidation();
 
+        //validation instance 추가 : 김도원
+        GpuValidation gpuValidation = new GpuValidation();
+        SsdValidation ssdValidation = new SsdValidation();
+        HddValidation hddValidation = new HddValidation();
+        CaseValidation caseValidation = new CaseValidation();
+
         Cases cases = null;
         Cooler cooler = null;
         CPU cpu = null;
@@ -169,6 +172,32 @@ public class ComputerService {
         coolerValidation.errorMsg.clear();
         coolerValidation.checkWithCase(request, cooler, cases);
         for (ServiceValidationResponse msg : coolerValidation.errorMsg) {
+            result.add(msg);
+        }
+
+        //gpu validation 추가, 500, 850, 950, 951 : 김도원
+        gpuValidation.checkWithCpu(request, cpu);
+        gpuValidation.checkWithPsu(request, cpu, gpu, psu);
+        gpuValidation.checkWithCase(request, gpu, cases);
+        for (ServiceValidationResponse msg : gpuValidation.errorMsg) {
+            result.add(msg);
+        }
+
+        //ssd validation 추가, 860 : 김도원
+        ssdValidation.checkWithCase(request, cases);
+        for (ServiceValidationResponse msg : ssdValidation.errorMsg) {
+            result.add(msg);
+        }
+
+        //hdd validation 추가, 861 : 김도원
+        hddValidation.checkWithCase(request, cases);
+        for (ServiceValidationResponse msg : hddValidation.errorMsg) {
+            result.add(msg);
+        }
+
+        //case validation 추가, 970, 971 : 김도원
+        caseValidation.checkWithPsu(cases, psu);
+        for (ServiceValidationResponse msg : caseValidation.errorMsg) {
             result.add(msg);
         }
 

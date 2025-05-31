@@ -11,8 +11,11 @@ import java.util.List;
 public class HddValidation {
     public List<ServiceValidationResponse> errorMsg = new ArrayList<>();
 
-    public void checkWithCase(ServiceUserRequest request, HDD hdd, Cases cases) {
-        if(request.getHddCount() <= 0) return;
+    public void checkWithCase(ServiceUserRequest request, Cases cases) {
+        if(request.getHddCount() <= 0) {
+            request.setHddCount(0);
+            return;
+        }
         //861
         if (request.getHddCount() > cases.getBay3_5Count()) {
             errorMsg.add(new ServiceValidationResponse("케이스에 3.5인치 HDD를 장착할 공간이 부족합니다.", "선택하신 HDD는 총 {hddCount}개이며, 현재 케이스에는 3.5인치 베이가 {bay3_5Count}개만 제공됩니다.\n" +

@@ -13,8 +13,18 @@ import java.util.List;
 public class GpuValidation {
     public List<ServiceValidationResponse> errorMsg = new ArrayList<>();
 
+    public void checkWithCpu(ServiceUserRequest request,  CPU cpu) {
+        //500
+        if(request.getGpuId() == null && !cpu.isHasGPU()) {
+            errorMsg.add(new ServiceValidationResponse(
+                    "CPU에 내장그래픽이 포함되어 있지 않은 제품입니다.",
+                    "내장그래픽이 포함된 CPU를 선택해주세요.\n또는 그래픽카드를 선택해주세요.",
+                    1));
+        }
+    }
+
     public void checkWithCase(ServiceUserRequest request, GPU gpu, Cases cases) {
-        boolean isGpuInside = false;    //프론트 구현 방식에 따라 추후에 수정
+        boolean isGpuInside = request.getGpuId() == null;
         if(isGpuInside) return;
         //850
         if(!cases.isSupportsVerticalPCI() && cases.isLPcase()) {
@@ -37,8 +47,7 @@ public class GpuValidation {
 
     public void checkWithPsu(ServiceUserRequest request, CPU cpu, GPU gpu, PSU psu) {
         //950
-        boolean isGpuInside = false;    //프론트 구현 방식에 따라 추후에 수정
-
+        boolean isGpuInside = request.getGpuId() == null;
         if(isGpuInside) {
             double modifiedOutput = psu.getOutput() / 1.3 * (cpu.getTdp() + 100);
             if(modifiedOutput < 1.0) {
@@ -120,7 +129,7 @@ public class GpuValidation {
         }
         //951c
         if(gpu.getRequired6PinCount() != -1) {
-            if(gpu.getRequired6PinCount() > psu.getPcie6PinCount() + modifiedPsuPcie8Count) {
+            if(gpu.getRequired6PinCount() > psu.getPcie6PinCount()) {   //fix : 0601
                 errorMsg.add(new ServiceValidationResponse("파워서플라이가 그래픽카드의 6핀 전원 요구사항을 만족하지 않습니다.", "파워서플라이의 6핀 출력이 그래픽카드가 요구하는 수량보다 부족합니다.\n" +
                         "이로 인해 그래픽카드에 전원을 공급할 수 없습니다.\n" + "6핀 전원 커넥터 수가 충분한 파워서플라이로 변경해 주세요.", 1));
                 return;
