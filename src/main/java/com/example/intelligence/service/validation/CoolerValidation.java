@@ -30,7 +30,7 @@ public class CoolerValidation {
             errorMsg.add(new ServiceValidationResponse("CPU의 발열이 쿨러의 성능보다 크게 높습니다.", "쿨링 성능이 심각하게 부족해 CPU의 성능이 제한되며 수명에 악영향을 줄 수 있습니다. 반드시 더 좋은 성능의 쿨러로 업그레이드하세요.", 1));
         }
         else if (result < 1.2 && result > 1.0) {
-            errorMsg.add(new ServiceValidationResponse("CPU의 발열이 쿨러의 성능보다 약간 높습니다. ", "쿨링 성능이 부족해 CPU의 성능이 제한될 가능성이 있습니다. 더 좋은 성능의 쿨러로 업그레이드하는 것을 권장합니다.", 1));
+            errorMsg.add(new ServiceValidationResponse("CPU의 발열이 쿨러의 성능보다 약간 높습니다. ", "쿨링 성능이 부족해 CPU의 성능이 제한될 가능성이 있습니다. 더 좋은 성능의 쿨러로 업그레이드하는 것을 권장합니다.", 0));
         }
     }
 
@@ -38,6 +38,19 @@ public class CoolerValidation {
     public void checkWithCPUCooler(ServiceUserRequest request, Cooler cooler, CPU cpu) {
         if (request.getCoolerId() == null && !cpu.isHasCooler()) {
             errorMsg.add(new ServiceValidationResponse("CPU에 쿨러가 포함되어 있지 않은 제품입니다.", "쿨러를 선택해주세요.", 1));
+        }
+    }
+
+    //820
+    public void checkWithCase(ServiceUserRequest request, Cooler cooler, Cases cases) {
+        if ("공랭".equals(cooler.getCoolerType()) && cooler.getHeight() > cases.getMaxCoolerHeight()) {
+            errorMsg.add(new ServiceValidationResponse(
+                    "쿨러의 높이가 케이스의 지원 범위를 초과합니다.",
+                    "선택하신 쿨러의 높이 [" + cooler.getHeight() + "]mm가 케이스가 지원하는 최대 CPU 쿨러 높이 [" + cases.getMaxCoolerHeight() + "]mm를 초과합니다.\n" +
+                            "이로 인해 쿨러 장착이 불가능하거나 측면 패널이 닫히지 않을 수 있습니다.\n" +
+                            "더 낮은 높이의 쿨러를 선택해주세요. 고성능 CPU를 사용하는 경우 3열 수랭 쿨러가 필요합니다.\n" +
+                            "또는 더 높은 쿨러 높이를 지원하는 케이스를 선택해 주세요.",
+                    1));
         }
     }
 }

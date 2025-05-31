@@ -161,6 +161,17 @@ public class ComputerService {
             result.add(msg);
         }
 
+        //630
+
+        //730
+
+        //820
+        coolerValidation.errorMsg.clear();
+        coolerValidation.checkWithCase(request, cooler, cases);
+        for (ServiceValidationResponse msg : coolerValidation.errorMsg) {
+            result.add(msg);
+        }
+
         return result;
     }
 }
