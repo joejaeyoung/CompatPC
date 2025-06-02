@@ -24,7 +24,7 @@ public class CpuValidation {
 
         //311
         if (mainboard.getVcore() != -1) {
-            double score = (double) cpu.getTdp() / mainboard.getVcore() * 0.35;
+            double score = (double) cpu.getTdp() / (mainboard.getVcore() * 0.35);
             if (score > 1 && score < 1.1) {
                 errorMsg.add(new ServiceValidationResponse(
                         "CPU의 전력요구량이 메인보드의 공급량보다 약간 높습니다.",
@@ -41,7 +41,7 @@ public class CpuValidation {
         }
         else if (mainboard.getPowerPhase() != -1){
             double vscore = mainboard.getPowerPhase() * 50;
-            double score = (double) cpu.getTdp() / vscore * 0.35;
+            double score = (double) cpu.getTdp() / (vscore * 0.35);
             if (score > 1 && score < 1.1) {
                 errorMsg.add(new ServiceValidationResponse(
                         "메인보드가 CPU의 전력 소모량을 감당하기 어렵습니다.",

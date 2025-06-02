@@ -104,12 +104,47 @@ public class MainboardValidation {
         }
     }
 
+    public String bitToCaseFormat(byte mask) {
+        String result = "";
+
+        if ((mask & 32) == 1) {
+            String re = "E-ATX";
+            result += re;
+        }
+
+        if ((mask & 16) == 1) {
+            String re = "ATX";
+            result += re;
+        }
+
+        if ((mask & 8) == 1) {
+            String re = "ATX(후면 커넥터)";
+            result += re;
+        }
+
+        if ((mask & 4) == 1) {
+            String re = "M-ATX";
+            result += re;
+        }
+
+        if ((mask & 2) == 1) {
+            String re = "M-ATX(후면 커넥터)";
+            result += re;
+        }
+
+        if ((mask & 1) == 1) {
+            String re = "M-iTx";
+            result += re;
+        }
+        return result;
+    }
+
     //830
     public void checkWithCase(Mainboard mainboard, Cases cases) {
         if ((cases.getSupportedBoardFormFactors() & mainboard.getSupportedBoardFormFactors()) == 0) {
             errorMsg.add(new ServiceValidationResponse(
                     "케이스가 메인보드 폼팩터를 지원하지 않습니다.",
-                    "선택하신 케이스는 [" + cases.getSupportedBoardFormFactors() + "]만 지원하지만, 현재 메인보드의 폼팩터는 [" + mainboard.getSupportedBoardFormFactors() + "]입니다.\n" +
+                    "선택하신 케이스는 [" + bitToCaseFormat(cases.getSupportedBoardFormFactors()) + "]만 지원하지만, 현재 메인보드의 폼팩터는 [" + bitToCaseFormat(mainboard.getSupportedBoardFormFactors()) + "]입니다.\n" +
                             "이로 인해 메인보드를 케이스에 장착할 수 없어 물리적으로 조립이 불가능합니다.\n" +
                             "해당 메인보드 규격을 지원하는 케이스를 선택해주세요.\n" +
                             "또는 케이스 지원 규격에 포함된 폼팩터를 가진 메인보드를 선택해주세요.",

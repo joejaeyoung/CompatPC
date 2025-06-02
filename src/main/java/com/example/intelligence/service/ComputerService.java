@@ -165,14 +165,26 @@ public class ComputerService {
         }
 
         //630
+        mainboardValidation.errorMsg.clear();
+        mainboardValidation.checkWithSSD(mainboard, request);
+        for (ServiceValidationResponse msg : mainboardValidation.errorMsg) {
+            result.add(msg);
+        }
 
         //730
+        mainboardValidation.errorMsg.clear();
+        mainboardValidation.checkWithHDD(mainboard, request);
+        for (ServiceValidationResponse msg : mainboardValidation.errorMsg) {
+            result.add(msg);
+        }
 
         //820
-        coolerValidation.errorMsg.clear();
-        coolerValidation.checkWithCase(request, cooler, cases);
-        for (ServiceValidationResponse msg : coolerValidation.errorMsg) {
-            result.add(msg);
+        if (!(cooler == null && cpu.isHasCooler() ==false)) {
+            coolerValidation.errorMsg.clear();
+            coolerValidation.checkWithCase(request, cooler, cases);
+            for (ServiceValidationResponse msg : coolerValidation.errorMsg) {
+                result.add(msg);
+            }
         }
 
         //gpu validation 추가, 500, 850, 950, 951 : 김도원
