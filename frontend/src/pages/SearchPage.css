@@ -1,0 +1,116 @@
+.search-container {
+  min-height: 100vh;
+  width: 100%;
+  padding: 20px;       
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  overflow-x: hidden;   
+}
+
+.search-header {
+  width: 100%;
+  padding: 1.25rem 2rem;
+  border-bottom: 1px solid #d1d5db;
+  box-sizing: border-box;
+}
+.header-icon { width: 86px; height: 70px; }
+
+.search-body {
+  flex: 1 1 auto;
+  width: 100%;
+  padding: 2rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  overflow-x: hidden;  
+}
+
+.search-box {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  border: 1px solid #d1d5db;
+  border-radius: 30px;
+  padding: 0.25rem 1rem;
+}
+.search-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 0.95rem;
+}
+.search-input:disabled { background: transparent; }
+.search-btn {
+  background: none;
+  border: none;
+  cursor: default;
+}
+
+.product-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  width: 100%;
+}
+.product-card {
+  width: 100%;
+  box-sizing: border-box; 
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  padding: 1.25rem 1.5rem;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+}
+.prod-image {
+  width: 48px;
+  height: 48px;
+  background: #e5e5e5;
+  border-radius: 6px;
+}
+.prod-title { flex: 1; font-weight: 600; }
+
+.select-btn {
+  border: 1px solid #999;
+  border-radius: 6px;
+  background: #f5f5f5;
+  padding: 0.4rem 1rem;
+  font-size: 0.9rem;
+  color: #1e1e1e;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+.select-btn:hover { background: #e0e0e0; }
+
+.pagination {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  align-items: center;
+}
+.page-nav {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  border: none;
+  background: none;
+  color: #999;
+}
+.page-list { display: flex; gap: 0.5rem; list-style: none; padding: 0; margin: 0; }
+.page {
+  width: 28px; height: 28px;
+  display: flex; justify-content: center; align-items: center;
+  border-radius: 4px;
+  cursor: default;
+}
+.page.current {
+  background: #1e1e1e;
+  color: #ffffff;
+}
+.gap { color: #999; }

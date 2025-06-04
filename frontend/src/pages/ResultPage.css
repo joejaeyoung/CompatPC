@@ -1,0 +1,86 @@
+/* ===== 전체 레이아웃 ===== */
+.result-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+}
+
+/* ── 헤더 ── */
+.result-header {
+  width: 100%;
+  padding: 1.25rem 2rem;
+  border-bottom: 1px solid #d1d5db;
+  box-sizing: border-box;
+}
+.header-icon { width: 86px; height: 70px; }
+
+/* ── 본문 ── */
+.result-body {
+  width: 100%;
+  flex: 1 1 auto;
+  padding: 2rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+/* ① 호환 여부 */
+.compat-section {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+.compat-icon { width: 64px; height: 64px; }
+.compat-icon.hidden { display: none; }
+.compat-text {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1e1e1e;
+  margin: 0;
+}
+
+/* ② 상세 오류 */
+.detail-section { display: flex; flex-direction: column; gap: 1.5rem; }
+.detail-heading  { margin: 0; font-size: 1.25rem; font-weight: 700; }
+.detail-sub      { margin: 0; color: #6b7280; }
+
+.detail-card {
+  display: flex;
+  gap: 1rem;
+  padding: 1.25rem 1.5rem;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  background: #ffffff;
+}
+.detail-icon    { width: 20px; height: 20px; flex-shrink: 0; }
+.detail-content { display: flex; flex-direction: column; gap: 0.5rem; }
+.detail-title   { margin: 0; font-weight: 700; }
+.detail-text    { margin: 0; color: #444; font-size: 0.95rem; line-height: 1.45; }
+
+/* ③ 처음으로 버튼 */
+.result-actions {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+}
+.home-btn {
+  width: 200px;
+  height: 50px;
+  border-radius: 8px;
+  background: #e0e0e0;
+  border: 1px solid #999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #1e1e1e;
+  transition: background 0.25s;
+}
+.home-btn:hover {
+  background: #1976d2;
+  color: #ffffff;
+  border-color: #115293;
+}
