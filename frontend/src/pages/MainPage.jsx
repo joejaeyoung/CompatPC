@@ -125,16 +125,21 @@ export const MainPage = () => {
     localStorage.setItem("hddSelections", JSON.stringify(updated));
   };
 
-  const missingParts = () =>
-    parts
+  const missingParts = () => {
+    return parts
       .filter(({ partName }) => {
         if (partName === "Cooler" && cpuOption.hasCooler) return false;
         if (partName === "GPU" && cpuOption.hasGPU) return false;
-        if (partName === "SSD") return ssdSelections.length === 0;
-        if (partName === "HDD") return hddSelections.length === 0;
+
+        if (partName === "SSD" || partName === "HDD") {
+          return ssdSelections.length === 0 && hddSelections.length === 0;
+        }
+
         return !selected[partName]?.name;
       })
       .map((p) => p.partName);
+  };
+
 
   const handleReset = () => {
     localStorage.clear();
@@ -148,8 +153,18 @@ export const MainPage = () => {
 
 const handleCheck = async () => {
   const miss = missingParts();
-  if (miss.length) {
-    alert(`선택하지 않은 부품: ${miss.join(", ")}`);
+  const finalMiss = [...miss];
+  const hasNoSSD = miss.includes("SSD");
+  const hasNoHDD = miss.includes("HDD");
+
+  if (hasNoSSD && hasNoHDD) {
+    finalMiss.splice(finalMiss.indexOf("SSD"), 1);
+    finalMiss.splice(finalMiss.indexOf("HDD"), 1);
+    finalMiss.push("저장장치");
+  }
+
+  if (finalMiss.length) {
+    alert(`${finalMiss.join(", ")}를 선택해 주세요`);
     return;
   }
 
