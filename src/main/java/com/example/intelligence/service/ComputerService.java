@@ -75,15 +75,16 @@ public class ComputerService {
         }
         else {
             cooler = coolerService.getById(request.getCoolerId());
+            log.info("전처리 쿨러 {}", cooler.toString());
             grade = cooler.getCoolerGrade();
 
-            if (grade == "번들쿨러") {
+            if (grade.equals("번들쿨러")) {
                 request.setCoolerTdp(80);
-            } else if (grade == "1열수랭" || grade == "싱글타워") {
+            } else if (grade.equals("1열수랭") || grade.equals("싱글타워")) {
                 request.setCoolerTdp(160);
-            } else if (grade == "2열수랭" || grade == "듀얼타워") {
+            } else if (grade.equals("2열수랭") || grade.equals("듀얼타워")) {
                 request.setCoolerTdp(220);
-            } else if (grade == "3열수랭" || grade == "무제한") {
+            } else if (grade.equals("3열수랭") || grade.equals("무제한")) {
                 request.setCoolerTdp(999);
             } else {
                 throw new HWException(HWErrorCode.NOT_FOUND_COOLER);
@@ -114,10 +115,14 @@ public class ComputerService {
 
         try {
             preprocessUserRequest(request);
+            log.info("전처리 완료");
+
             cases = caseService.getById(request.getCaseId());
+            log.info("case 정보 가져오기 완료");
 
             if (request.getCoolerId() != null)
                 cooler = coolerService.getById(request.getCoolerId());
+            log.info("cooler : {}", cooler.getId());
             cpu = cpuService.getById(request.getCpuId());
             if (request.getGpuId() != null)
                 gpu = gpuService.getById(request.getGpuId());
@@ -125,6 +130,7 @@ public class ComputerService {
             psu = psuService.getById(request.getPsuId());
             ram = ramService.getById(request.getRamId());
         } catch (HWException e) {
+            log.error("exception {}" , e.getMessage());
             result.add(new ServiceValidationResponse(e.getMessage() , "",1));
             return result;
         }
@@ -171,7 +177,7 @@ public class ComputerService {
             result.add(msg);
         }
 
-        //730
+        //730z
         mainboardValidation.errorMsg.clear();
         mainboardValidation.checkWithHDD(mainboard, request);
         for (ServiceValidationResponse msg : mainboardValidation.errorMsg) {

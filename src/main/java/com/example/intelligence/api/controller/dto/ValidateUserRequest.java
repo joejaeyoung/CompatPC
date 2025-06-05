@@ -1,14 +1,17 @@
 package com.example.intelligence.api.controller.dto;
 
 import com.example.intelligence.service.validation.dto.validation.ServiceUserRequest;
+import jakarta.annotation.Nullable;
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 
 import java.util.List;
 
 @Getter
 @Setter
-
+@Nullable
+@ToString
 public class ValidateUserRequest {
     Long cpuId;
 

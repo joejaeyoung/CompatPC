@@ -40,6 +40,7 @@ public class CoolerService {
     public Cooler getById(Long id) {
         Cooler result = repository.findById(id)
                 .orElseThrow(() -> new HWException(HWErrorCode.NOT_FOUND_COOLER));
+        log.warn("cooler result={}", result.toString());
         return result;
     }
 

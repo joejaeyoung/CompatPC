@@ -22,7 +22,7 @@ public class ComputerController {
 
     @PostMapping("/validate")
     public ApiResponse<List<ServiceValidationResponse>> validate(@RequestBody ValidateUserRequest re) {
-        log.info("User Request info :: {}", re);
+        log.info("User Request info :: {}", re.toString());
         return ApiResponse.ok(computerService.checkValidation(re.UserRuserRequesttoServiceUserRequest(re.getCpuId(), re.getCoolerId(), re.getCoolerTdp(), re.getMainboardId(), re.getRamId(), re.getRamQunatatiy(), re.getRamCapacity(), re.getGpuId(), re.getSsdId(), re.getM2ssdCount(), re.getSatassdCount(), re.getHddCount(), re.getCaseId(), re.getPsuId())));
     }
 }
