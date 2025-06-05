@@ -49,15 +49,15 @@ public class GpuValidation {
         //950
         boolean isGpuInside = request.getGpuId() == null;
         if(isGpuInside) {
-            double modifiedOutput = psu.getOutput() / 1.3 * (cpu.getTdp() + 100);
+            double modifiedOutput = psu.getOutput() / 1.2 * (cpu.getTdp() + 100);
             if(modifiedOutput < 1.0) {
-                errorMsg.add(new ServiceValidationResponse("파워 용량이 시스템 소비 전력에 비해 크게 부족합니다.", "현재 구성의 예상 소비 전력 대비 파워서플라이의 용량이 부족합니다.\n" +
+                errorMsg.add(new ServiceValidationResponse(" ", "현재 구성의 예상 소비 전력 대비 파워서플라이의 용량이 부족합니다.\n" +
                         "시스템이 부팅되지 않거나 사용 중 전력 부족으로 인한 문제가 발생할 수 있습니다.\n" + "더 높은 정격 출력을 가진 파워서플라이로 교체해 주세요.\n" +
                         "또는 구성 부품의 소비 전력을 낮춰 주세요.", 1));
                 return;
             }
             if(modifiedOutput >= 1.0 && modifiedOutput <= 1.2) {
-                errorMsg.add(new ServiceValidationResponse("파워 용량이 시스템 소비 전력에 비해 여유가 없습니다.", "파워 용량이 시스템 예상 소비 전력보다 약간 높지만, 여유가 충분하지 않습니다.\n" + "" +
+                errorMsg.add(new ServiceValidationResponse(" ", "파워 용량이 시스템 예상 소비 전력보다 약간 높지만, 여유가 크지 않습니다.\n" + "" +
                         "장시간 고부하 사용 시 불안정할 수 있으며, 파워 팬 소음이나 발열 증가가 발생할 수 있습니다.\n" + "더 높은 정격 출력을 가진 파워서플라이로 교체하는걸 권장합니다.\n" +
                         "특히 GPU, CPU 오버클럭 또는 고사양 작업 시 반드시 교체가 필요합니다.\n" + "또는 구성 부품의 소비 전력을 낮춰 주세요.", 0));
                 return;
@@ -65,30 +65,30 @@ public class GpuValidation {
         }
         else {
             if(gpu.getRecommendedPsuOutput() >= 0) {
-                double modifiedOutput = psu.getOutput() / (gpu.getRecommendedPsuOutput() - 300 + cpu.getTdp() * 1.3);
+                double modifiedOutput = psu.getOutput() / (gpu.getRecommendedPsuOutput() - 350 + cpu.getTdp() * 1.2);
                 if(modifiedOutput < 1.0) {
-                    errorMsg.add(new ServiceValidationResponse("파워 용량이 시스템 소비 전력에 비해 크게 부족합니다.", "현재 구성의 예상 소비 전력 대비 파워서플라이의 용량이 부족합니다.\n" +
+                    errorMsg.add(new ServiceValidationResponse(" ", "현재 구성의 예상 소비 전력 대비 파워서플라이의 용량이 부족합니다.\n" +
                             "시스템이 부팅되지 않거나 사용 중 전력 부족으로 인한 문제가 발생할 수 있습니다.\n" + "더 높은 정격 출력을 가진 파워서플라이로 교체해 주세요.\n" +
                             "또는 구성 부품의 소비 전력을 낮춰 주세요.", 1));
                     return;
                 }
                 if(modifiedOutput >= 1.0 && modifiedOutput <= 1.2) {
-                    errorMsg.add(new ServiceValidationResponse("파워 용량이 시스템 소비 전력에 비해 여유가 없습니다.", "파워 용량이 시스템 예상 소비 전력보다 약간 높지만, 여유가 충분하지 않습니다.\n" + "" +
+                    errorMsg.add(new ServiceValidationResponse(" ", "파워 용량이 시스템 예상 소비 전력보다 약간 높지만, 여유가 크지 않습니다.\n" + "" +
                             "장시간 고부하 사용 시 불안정할 수 있으며, 파워 팬 소음이나 발열 증가가 발생할 수 있습니다.\n" + "더 높은 정격 출력을 가진 파워서플라이로 교체하는걸 권장합니다.\n" +
                             "특히 GPU, CPU 오버클럭 또는 고사양 작업 시 반드시 교체가 필요합니다.\n" + "또는 구성 부품의 소비 전력을 낮춰 주세요.", 0));
                     return;
                 }
             }
             else if(gpu.getTdp() >= 0) {
-                double modifiedOutput = (double)psu.getOutput() / gpu.getTdp() + 1.3 * (cpu.getTdp() + 100);
+                double modifiedOutput = (double)psu.getOutput() / gpu.getTdp() + 1.2 * (cpu.getTdp() + 100);
                 if(modifiedOutput < 1.0) {
-                    errorMsg.add(new ServiceValidationResponse("파워 용량이 시스템 소비 전력에 비해 크게 부족합니다.", "현재 구성의 예상 소비 전력 대비 파워서플라이의 용량이 부족합니다.\n" +
+                    errorMsg.add(new ServiceValidationResponse(" ", "현재 구성의 예상 소비 전력 대비 파워서플라이의 용량이 부족합니다.\n" +
                             "시스템이 부팅되지 않거나 사용 중 전력 부족으로 인한 문제가 발생할 수 있습니다.\n" + "더 높은 정격 출력을 가진 파워서플라이로 교체해 주세요.\n" +
                             "또는 구성 부품의 소비 전력을 낮춰 주세요.", 1));
                     return;
                 }
                 if(modifiedOutput >= 1.0 && modifiedOutput <= 1.2) {
-                    errorMsg.add(new ServiceValidationResponse("파워 용량이 시스템 소비 전력에 비해 여유가 없습니다.", "파워 용량이 시스템 예상 소비 전력보다 약간 높지만, 여유가 충분하지 않습니다.\n" + "" +
+                    errorMsg.add(new ServiceValidationResponse(" ", "파워 용량이 시스템 예상 소비 전력보다 약간 높지만, 여유가 크지 않습니다.\n" + "" +
                             "장시간 고부하 사용 시 불안정할 수 있으며, 파워 팬 소음이나 발열 증가가 발생할 수 있습니다.\n" + "더 높은 정격 출력을 가진 파워서플라이로 교체하는걸 권장합니다.\n" +
                             "특히 GPU, CPU 오버클럭 또는 고사양 작업 시 반드시 교체가 필요합니다.\n" + "또는 구성 부품의 소비 전력을 낮춰 주세요.", 0));
                     return;
