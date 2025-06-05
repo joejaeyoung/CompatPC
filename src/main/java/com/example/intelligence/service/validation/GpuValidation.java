@@ -6,10 +6,12 @@ import com.example.intelligence.domain.hardware.Cases;
 import com.example.intelligence.domain.hardware.PSU;
 import com.example.intelligence.service.validation.dto.validation.ServiceUserRequest;
 import com.example.intelligence.service.validation.dto.validation.ServiceValidationResponse;
+import lombok.extern.slf4j.Slf4j;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Slf4j
 public class GpuValidation {
     public List<ServiceValidationResponse> errorMsg = new ArrayList<>();
 
@@ -49,7 +51,9 @@ public class GpuValidation {
         //950
         boolean isGpuInside = request.getGpuId() == null;
         if(isGpuInside) {
+            //700 / 1.2 * (148 + 100) -> 700 / 1.2 * 248 ->144666
             double modifiedOutput = psu.getOutput() / 1.2 * (cpu.getTdp() + 100);
+            log.info("modifiedOutput1 {}", modifiedOutput);
             if(modifiedOutput < 1.0) {
                 errorMsg.add(new ServiceValidationResponse(" ", "현재 구성의 예상 소비 전력 대비 파워서플라이의 용량이 부족합니다.\n" +
                         "시스템이 부팅되지 않거나 사용 중 전력 부족으로 인한 문제가 발생할 수 있습니다.\n" + "더 높은 정격 출력을 가진 파워서플라이로 교체해 주세요.\n" +
@@ -66,6 +70,7 @@ public class GpuValidation {
         else {
             if(gpu.getRecommendedPsuOutput() >= 0) {
                 double modifiedOutput = psu.getOutput() / (gpu.getRecommendedPsuOutput() - 350 + cpu.getTdp() * 1.2);
+                log.info("modifiedOutput3 {}", modifiedOutput);
                 if(modifiedOutput < 1.0) {
                     errorMsg.add(new ServiceValidationResponse(" ", "현재 구성의 예상 소비 전력 대비 파워서플라이의 용량이 부족합니다.\n" +
                             "시스템이 부팅되지 않거나 사용 중 전력 부족으로 인한 문제가 발생할 수 있습니다.\n" + "더 높은 정격 출력을 가진 파워서플라이로 교체해 주세요.\n" +
@@ -81,6 +86,7 @@ public class GpuValidation {
             }
             else if(gpu.getTdp() >= 0) {
                 double modifiedOutput = (double)psu.getOutput() / gpu.getTdp() + 1.2 * (cpu.getTdp() + 100);
+                log.info("modifiedOutput2 {}", modifiedOutput);
                 if(modifiedOutput < 1.0) {
                     errorMsg.add(new ServiceValidationResponse(" ", "현재 구성의 예상 소비 전력 대비 파워서플라이의 용량이 부족합니다.\n" +
                             "시스템이 부팅되지 않거나 사용 중 전력 부족으로 인한 문제가 발생할 수 있습니다.\n" + "더 높은 정격 출력을 가진 파워서플라이로 교체해 주세요.\n" +

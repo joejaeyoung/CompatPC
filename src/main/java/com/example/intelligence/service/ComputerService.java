@@ -139,7 +139,8 @@ public class ComputerService {
         if (cooler == null && cpu.isHasCooler() ==false) {
             result.add(new ServiceValidationResponse("CPU에 쿨러가 포함되어 있지 않은 제품입니다. ", "쿨러를 선택해주세요.", 1));
         }
-        if (!(cooler != null && cpu.isHasCooler() == false)) {
+        if (!(cooler == null && cpu.isHasCooler() == true)) {
+            log.info("210, 211번 검사 수행");
             //210
             coolerValidation.checkWithMainboard(request, cooler, mainboard);
             //211

@@ -17,13 +17,14 @@ public class CpuValidation {
         if ((cpu.getSocket() & mainboard.getCpuSocket()) == 0) {
             errorMsg.add(new ServiceValidationResponse(
                     "CPU의 소켓과 메인보드의 소켓이 서로 다릅니다.",
-                    "현재 선택하신 CPU는 [" + cpu.getSocket() + "] 소켓을 사용하며, 메인보드는 [" + mainboard.getCpuSocket() + "] 소켓을 지원합니다. 두 부품의 소켓 유형이 서로 달라 물리적으로 장착이 불가능합니다.\n" +
+                    "두 부품의 소켓 유형이 서로 달라 물리적으로 장착이 불가능합니다.\n" +
                             "CPU에 맞는 소켓을 지원하는 메인보드로 변경하거나, 메인보드에 맞는 소켓을 사용하는 CPU로 교체해 주세요.\n",
                     1));
         }
 
         //311
         if (mainboard.getVcore() != -1) {
+            //148 / (720 * 0.35) -> 148 / 252 -> 0.58
             double score = (double) cpu.getTdp() / (mainboard.getVcore() * 0.35);
             if (score > 1 && score < 1.1) {
                 errorMsg.add(new ServiceValidationResponse(

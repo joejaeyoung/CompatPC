@@ -1,15 +1,13 @@
 package com.example.intelligence.domain.hardware;
 
 import jakarta.persistence.*;
-import lombok.AccessLevel;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import java.util.List;
 
 @Entity
 @Getter
+@ToString
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 public class PSU {
     /*
@@ -30,7 +28,7 @@ public class PSU {
     private int sataConnectorCount;
     private int ideConnectorCount;
     private  float length;
-    private String FormFactor;
+    private String formFactor;
 
     @Builder
     public PSU(String name, String imageUrl, int output, int pcie16PinCount, int pcie8PinCount, int pcie6PinCount, int sataConnectorCount, int ideConnectorCount, float length, String formFactor) {
@@ -43,6 +41,6 @@ public class PSU {
         this.sataConnectorCount = sataConnectorCount;
         this.ideConnectorCount = ideConnectorCount;
         this.length = length;
-        FormFactor = formFactor;
+        this.formFactor = formFactor;
     }
 }

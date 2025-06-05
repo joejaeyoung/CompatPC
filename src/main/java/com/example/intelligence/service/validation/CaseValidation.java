@@ -3,10 +3,12 @@ package com.example.intelligence.service.validation;
 import com.example.intelligence.domain.hardware.Cases;
 import com.example.intelligence.domain.hardware.PSU;
 import com.example.intelligence.service.validation.dto.validation.ServiceValidationResponse;
+import lombok.extern.slf4j.Slf4j;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Slf4j
 public class CaseValidation {
     public List<ServiceValidationResponse> errorMsg = new ArrayList<>();
 
@@ -35,6 +37,8 @@ public class CaseValidation {
         }
         //971
         if(!cases.getSupportedPsuFormFactor().equals(psu.getFormFactor())) {
+            log.info("case {} psu {}", cases.getSupportedBoardFormFactors(), psu.getFormFactor());
+            log.info("psu {}", psu.toString());
             errorMsg.add(new ServiceValidationResponse("케이스가 지원하는 파워 규격과 선택한 파워서플라이의 규격이 서로 다릅니다.", "선택하신 케이스는 " + cases.getSupportedPsuFormFactor() + " 규격만 지원하지만, 현재 구성된 파워서플라이는 " + psu.getFormFactor() + " 규격입니다.\n" +
                     "이로 인해 파워를 케이스에 장착할 수 없습니다.\n" + "케이스가 지원하는 규격과 동일한 파워서플라이로 교체하거나,\n" + "해당 파워 규격을 지원하는 케이스로 변경해 주세요.", 1));
         }

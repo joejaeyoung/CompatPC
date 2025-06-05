@@ -85,7 +85,7 @@ public class MainboardValidation {
     public void checkWithSSD(Mainboard mainboard, ServiceUserRequest request) {
         if(request.getSsdId() == null) return; //전처리 추가 : 김도원
         if (mainboard.getM2SlotCount() < request.getM2ssdCount()) {
-            errorMsg.add(new ServiceValidationResponse("M.2 SSD 개수가 메인보드 슬롯 수를 초과합니다","선택하신 M.2 SSD는 총 [사용자 SSD 개수]개이며, 현재 메인보드는 최대 [메인보드 M.2 슬롯 수]개까지만 장착할 수 있습니다. 이로 인해 일부 SSD를 설치할 수 없습니다.\n" +
+            errorMsg.add(new ServiceValidationResponse("M.2 SSD 개수가 메인보드 슬롯 수를 초과합니다","선택하신 M.2 SSD는 총 [" + request.getM2ssdCount() + "]개이며, 현재 메인보드는 최대 [" + mainboard.getM2SlotCount() + "]개까지만 장착할 수 있습니다. 이로 인해 일부 SSD를 설치할 수 없습니다.\n" +
                     "M.2 SSD 개수를 줄여 메인보드 슬롯 수 이내로 맞춰 주세요.\n" +
                     "또는 더 많은 M.2 슬롯을 지원하는 메인보드로 교체해 주세요.\n", 1));
         }

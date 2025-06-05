@@ -60,7 +60,7 @@ public class PsuService {
 
         List<PSU> cpus = objectMapper.readValue(inputStream,
                 objectMapper.getTypeFactory().constructCollectionType(List.class, PSU.class));
-        log.info("cpus: {}", cpus);
+        log.info("PSUs: {}", cpus);
         repository.saveAll(cpus);
     }
 }
