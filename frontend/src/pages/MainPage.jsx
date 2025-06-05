@@ -186,6 +186,12 @@ const handleCheck = async () => {
 
   console.log("📦 전송할 Payload:", payload);
 
+    Object.keys(payload).forEach((key) => {
+    if (payload[key] === null || payload[key] === undefined) {
+      delete payload[key];
+    }
+  });
+
   try {
     const baseUrl = import.meta.env.VITE_API_BASE_URL;
     const response = await axios.post(`${baseUrl}/api/v1/computer/validate`, payload, {
