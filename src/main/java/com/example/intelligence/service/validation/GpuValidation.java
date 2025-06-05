@@ -40,7 +40,7 @@ public class GpuValidation {
         }
         //851
         if(gpu.getLength() > cases.getMaxGpuLength()) {
-            errorMsg.add(new ServiceValidationResponse("그래픽카드 길이가 케이스가 허용하는 한계를 초과합니다.", "선택하신 그래픽카드의 길이 [GPU 길이]mm는 케이스가 허용하는 최대 VGA 길이 [케이스 허용 길이]mm를 초과합니다.\n" +
+            errorMsg.add(new ServiceValidationResponse("그래픽카드 길이가 케이스가 허용하는 한계를 초과합니다.", "선택하신 그래픽카드의 길이 " + gpu.getLength() + "mm는 케이스가 허용하는 최대 VGA 길이 " + cases.getMaxGpuLength() + "mm를 초과합니다.\n" +
                     "이로 인해 그래픽카드를 케이스에 장착할 수 없습니다.\n" + "더 짧은 길이의 그래픽카드를 선택하거나 더 긴 길이의 그래픽카드를 지원하는 케이스로 변경해 주세요.", 1));;
         }
     }
