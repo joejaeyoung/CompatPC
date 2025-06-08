@@ -69,7 +69,7 @@ public class GpuValidation {
         }
         else {
             if(gpu.getRecommendedPsuOutput() >= 0) {
-                double modifiedOutput = psu.getOutput() / (gpu.getRecommendedPsuOutput() - 350 + cpu.getTdp() * 1.2);
+                double modifiedOutput = psu.getOutput() / (gpu.getRecommendedPsuOutput() - 300 + cpu.getTdp() * 1.2);
                 log.info("modifiedOutput3 {}", modifiedOutput);
                 if(modifiedOutput < 1.0) {
                     errorMsg.add(new ServiceValidationResponse(" ", "현재 구성의 예상 소비 전력 대비 파워서플라이의 용량이 부족합니다.\n" +

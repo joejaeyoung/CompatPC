@@ -16,10 +16,7 @@ public class CaseValidation {
         if (psu.getLength() == -1) {
             errorMsg.add(new ServiceValidationResponse(
                     "파워 서플라이의 길이 정보를 확인할 수 없는 제품입니다.",
-                    "케이스와 호환여부를 제조사에 문의하십시오.\n" +
-                            "pcie16PinCount, pcie8PinCount, pcie6PinCount 셋 다 없는 경우 971번 스킵하고 yellow\n" +
-                            "파워 서플라이의 그래픽카드 보조전원 포트 정보를 확인할 수 없는 제품입니다. \n" +
-                            "그래픽카드와 호환여부를 제조사에 문의하십시오.",
+                    "케이스와 호환여부를 제조사에 문의하십시오.",
                     0));
             return;
         }
