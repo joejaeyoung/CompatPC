@@ -44,22 +44,6 @@ public class ComputerService {
 
     public void preprocessUserRequest(ServiceUserRequest request) throws HWException{
         //ssd 전처리
-        SSD ssd;
-        for (Long ssdId : request.getSsdId()) {
-            try {
-                ssd = ssdService.getById(ssdId);
-                if (ssd.getSocket().contains("M.2")) {
-                    request.setM2ssdCount(request.getM2ssdCount() + 1);
-                }
-                else {
-                    request.setSatassdCount(request.getSatassdCount() + 1);
-                }
-            }
-            catch (HWException e) {
-                result.add(new ServiceValidationResponse(ssdId + " : 에 해당하는 ssd를 DB에서 찾아올 수 없습니다.", "", 1));
-            }
-        }
-
         if (request.getSsdId() == null) {
             request.setSatassdCount(0);
             request.setM2ssdCount(0);
@@ -75,7 +59,6 @@ public class ComputerService {
         }
         else {
             cooler = coolerService.getById(request.getCoolerId());
-            log.info("전처리 쿨러 {}", cooler.toString());
             grade = cooler.getCoolerGrade();
 
             if (grade.equals("번들쿨러")) {
@@ -93,6 +76,7 @@ public class ComputerService {
     }
 
     public List<ServiceValidationResponse> checkValidation(ServiceUserRequest request) {
+
         result.clear();
         CpuValidation cpuValidation = new CpuValidation();
         CoolerValidation coolerValidation = new CoolerValidation();
@@ -114,15 +98,14 @@ public class ComputerService {
         RAM ram = null;
 
         try {
+            log.info("검증 요청 : {}", request.toString());
             preprocessUserRequest(request);
-            log.info("전처리 완료");
+            log.info("전처리 완료 : {}", request.toString());
 
             cases = caseService.getById(request.getCaseId());
-            log.info("case 정보 가져오기 완료");
 
             if (request.getCoolerId() != null)
                 cooler = coolerService.getById(request.getCoolerId());
-            log.info("cooler : {}", cooler.getId());
             cpu = cpuService.getById(request.getCpuId());
             if (request.getGpuId() != null)
                 gpu = gpuService.getById(request.getGpuId());
@@ -137,9 +120,10 @@ public class ComputerService {
 
         //200
         if (cooler == null && cpu.isHasCooler() ==false) {
+            log.info("200번 검사 수행");
             result.add(new ServiceValidationResponse("CPU에 쿨러가 포함되어 있지 않은 제품입니다. ", "쿨러를 선택해주세요.", 1));
         }
-        if (!(cooler == null && cpu.isHasCooler() == true)) {
+        if ((cooler != null && cpu.isHasCooler() == false)) {
             log.info("210, 211번 검사 수행");
             //210
             coolerValidation.checkWithMainboard(request, cooler, mainboard);
@@ -147,7 +131,7 @@ public class ComputerService {
             coolerValidation.checkWithCPU(request, cooler, cpu);
         }
         //220
-        coolerValidation.checkWithCPUCooler(request, cooler, cpu);
+//        coolerValidation.checkWithCPUCooler(request, cooler, cpu);
         for (ServiceValidationResponse msg : coolerValidation.errorMsg) {
             result.add(msg);
         }

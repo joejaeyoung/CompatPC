@@ -27,9 +27,15 @@ public class GpuValidation {
 
     public void checkWithCase(ServiceUserRequest request, GPU gpu, Cases cases) {
         boolean isGpuInside = request.getGpuId() == null;
+
+        log.info("isGpuInside: {}, gpuId: {}", isGpuInside, gpu.getId());
         if(isGpuInside) return;
+
+        log.info("850번 수행 이전 cases : {}, gpu : {}", cases.toString(), gpu.toString());
+
         //850
         if(!cases.isSupportsVerticalPCI() && cases.isLPcase()) {
+            log.info("850번 cases : {}, gpu : {}", cases.toString(), gpu.toString());
             if(!gpu.isHasLPbracket()) {
                 errorMsg.add(new ServiceValidationResponse("LP 케이스에 일반 그래픽카드를 장착할 수 없습니다.", "LP 브래킷이 포함된 그래픽카드로 교체하거나 표준 크기 케이스로 변경해 주세요.", 1));
             }
@@ -114,7 +120,10 @@ public class GpuValidation {
             return;
         }
         //951a
-        if(gpu.getRequired16PinCount() != -1) {
+        log.info("951a");
+        log.info("gpu required 16pin count {}", gpu.getRequired16PinCount());
+        log.info("PSU required 16pin count {}", gpu.getRequired16PinCount());
+       if(gpu.getRequired16PinCount() != -1) {
             if (gpu.getRequired16PinCount() > psu.getPcie16PinCount()) {
                 errorMsg.add(new ServiceValidationResponse("파워서플라이가 그래픽카드의 16핀 전원 요구사항을 만족하지 않습니다.", "그래픽카드가 16핀 보조전원을 요구하지만, 파워서플라이가 이를 제공하지 않습니다.\n" +
                         "이로 인해 그래픽카드에 전원을 공급할 수 없습니다.\n" + "16핀 전원 커넥터 수가 충분한 파워서플라이로 변경해 주세요.", 1));
@@ -123,6 +132,9 @@ public class GpuValidation {
         }
         int modifiedPsuPcie6Count = psu.getPcie6PinCount();
         //951b
+        log.info("951b");
+        log.info("gpu required 8pin count {}", gpu.getRequired8PinCount());
+        log.info("PSU required 8pin count {}", gpu.getRequired8PinCount());
         if(gpu.getRequired8PinCount() != -1) {
             if(gpu.getRequired8PinCount() > psu.getPcie8PinCount()) {
                 errorMsg.add(new ServiceValidationResponse("파워서플라이가 그래픽카드의 8핀 전원 요구사항을 만족하지 않습니다.", "파워서플라이의 8핀 출력이 그래픽카드가 요구하는 수량보다 부족합니다.\n" +
