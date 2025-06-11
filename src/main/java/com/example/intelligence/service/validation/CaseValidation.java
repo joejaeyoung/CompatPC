@@ -33,7 +33,16 @@ public class CaseValidation {
             return;
         }
         //971
-        if(!cases.getSupportedPsuFormFactor().equals(psu.getFormFactor())) {
+        if (cases.getSupportedPsuFormFactor().equals("표준-ATX") && psu.getFormFactor().equals("ATX 파워")) {
+            // 체크리스트 971을 건너뛰고 아무 작업도 하지 않음
+        }
+        else if (cases.getSupportedPsuFormFactor().equals("M-ATX(SFX)") && psu.getFormFactor().equals("M-ATX(SFX) 파워")) {
+            // 체크리스트 971을 건너뛰고 아무 작업도 하지 않음
+        }
+        else if (cases.getSupportedPsuFormFactor().equals("TFX") && psu.getFormFactor().equals("TFX 파워")) {
+            // 체크리스트 971을 건너뛰고 아무 작업도 하지 않음
+        }
+        else if(!cases.getSupportedPsuFormFactor().equals(psu.getFormFactor())) {
             log.info("case {} psu {}", cases.getSupportedBoardFormFactors(), psu.getFormFactor());
             log.info("psu {}", psu.toString());
             errorMsg.add(new ServiceValidationResponse("케이스가 지원하는 파워 규격과 선택한 파워서플라이의 규격이 서로 다릅니다.", "선택하신 케이스는 " + cases.getSupportedPsuFormFactor() + " 규격만 지원하지만, 현재 구성된 파워서플라이는 " + psu.getFormFactor() + " 규격입니다.\n" +

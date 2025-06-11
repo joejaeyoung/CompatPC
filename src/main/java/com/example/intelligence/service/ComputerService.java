@@ -64,9 +64,9 @@ public class ComputerService {
             if (grade.equals("번들쿨러")) {
                 request.setCoolerTdp(80);
             } else if (grade.equals("1열수랭") || grade.equals("싱글타워")) {
-                request.setCoolerTdp(160);
+                request.setCoolerTdp(150);
             } else if (grade.equals("2열수랭") || grade.equals("듀얼타워")) {
-                request.setCoolerTdp(220);
+                request.setCoolerTdp(200);
             } else if (grade.equals("3열수랭") || grade.equals("무제한")) {
                 request.setCoolerTdp(999);
             } else {
